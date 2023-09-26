@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>JSON Table</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Table rows will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Função para carregar e exibir os dados do JSON
+        async function loadJSONData() {
+            try {
+                const response = await fetch('data'); // Altere o nome do arquivo conforme necessário
+                const data = await response.json();
+                const tableBody = document.getElementById('table-body');
+    
+                data.forEach(item => {
+                    const row = document.createElement('tr');
+                    const idCell = document.createElement('td');
+                    const nameCell = document.createElement('td');
+                    const imageCell = document.createElement('td');
+                    const imageLink = document.createElement('a');
+                    const image = document.createElement('img');
+    
+                    // Transforma cada linha em um link com base no ID
+                    const monsterLink = document.createElement('a');
+                    monsterLink.href = `http://localhost:8000/monster/${item.id}`;
+                    monsterLink.textContent = `${item.id}`;
+    
+                    idCell.appendChild(monsterLink);
+                    nameCell.textContent = item.name;
+    
+                    // Construa o link da imagem com base no ID
+                    const imageUrl = `https://static.divine-pride.net/images/mobs/png/${item.id}.png`;
+                    image.src = imageUrl;
+                    image.alt = `Monster Image ${item.id}`;
+                    //image.width = 100; // Define a largura da imagem conforme necessário
+                    image.height = 75;
+    
+                    imageLink.appendChild(image);
+                    imageCell.appendChild(imageLink);
+    
+                    row.appendChild(idCell);
+                    row.appendChild(nameCell);
+                    row.appendChild(imageCell);
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Erro ao carregar os dados do JSON:', error);
+            }
+        }
+    
+        // Chame a função para carregar os dados quando a página for carregada
+        window.addEventListener('load', loadJSONData);
+    </script>
+    
+    
+</body>
+</html>
