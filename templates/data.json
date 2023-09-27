@@ -1,1 +1,10742 @@
-[{"id": 1001, "name": "Escorpi\u00e3o"}, {"id": 1002, "name": "Poring"}, {"id": 1003, "name": "Thief Bug Egg"}, {"id": 1004, "name": "Zang\u00e3o"}, {"id": 1005, "name": "Farmiliar"}, {"id": 1006, "name": "Thief Bug Larva"}, {"id": 1007, "name": "Fabre"}, {"id": 1008, "name": "Pupa"}, {"id": 1009, "name": "Condor"}, {"id": 1010, "name": "Salgueiro"}, {"id": 1011, "name": "ChonChon"}, {"id": 1012, "name": "Sapo de Rodda"}, {"id": 1013, "name": "Lobo"}, {"id": 1014, "name": "Esporo"}, {"id": 1015, "name": "Zumbi"}, {"id": 1016, "name": "Esqueleto Arqueiro"}, {"id": 1017, "name": "Thief Bug Female"}, {"id": 1018, "name": "Creamy"}, {"id": 1019, "name": "PecoPeco"}, {"id": 1020, "name": "Mandr\u00e1gora"}, {"id": 1021, "name": "Thief Bug Male"}, {"id": 1022, "name": "Lobisomem"}, {"id": 1023, "name": "Guerreiro Orc"}, {"id": 1024, "name": "Rabo de Verme"}, {"id": 1025, "name": "Jiboia"}, {"id": 1026, "name": "Munak"}, {"id": 1027, "name": "Raptic"}, {"id": 1028, "name": "Esqueleto Soldado"}, {"id": 1029, "name": "Isis"}, {"id": 1030, "name": "Anaconda"}, {"id": 1031, "name": "Poporing"}, {"id": 1032, "name": "Verit"}, {"id": 1033, "name": "Salgueiro Anci\u00e3o"}, {"id": 1034, "name": "Sapo de Thara"}, {"id": 1035, "name": "Mosca Ca\u00e7adora"}, {"id": 1036, "name": "Carni\u00e7al"}, {"id": 1037, "name": "Sorrateiro"}, {"id": 1038, "name": "Os\u00edris"}, {"id": 1039, "name": "Bafom\u00e9 "}, {"id": 1040, "name": "Golem"}, {"id": 1041, "name": "M\u00famia"}, {"id": 1042, "name": "Chonchon de A\u00e7o"}, {"id": 1043, "name": "Cavalo Marinho"}, {"id": 1044, "name": "Obeaune"}, {"id": 1045, "name": "Cavalo-Marinho"}, {"id": 1046, "name": "Doppelganger"}, {"id": 1047, "name": "Ovo de PecoPeco"}, {"id": 1048, "name": "Ovo de Besouro-Ladr\u00e3o"}, {"id": 1049, "name": "Picky"}, {"id": 1050, "name": "Picky"}, {"id": 1051, "name": "Besouro-Ladr\u00e3o"}, {"id": 1052, "name": "Rocker"}, {"id": 1053, "name": "Besouro-Ladr\u00e3o F\u00eamea"}, {"id": 1054, "name": "Besouro-Ladr\u00e3o Macho"}, {"id": 1055, "name": "Muka"}, {"id": 1056, "name": "Fumacento"}, {"id": 1057, "name": "Yoyo"}, {"id": 1058, "name": "Metaller"}, {"id": 1059, "name": "Abelha-Rainha"}, {"id": 1060, "name": "P\u00e9-Grande"}, {"id": 1061, "name": "Pesadelo"}, {"id": 1062, "name": "Poring Noel"}, {"id": 1063, "name": "Lun\u00e1tico"}, {"id": 1064, "name": "Megalodon"}, {"id": 1065, "name": "Strouf"}, {"id": 1066, "name": "Vadon"}, {"id": 1067, "name": "Cornutus"}, {"id": 1068, "name": "Hidra"}, {"id": 1069, "name": "Peixe-Espada"}, {"id": 1070, "name": "Kukre"}, {"id": 1071, "name": "Esqueleto Pirata"}, {"id": 1072, "name": "Kaho"}, {"id": 1073, "name": "Caranguejo"}, {"id": 1074, "name": "Molusco"}, {"id": 1075, "name": "Tartaruga"}, {"id": 1076, "name": "Esqueleto"}, {"id": 1077, "name": "Esporo Venenoso"}, {"id": 1078, "name": "Planta Vermelha"}, {"id": 1079, "name": "Planta Azul"}, {"id": 1080, "name": "Planta Verde"}, {"id": 1081, "name": "Planta Amarela"}, {"id": 1082, "name": "Planta Branca"}, {"id": 1083, "name": "Planta Brilhante"}, {"id": 1084, "name": "Cogumelo Negro"}, {"id": 1085, "name": "Cogumelo Vermelho"}, {"id": 1086, "name": "Besouro-Ladr\u00e3o Dourado"}, {"id": 1087, "name": "Orc Her\u00f3i"}, {"id": 1088, "name": "Vocal"}, {"id": 1089, "name": "Sapo-Cururu"}, {"id": 1090, "name": "Mastering"}, {"id": 1091, "name": "Lib\u00e9lula"}, {"id": 1092, "name": "Lobo Errante"}, {"id": 1093, "name": "Eclipse"}, {"id": 1094, "name": "Ambernite"}, {"id": 1095, "name": "Andre"}, {"id": 1096, "name": "Angeling"}, {"id": 1097, "name": "Ovo de Andre"}, {"id": 1098, "name": "Anubis"}, {"id": 1099, "name": "Argiope"}, {"id": 1100, "name": "Argos"}, {"id": 1101, "name": "Bafom\u00e9 Jr."}, {"id": 1102, "name": "Bathory"}]
+[
+    {
+        "id": 1001,
+        "name": "Escorpi\u00e3o"
+    },
+    {
+        "id": 1002,
+        "name": "Poring"
+    },
+    {
+        "id": 1003,
+        "name": "Thief Bug Egg"
+    },
+    {
+        "id": 1004,
+        "name": "Zang\u00e3o"
+    },
+    {
+        "id": 1005,
+        "name": "Farmiliar"
+    },
+    {
+        "id": 1006,
+        "name": "Thief Bug Larva"
+    },
+    {
+        "id": 1007,
+        "name": "Fabre"
+    },
+    {
+        "id": 1008,
+        "name": "Pupa"
+    },
+    {
+        "id": 1009,
+        "name": "Condor"
+    },
+    {
+        "id": 1010,
+        "name": "Salgueiro"
+    },
+    {
+        "id": 1011,
+        "name": "ChonChon"
+    },
+    {
+        "id": 1012,
+        "name": "Sapo de Rodda"
+    },
+    {
+        "id": 1013,
+        "name": "Lobo"
+    },
+    {
+        "id": 1014,
+        "name": "Esporo"
+    },
+    {
+        "id": 1015,
+        "name": "Zumbi"
+    },
+    {
+        "id": 1016,
+        "name": "Esqueleto Arqueiro"
+    },
+    {
+        "id": 1017,
+        "name": "Thief Bug Female"
+    },
+    {
+        "id": 1018,
+        "name": "Creamy"
+    },
+    {
+        "id": 1019,
+        "name": "PecoPeco"
+    },
+    {
+        "id": 1020,
+        "name": "Mandr\u00e1gora"
+    },
+    {
+        "id": 1021,
+        "name": "Thief Bug Male"
+    },
+    {
+        "id": 1022,
+        "name": "Lobisomem"
+    },
+    {
+        "id": 1023,
+        "name": "Guerreiro Orc"
+    },
+    {
+        "id": 1024,
+        "name": "Rabo de Verme"
+    },
+    {
+        "id": 1025,
+        "name": "Jiboia"
+    },
+    {
+        "id": 1026,
+        "name": "Munak"
+    },
+    {
+        "id": 1027,
+        "name": "Raptic"
+    },
+    {
+        "id": 1028,
+        "name": "Esqueleto Soldado"
+    },
+    {
+        "id": 1029,
+        "name": "Isis"
+    },
+    {
+        "id": 1030,
+        "name": "Anaconda"
+    },
+    {
+        "id": 1031,
+        "name": "Poporing"
+    },
+    {
+        "id": 1032,
+        "name": "Verit"
+    },
+    {
+        "id": 1033,
+        "name": "Salgueiro Anci\u00e3o"
+    },
+    {
+        "id": 1034,
+        "name": "Sapo de Thara"
+    },
+    {
+        "id": 1035,
+        "name": "Mosca Ca\u00e7adora"
+    },
+    {
+        "id": 1036,
+        "name": "Carni\u00e7al"
+    },
+    {
+        "id": 1037,
+        "name": "Sorrateiro"
+    },
+    {
+        "id": 1038,
+        "name": "Os\u00edris"
+    },
+    {
+        "id": 1039,
+        "name": "Bafom\u00e9 "
+    },
+    {
+        "id": 1040,
+        "name": "Golem"
+    },
+    {
+        "id": 1041,
+        "name": "M\u00famia"
+    },
+    {
+        "id": 1042,
+        "name": "Chonchon de A\u00e7o"
+    },
+    {
+        "id": 1043,
+        "name": "Cavalo Marinho"
+    },
+    {
+        "id": 1044,
+        "name": "Obeaune"
+    },
+    {
+        "id": 1045,
+        "name": "Cavalo-Marinho"
+    },
+    {
+        "id": 1046,
+        "name": "Doppelganger"
+    },
+    {
+        "id": 1047,
+        "name": "Ovo de PecoPeco"
+    },
+    {
+        "id": 1048,
+        "name": "Ovo de Besouro-Ladr\u00e3o"
+    },
+    {
+        "id": 1049,
+        "name": "Picky"
+    },
+    {
+        "id": 1050,
+        "name": "Picky"
+    },
+    {
+        "id": 1051,
+        "name": "Besouro-Ladr\u00e3o"
+    },
+    {
+        "id": 1052,
+        "name": "Rocker"
+    },
+    {
+        "id": 1053,
+        "name": "Besouro-Ladr\u00e3o F\u00eamea"
+    },
+    {
+        "id": 1054,
+        "name": "Besouro-Ladr\u00e3o Macho"
+    },
+    {
+        "id": 1055,
+        "name": "Muka"
+    },
+    {
+        "id": 1056,
+        "name": "Fumacento"
+    },
+    {
+        "id": 1057,
+        "name": "Yoyo"
+    },
+    {
+        "id": 1058,
+        "name": "Metaller"
+    },
+    {
+        "id": 1059,
+        "name": "Abelha-Rainha"
+    },
+    {
+        "id": 1060,
+        "name": "P\u00e9-Grande"
+    },
+    {
+        "id": 1061,
+        "name": "Pesadelo"
+    },
+    {
+        "id": 1062,
+        "name": "Poring Noel"
+    },
+    {
+        "id": 1063,
+        "name": "Lun\u00e1tico"
+    },
+    {
+        "id": 1064,
+        "name": "Megalodon"
+    },
+    {
+        "id": 1065,
+        "name": "Strouf"
+    },
+    {
+        "id": 1066,
+        "name": "Vadon"
+    },
+    {
+        "id": 1067,
+        "name": "Cornutus"
+    },
+    {
+        "id": 1068,
+        "name": "Hidra"
+    },
+    {
+        "id": 1069,
+        "name": "Peixe-Espada"
+    },
+    {
+        "id": 1070,
+        "name": "Kukre"
+    },
+    {
+        "id": 1071,
+        "name": "Esqueleto Pirata"
+    },
+    {
+        "id": 1072,
+        "name": "Kaho"
+    },
+    {
+        "id": 1073,
+        "name": "Caranguejo"
+    },
+    {
+        "id": 1074,
+        "name": "Molusco"
+    },
+    {
+        "id": 1075,
+        "name": "Tartaruga"
+    },
+    {
+        "id": 1076,
+        "name": "Esqueleto"
+    },
+    {
+        "id": 1077,
+        "name": "Esporo Venenoso"
+    },
+    {
+        "id": 1078,
+        "name": "Planta Vermelha"
+    },
+    {
+        "id": 1079,
+        "name": "Planta Azul"
+    },
+    {
+        "id": 1080,
+        "name": "Planta Verde"
+    },
+    {
+        "id": 1081,
+        "name": "Planta Amarela"
+    },
+    {
+        "id": 1082,
+        "name": "Planta Branca"
+    },
+    {
+        "id": 1083,
+        "name": "Planta Brilhante"
+    },
+    {
+        "id": 1084,
+        "name": "Cogumelo Negro"
+    },
+    {
+        "id": 1085,
+        "name": "Cogumelo Vermelho"
+    },
+    {
+        "id": 1086,
+        "name": "Besouro-Ladr\u00e3o Dourado"
+    },
+    {
+        "id": 1087,
+        "name": "Orc Her\u00f3i"
+    },
+    {
+        "id": 1088,
+        "name": "Vocal"
+    },
+    {
+        "id": 1089,
+        "name": "Sapo-Cururu"
+    },
+    {
+        "id": 1090,
+        "name": "Mastering"
+    },
+    {
+        "id": 1091,
+        "name": "Lib\u00e9lula"
+    },
+    {
+        "id": 1092,
+        "name": "Lobo Errante"
+    },
+    {
+        "id": 1093,
+        "name": "Eclipse"
+    },
+    {
+        "id": 1094,
+        "name": "Ambernite"
+    },
+    {
+        "id": 1095,
+        "name": "Andre"
+    },
+    {
+        "id": 1096,
+        "name": "Angeling"
+    },
+    {
+        "id": 1097,
+        "name": "Ovo de Andre"
+    },
+    {
+        "id": 1098,
+        "name": "Anubis"
+    },
+    {
+        "id": 1099,
+        "name": "Argiope"
+    },
+    {
+        "id": 1100,
+        "name": "Argos"
+    },
+    {
+        "id": 1101,
+        "name": "Bafom\u00e9 Jr."
+    },
+    {
+        "id": 1102,
+        "name": "Bathory"
+    },
+    {
+        "id": 1103,
+        "name": "Caramelo"
+    },
+    {
+        "id": 1104,
+        "name": "Koko"
+    },
+    {
+        "id": 1105,
+        "name": "Deniro"
+    },
+    {
+        "id": 1106,
+        "name": "Lobo do Deserto"
+    },
+    {
+        "id": 1107,
+        "name": "Filhote de Lobo"
+    },
+    {
+        "id": 1108,
+        "name": "Deviace"
+    },
+    {
+        "id": 1109,
+        "name": "Deviruchi"
+    },
+    {
+        "id": 1110,
+        "name": "Dokebi"
+    },
+    {
+        "id": 1111,
+        "name": "Drainliar"
+    },
+    {
+        "id": 1112,
+        "name": "Drake"
+    },
+    {
+        "id": 1113,
+        "name": "Drops"
+    },
+    {
+        "id": 1114,
+        "name": "Poeira"
+    },
+    {
+        "id": 1115,
+        "name": "Eddga"
+    },
+    {
+        "id": 1116,
+        "name": "Eggyra"
+    },
+    {
+        "id": 1117,
+        "name": "Druida Maligno"
+    },
+    {
+        "id": 1118,
+        "name": "Flora"
+    },
+    {
+        "id": 1119,
+        "name": "Frilldora"
+    },
+    {
+        "id": 1120,
+        "name": "Ghostring"
+    },
+    {
+        "id": 1121,
+        "name": "Gierath"
+    },
+    {
+        "id": 1122,
+        "name": "Goblin"
+    },
+    {
+        "id": 1123,
+        "name": "Goblin"
+    },
+    {
+        "id": 1124,
+        "name": "Goblin"
+    },
+    {
+        "id": 1125,
+        "name": "Goblin"
+    },
+    {
+        "id": 1126,
+        "name": "Goblin"
+    },
+    {
+        "id": 1127,
+        "name": "Hode"
+    },
+    {
+        "id": 1128,
+        "name": "Besouro-Chifre"
+    },
+    {
+        "id": 1129,
+        "name": "Horong"
+    },
+    {
+        "id": 1130,
+        "name": "Jakk"
+    },
+    {
+        "id": 1131,
+        "name": "Coringa"
+    },
+    {
+        "id": 1132,
+        "name": "Khalitzburg"
+    },
+    {
+        "id": 1133,
+        "name": "Kobold"
+    },
+    {
+        "id": 1134,
+        "name": "Kobold"
+    },
+    {
+        "id": 1135,
+        "name": "Kobold"
+    },
+    {
+        "id": 1136,
+        "name": "Kobold"
+    },
+    {
+        "id": 1137,
+        "name": "Kobold"
+    },
+    {
+        "id": 1138,
+        "name": "Magn\u00f3lia"
+    },
+    {
+        "id": 1139,
+        "name": "Louva-a-Deus"
+    },
+    {
+        "id": 1140,
+        "name": "Marduk"
+    },
+    {
+        "id": 1141,
+        "name": "Marina"
+    },
+    {
+        "id": 1142,
+        "name": "Esfera Marinha"
+    },
+    {
+        "id": 1143,
+        "name": "Marionete"
+    },
+    {
+        "id": 1144,
+        "name": "Marte"
+    },
+    {
+        "id": 1145,
+        "name": "Martin"
+    },
+    {
+        "id": 1146,
+        "name": "Matyr"
+    },
+    {
+        "id": 1147,
+        "name": "Maya"
+    },
+    {
+        "id": 1148,
+        "name": "Medusa"
+    },
+    {
+        "id": 1149,
+        "name": "Minorous"
+    },
+    {
+        "id": 1150,
+        "name": "Flor do Luar"
+    },
+    {
+        "id": 1151,
+        "name": "N\u00e9voa"
+    },
+    {
+        "id": 1152,
+        "name": "Orc Esqueleto"
+    },
+    {
+        "id": 1153,
+        "name": "Orc Zumbi"
+    },
+    {
+        "id": 1154,
+        "name": "Pasana"
+    },
+    {
+        "id": 1155,
+        "name": "Petite"
+    },
+    {
+        "id": 1156,
+        "name": "Petite Voador"
+    },
+    {
+        "id": 1157,
+        "name": "Fara\u00f3 "
+    },
+    {
+        "id": 1158,
+        "name": "Fen"
+    },
+    {
+        "id": 1159,
+        "name": "Freeoni"
+    },
+    {
+        "id": 1160,
+        "name": "Piere"
+    },
+    {
+        "id": 1161,
+        "name": "Pl\u00e2ncton"
+    },
+    {
+        "id": 1162,
+        "name": "Rafflesia"
+    },
+    {
+        "id": 1163,
+        "name": "Raydric"
+    },
+    {
+        "id": 1164,
+        "name": "R\u00e9quiem"
+    },
+    {
+        "id": 1165,
+        "name": "Arenoso"
+    },
+    {
+        "id": 1166,
+        "name": "Selvagem"
+    },
+    {
+        "id": 1167,
+        "name": "Beb\u00ea Selvagem"
+    },
+    {
+        "id": 1168,
+        "name": "Rei Escorpi\u00e3o"
+    },
+    {
+        "id": 1169,
+        "name": "Esqueleto Oper\u00e1rio"
+    },
+    {
+        "id": 1170,
+        "name": "Sohee"
+    },
+    {
+        "id": 1171,
+        "name": "Soldado Andre"
+    },
+    {
+        "id": 1172,
+        "name": "Soldado Deniro"
+    },
+    {
+        "id": 1173,
+        "name": "Soldado Piere"
+    },
+    {
+        "id": 1174,
+        "name": "Percevejo"
+    },
+    {
+        "id": 1175,
+        "name": "Tarou"
+    },
+    {
+        "id": 1176,
+        "name": "Vitata"
+    },
+    {
+        "id": 1177,
+        "name": "Zenorc"
+    },
+    {
+        "id": 1178,
+        "name": "Zerom"
+    },
+    {
+        "id": 1179,
+        "name": "Sussurro"
+    },
+    {
+        "id": 1180,
+        "name": "Nove Caudas"
+    },
+    {
+        "id": 1181,
+        "name": "Fafnir"
+    },
+    {
+        "id": 1182,
+        "name": "Cogumelo"
+    },
+    {
+        "id": 1183,
+        "name": "ChonChon"
+    },
+    {
+        "id": 1184,
+        "name": "Fabre"
+    },
+    {
+        "id": 1185,
+        "name": "Sussurro"
+    },
+    {
+        "id": 1186,
+        "name": "Cochicho"
+    },
+    {
+        "id": 1187,
+        "name": "Vareta"
+    },
+    {
+        "id": 1188,
+        "name": "Bongun"
+    },
+    {
+        "id": 1189,
+        "name": "Orc Arqueiro"
+    },
+    {
+        "id": 1190,
+        "name": "Senhor dos Orcs"
+    },
+    {
+        "id": 1191,
+        "name": "M\u00edmico"
+    },
+    {
+        "id": 1192,
+        "name": "Alma Penada"
+    },
+    {
+        "id": 1193,
+        "name": "Alarme"
+    },
+    {
+        "id": 1194,
+        "name": "Arclouse"
+    },
+    {
+        "id": 1195,
+        "name": "Rideword"
+    },
+    {
+        "id": 1196,
+        "name": "Esqueleto Prisioneiro"
+    },
+    {
+        "id": 1197,
+        "name": "Zumbi Prisioneiro"
+    },
+    {
+        "id": 1198,
+        "name": "Sacerdote Maldito"
+    },
+    {
+        "id": 1199,
+        "name": "Punk"
+    },
+    {
+        "id": 1200,
+        "name": "Jirtas"
+    },
+    {
+        "id": 1201,
+        "name": "Rybio"
+    },
+    {
+        "id": 1202,
+        "name": "Fendark"
+    },
+    {
+        "id": 1203,
+        "name": "Mysteltainn"
+    },
+    {
+        "id": 1204,
+        "name": "Tirfing"
+    },
+    {
+        "id": 1205,
+        "name": "Executor"
+    },
+    {
+        "id": 1206,
+        "name": "Anolian"
+    },
+    {
+        "id": 1207,
+        "name": "Sting"
+    },
+    {
+        "id": 1208,
+        "name": "Andarilho"
+    },
+    {
+        "id": 1209,
+        "name": "C\u00e3ibra"
+    },
+    {
+        "id": 1210,
+        "name": "Filamentous"
+    },
+    {
+        "id": 1211,
+        "name": "Escaravelho"
+    },
+    {
+        "id": 1212,
+        "name": "M\u00e3o de Ferro"
+    },
+    {
+        "id": 1213,
+        "name": "Grand Orc"
+    },
+    {
+        "id": 1214,
+        "name": "Choco"
+    },
+    {
+        "id": 1215,
+        "name": "Talo de Verme"
+    },
+    {
+        "id": 1216,
+        "name": "Penomena"
+    },
+    {
+        "id": 1217,
+        "name": "Orc Warrior"
+    },
+    {
+        "id": 1218,
+        "name": "Peco Egg"
+    },
+    {
+        "id": 1219,
+        "name": "Cavaleiro do Abismo"
+    },
+    {
+        "id": 1220,
+        "name": "Lobo do Deserto"
+    },
+    {
+        "id": 1221,
+        "name": "Selvagem"
+    },
+    {
+        "id": 1222,
+        "name": "Grand Orc"
+    },
+    {
+        "id": 1223,
+        "name": "Guerreiro Orc"
+    },
+    {
+        "id": 1224,
+        "name": "Esporo Venenoso"
+    },
+    {
+        "id": 1225,
+        "name": "Choco"
+    },
+    {
+        "id": 1226,
+        "name": "Kobold"
+    },
+    {
+        "id": 1227,
+        "name": "Goblin"
+    },
+    {
+        "id": 1228,
+        "name": "Fen"
+    },
+    {
+        "id": 1229,
+        "name": "Fabre"
+    },
+    {
+        "id": 1230,
+        "name": "Pupa"
+    },
+    {
+        "id": 1231,
+        "name": "Creamy"
+    },
+    {
+        "id": 1232,
+        "name": "Ovo de PecoPeco"
+    },
+    {
+        "id": 1233,
+        "name": "PecoPeco"
+    },
+    {
+        "id": 1234,
+        "name": "Yoyo"
+    },
+    {
+        "id": 1235,
+        "name": "Guerreiro Orc"
+    },
+    {
+        "id": 1236,
+        "name": "Ovo de Andre"
+    },
+    {
+        "id": 1237,
+        "name": "Andre"
+    },
+    {
+        "id": 1238,
+        "name": "Piere"
+    },
+    {
+        "id": 1239,
+        "name": "Deniro"
+    },
+    {
+        "id": 1240,
+        "name": "Picky"
+    },
+    {
+        "id": 1241,
+        "name": "Picky"
+    },
+    {
+        "id": 1242,
+        "name": "Marin"
+    },
+    {
+        "id": 1243,
+        "name": "Sasquatch"
+    },
+    {
+        "id": 1244,
+        "name": "Jakk"
+    },
+    {
+        "id": 1245,
+        "name": "Goblin Natalino"
+    },
+    {
+        "id": 1246,
+        "name": "Cookie"
+    },
+    {
+        "id": 1247,
+        "name": "Antonio"
+    },
+    {
+        "id": 1248,
+        "name": "Soldadinho de Chumbo"
+    },
+    {
+        "id": 1249,
+        "name": "Presente"
+    },
+    {
+        "id": 1250,
+        "name": "Chepet"
+    },
+    {
+        "id": 1251,
+        "name": "Cavaleiro da Tempestade"
+    },
+    {
+        "id": 1252,
+        "name": "Hatii"
+    },
+    {
+        "id": 1253,
+        "name": "G\u00e1rgula"
+    },
+    {
+        "id": 1254,
+        "name": "Raggler"
+    },
+    {
+        "id": 1255,
+        "name": "Nereida"
+    },
+    {
+        "id": 1256,
+        "name": "Peste"
+    },
+    {
+        "id": 1257,
+        "name": "Injusti\u00e7ado"
+    },
+    {
+        "id": 1258,
+        "name": "Goblin Arqueiro"
+    },
+    {
+        "id": 1259,
+        "name": "Grifo"
+    },
+    {
+        "id": 1260,
+        "name": "Moldura Maldita"
+    },
+    {
+        "id": 1261,
+        "name": "Rosa Selvagem"
+    },
+    {
+        "id": 1262,
+        "name": "Drag\u00e3o Mutante"
+    },
+    {
+        "id": 1263,
+        "name": "Xam\u00e3 do Vento"
+    },
+    {
+        "id": 1264,
+        "name": "Trit\u00e3o"
+    },
+    {
+        "id": 1265,
+        "name": "Cookie"
+    },
+    {
+        "id": 1266,
+        "name": "Estrela do Mar"
+    },
+    {
+        "id": 1267,
+        "name": "Carat"
+    },
+    {
+        "id": 1268,
+        "name": "Cavaleiro Sanguin\u00e1rio"
+    },
+    {
+        "id": 1269,
+        "name": "Rel\u00f3gio"
+    },
+    {
+        "id": 1270,
+        "name": "Gerente"
+    },
+    {
+        "id": 1271,
+        "name": "Crocodilo"
+    },
+    {
+        "id": 1272,
+        "name": "Senhor das Trevas"
+    },
+    {
+        "id": 1273,
+        "name": "Senhora Orc"
+    },
+    {
+        "id": 1274,
+        "name": "Megalith"
+    },
+    {
+        "id": 1275,
+        "name": "Alice"
+    },
+    {
+        "id": 1276,
+        "name": "Raydric Arqueiro"
+    },
+    {
+        "id": 1277,
+        "name": "Guardi\u00e3o da Floresta"
+    },
+    {
+        "id": 1278,
+        "name": "Golem Estalact\u00edtico"
+    },
+    {
+        "id": 1279,
+        "name": "Trilobita"
+    },
+    {
+        "id": 1280,
+        "name": "Goblin a Vapor"
+    },
+    {
+        "id": 1281,
+        "name": "Verme S\u00e1bio"
+    },
+    {
+        "id": 1282,
+        "name": "Kobold Arqueiro"
+    },
+    {
+        "id": 1283,
+        "name": "Quimera"
+    },
+    {
+        "id": 1284,
+        "name": "Hugeling"
+    },
+    {
+        "id": 1285,
+        "name": "Arqueiro Guardi\u00e3o"
+    },
+    {
+        "id": 1286,
+        "name": "Cavaleiro Guardi\u00e3o"
+    },
+    {
+        "id": 1287,
+        "name": "Soldado Guardi\u00e3o"
+    },
+    {
+        "id": 1288,
+        "name": "Emperium"
+    },
+    {
+        "id": 1289,
+        "name": "Maya Macho"
+    },
+    {
+        "id": 1290,
+        "name": "Esqueleto General"
+    },
+    {
+        "id": 1291,
+        "name": "Apari\u00e7\u00e3o"
+    },
+    {
+        "id": 1292,
+        "name": "Diabinho"
+    },
+    {
+        "id": 1293,
+        "name": "Creamy Amea\u00e7ador"
+    },
+    {
+        "id": 1294,
+        "name": "Mantis Assassino"
+    },
+    {
+        "id": 1295,
+        "name": "Bar\u00e3o Coruja"
+    },
+    {
+        "id": 1296,
+        "name": "L\u00edder Kobold"
+    },
+    {
+        "id": 1297,
+        "name": "M\u00famia Anci\u00e3 "
+    },
+    {
+        "id": 1298,
+        "name": "Zumbi Mestre"
+    },
+    {
+        "id": 1299,
+        "name": "L\u00edder Goblin"
+    },
+    {
+        "id": 1300,
+        "name": "Lagarta"
+    },
+    {
+        "id": 1301,
+        "name": "Am Mut"
+    },
+    {
+        "id": 1302,
+        "name": "Ilus\u00e3o das Trevas"
+    },
+    {
+        "id": 1303,
+        "name": "Zang\u00e3o Gigante"
+    },
+    {
+        "id": 1304,
+        "name": "Aranha Gigante"
+    },
+    {
+        "id": 1305,
+        "name": "Verme Anci\u00e3o"
+    },
+    {
+        "id": 1306,
+        "name": "Leib Olmai"
+    },
+    {
+        "id": 1307,
+        "name": "Gato de Nove Caudas"
+    },
+    {
+        "id": 1308,
+        "name": "Panzer Goblin"
+    },
+    {
+        "id": 1309,
+        "name": "Gajomart"
+    },
+    {
+        "id": 1310,
+        "name": "Majoruros"
+    },
+    {
+        "id": 1311,
+        "name": "Gullinbursti"
+    },
+    {
+        "id": 1312,
+        "name": "General Tartaruga"
+    },
+    {
+        "id": 1313,
+        "name": "Yakuza"
+    },
+    {
+        "id": 1314,
+        "name": "Batedor"
+    },
+    {
+        "id": 1315,
+        "name": "Agressor"
+    },
+    {
+        "id": 1316,
+        "name": "Solidificador"
+    },
+    {
+        "id": 1317,
+        "name": "Foca"
+    },
+    {
+        "id": 1318,
+        "name": "Aquecedor"
+    },
+    {
+        "id": 1319,
+        "name": "Congelador"
+    },
+    {
+        "id": 1320,
+        "name": "Duque Coruja"
+    },
+    {
+        "id": 1321,
+        "name": "Lavadeira"
+    },
+    {
+        "id": 1322,
+        "name": "Coelho"
+    },
+    {
+        "id": 1323,
+        "name": "Lontra"
+    },
+    {
+        "id": 1324,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1325,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1326,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1327,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1328,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1329,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1330,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1331,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1332,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1333,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1334,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1335,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1336,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1337,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1338,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1339,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1340,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1341,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1342,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1343,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1344,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1345,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1346,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1347,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1348,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1349,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1350,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1351,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1352,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1353,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1354,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1355,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1356,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1357,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1358,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1359,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1360,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1361,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1362,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1363,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1364,
+        "name": "Agressor"
+    },
+    {
+        "id": 1365,
+        "name": "Apocalipse"
+    },
+    {
+        "id": 1366,
+        "name": "Golem de Lava"
+    },
+    {
+        "id": 1367,
+        "name": "Labareda"
+    },
+    {
+        "id": 1368,
+        "name": "Planta Carn\u00edvora"
+    },
+    {
+        "id": 1369,
+        "name": "Grand Peco"
+    },
+    {
+        "id": 1370,
+        "name": "Succubus"
+    },
+    {
+        "id": 1371,
+        "name": "Anjo Fajuto"
+    },
+    {
+        "id": 1372,
+        "name": "Bode"
+    },
+    {
+        "id": 1373,
+        "name": "Senhor dos Mortos"
+    },
+    {
+        "id": 1374,
+        "name": "Incubus"
+    },
+    {
+        "id": 1375,
+        "name": "Papel"
+    },
+    {
+        "id": 1376,
+        "name": "Harpia"
+    },
+    {
+        "id": 1377,
+        "name": "Anci\u00e3o"
+    },
+    {
+        "id": 1378,
+        "name": "Pungus"
+    },
+    {
+        "id": 1379,
+        "name": "Pesadelo Sombrio"
+    },
+    {
+        "id": 1380,
+        "name": "Furador"
+    },
+    {
+        "id": 1381,
+        "name": "Grizzly"
+    },
+    {
+        "id": 1382,
+        "name": "Diabolik"
+    },
+    {
+        "id": 1383,
+        "name": "Estrondo"
+    },
+    {
+        "id": 1384,
+        "name": "Exterminador"
+    },
+    {
+        "id": 1385,
+        "name": "Delet\u00e9rio"
+    },
+    {
+        "id": 1386,
+        "name": "Rochoso"
+    },
+    {
+        "id": 1387,
+        "name": "Ferr\u00e3o"
+    },
+    {
+        "id": 1388,
+        "name": "ArchAngeling"
+    },
+    {
+        "id": 1389,
+        "name": "Dr\u00e1cula"
+    },
+    {
+        "id": 1390,
+        "name": "Violinista"
+    },
+    {
+        "id": 1391,
+        "name": "Pingu"
+    },
+    {
+        "id": 1392,
+        "name": "Giro-Goblin"
+    },
+    {
+        "id": 1393,
+        "name": "M\u00famia"
+    },
+    {
+        "id": 1394,
+        "name": "Zumbi"
+    },
+    {
+        "id": 1395,
+        "name": "Cristal"
+    },
+    {
+        "id": 1396,
+        "name": "Cristal"
+    },
+    {
+        "id": 1397,
+        "name": "Cristal"
+    },
+    {
+        "id": 1398,
+        "name": "Cristal"
+    },
+    {
+        "id": 1399,
+        "name": "Bafom\u00e9 "
+    },
+    {
+        "id": 1400,
+        "name": "Karakasa"
+    },
+    {
+        "id": 1401,
+        "name": "Shinobi"
+    },
+    {
+        "id": 1402,
+        "name": "Sapo Venenoso"
+    },
+    {
+        "id": 1403,
+        "name": "Zumbi Atirador"
+    },
+    {
+        "id": 1404,
+        "name": "Miyabi Ningyo"
+    },
+    {
+        "id": 1405,
+        "name": "Tengu"
+    },
+    {
+        "id": 1406,
+        "name": "Kapha"
+    },
+    {
+        "id": 1407,
+        "name": "Dokebi"
+    },
+    {
+        "id": 1408,
+        "name": "Borboleta Sanguin\u00e1ria"
+    },
+    {
+        "id": 1409,
+        "name": "Pirralho"
+    },
+    {
+        "id": 1410,
+        "name": "Pessegueira Encantada"
+    },
+    {
+        "id": 1411,
+        "name": "Pessegueira"
+    },
+    {
+        "id": 1412,
+        "name": "Ermit\u00e3o Maligno"
+    },
+    {
+        "id": 1413,
+        "name": "Ginseng Selvagem"
+    },
+    {
+        "id": 1414,
+        "name": "Ginseng"
+    },
+    {
+        "id": 1415,
+        "name": "Filhote de Leopardo"
+    },
+    {
+        "id": 1416,
+        "name": "Ninfa Perversa"
+    },
+    {
+        "id": 1417,
+        "name": "Zipper"
+    },
+    {
+        "id": 1418,
+        "name": "Serpente Suprema"
+    },
+    {
+        "id": 1419,
+        "name": "Farmiliar"
+    },
+    {
+        "id": 1420,
+        "name": "Esqueleto Arqueiro"
+    },
+    {
+        "id": 1421,
+        "name": "Isis"
+    },
+    {
+        "id": 1422,
+        "name": "Mosca Ca\u00e7adora"
+    },
+    {
+        "id": 1423,
+        "name": "Carni\u00e7al"
+    },
+    {
+        "id": 1424,
+        "name": "Sorrateiro"
+    },
+    {
+        "id": 1425,
+        "name": "Obeaune"
+    },
+    {
+        "id": 1426,
+        "name": "Cavalo-Marinho"
+    },
+    {
+        "id": 1427,
+        "name": "Pesadelo"
+    },
+    {
+        "id": 1428,
+        "name": "Esporo Venenoso"
+    },
+    {
+        "id": 1429,
+        "name": "Argiope"
+    },
+    {
+        "id": 1430,
+        "name": "Argos"
+    },
+    {
+        "id": 1431,
+        "name": "Bafom\u00e9 Jr."
+    },
+    {
+        "id": 1432,
+        "name": "Lobo do Deserto"
+    },
+    {
+        "id": 1433,
+        "name": "Deviruchi"
+    },
+    {
+        "id": 1434,
+        "name": "Drainliar"
+    },
+    {
+        "id": 1435,
+        "name": "Druida Maligno"
+    },
+    {
+        "id": 1436,
+        "name": "Jakk"
+    },
+    {
+        "id": 1437,
+        "name": "Coringa"
+    },
+    {
+        "id": 1438,
+        "name": "Khalitzburg"
+    },
+    {
+        "id": 1439,
+        "name": "Grand Orc"
+    },
+    {
+        "id": 1440,
+        "name": "Talo de Verme"
+    },
+    {
+        "id": 1441,
+        "name": "Penomena"
+    },
+    {
+        "id": 1442,
+        "name": "Sasquatch"
+    },
+    {
+        "id": 1443,
+        "name": "Soldadinho de Chumbo"
+    },
+    {
+        "id": 1444,
+        "name": "Chepet"
+    },
+    {
+        "id": 1445,
+        "name": "Raggler"
+    },
+    {
+        "id": 1446,
+        "name": "Injusti\u00e7ado"
+    },
+    {
+        "id": 1447,
+        "name": "Grifo"
+    },
+    {
+        "id": 1448,
+        "name": "Moldura Maldita"
+    },
+    {
+        "id": 1449,
+        "name": "Drag\u00e3o Mutante"
+    },
+    {
+        "id": 1450,
+        "name": "Xam\u00e3 do Vento"
+    },
+    {
+        "id": 1451,
+        "name": "Trit\u00e3o"
+    },
+    {
+        "id": 1452,
+        "name": "Senhora Orc"
+    },
+    {
+        "id": 1453,
+        "name": "Raydric Arqueiro"
+    },
+    {
+        "id": 1454,
+        "name": "Trilobita"
+    },
+    {
+        "id": 1455,
+        "name": "Kobold Arqueiro"
+    },
+    {
+        "id": 1456,
+        "name": "Quimera"
+    },
+    {
+        "id": 1457,
+        "name": "Mantis"
+    },
+    {
+        "id": 1458,
+        "name": "Marduk"
+    },
+    {
+        "id": 1459,
+        "name": "Marionete"
+    },
+    {
+        "id": 1460,
+        "name": "Matyr"
+    },
+    {
+        "id": 1461,
+        "name": "Minorous"
+    },
+    {
+        "id": 1462,
+        "name": "Orc Esqueleto"
+    },
+    {
+        "id": 1463,
+        "name": "Orc Zumbi"
+    },
+    {
+        "id": 1464,
+        "name": "Pasana"
+    },
+    {
+        "id": 1465,
+        "name": "Petite"
+    },
+    {
+        "id": 1466,
+        "name": "Petite"
+    },
+    {
+        "id": 1467,
+        "name": "Raydric"
+    },
+    {
+        "id": 1468,
+        "name": "R\u00e9quiem"
+    },
+    {
+        "id": 1469,
+        "name": "Esqueleto Oper\u00e1rio"
+    },
+    {
+        "id": 1470,
+        "name": "Zerom"
+    },
+    {
+        "id": 1471,
+        "name": "Nove Caudas"
+    },
+    {
+        "id": 1472,
+        "name": "Bongun"
+    },
+    {
+        "id": 1473,
+        "name": "Orc Arqueiro"
+    },
+    {
+        "id": 1474,
+        "name": "M\u00edmico"
+    },
+    {
+        "id": 1475,
+        "name": "Alma Penada"
+    },
+    {
+        "id": 1476,
+        "name": "Alarme"
+    },
+    {
+        "id": 1477,
+        "name": "Arclouse"
+    },
+    {
+        "id": 1478,
+        "name": "Rideword"
+    },
+    {
+        "id": 1479,
+        "name": "Esqueleto Prisioneiro"
+    },
+    {
+        "id": 1480,
+        "name": "Zumbi Prisioneiro"
+    },
+    {
+        "id": 1481,
+        "name": "Punk"
+    },
+    {
+        "id": 1482,
+        "name": "Jirtas"
+    },
+    {
+        "id": 1483,
+        "name": "Rybio"
+    },
+    {
+        "id": 1484,
+        "name": "Fendark"
+    },
+    {
+        "id": 1485,
+        "name": "Mysteltainn"
+    },
+    {
+        "id": 1486,
+        "name": "Tirfing"
+    },
+    {
+        "id": 1487,
+        "name": "Executor"
+    },
+    {
+        "id": 1488,
+        "name": "Anolian"
+    },
+    {
+        "id": 1489,
+        "name": "Sting"
+    },
+    {
+        "id": 1490,
+        "name": "Andarilho"
+    },
+    {
+        "id": 1491,
+        "name": "Dokebi"
+    },
+    {
+        "id": 1492,
+        "name": "Samurai Encarnado"
+    },
+    {
+        "id": 1493,
+        "name": "Dr\u00edade"
+    },
+    {
+        "id": 1494,
+        "name": "Encoura\u00e7ado"
+    },
+    {
+        "id": 1495,
+        "name": "Atirador de Pedras"
+    },
+    {
+        "id": 1496,
+        "name": "Bomba de Pedras"
+    },
+    {
+        "id": 1497,
+        "name": "Golem de Madeira"
+    },
+    {
+        "id": 1498,
+        "name": "Artilheiro Wootan"
+    },
+    {
+        "id": 1499,
+        "name": "Guerreiro Wootan"
+    },
+    {
+        "id": 1500,
+        "name": "Parasita"
+    },
+    {
+        "id": 1501,
+        "name": "Erva-Daninha"
+    },
+    {
+        "id": 1502,
+        "name": "Demolidor"
+    },
+    {
+        "id": 1503,
+        "name": "\u00c1rvore Maldita"
+    },
+    {
+        "id": 1504,
+        "name": "Dullahan"
+    },
+    {
+        "id": 1505,
+        "name": "Loli Ruri"
+    },
+    {
+        "id": 1506,
+        "name": "Mascarado"
+    },
+    {
+        "id": 1507,
+        "name": "Serial Killer"
+    },
+    {
+        "id": 1508,
+        "name": "Quve"
+    },
+    {
+        "id": 1509,
+        "name": "Lude"
+    },
+    {
+        "id": 1510,
+        "name": "Poltergeist"
+    },
+    {
+        "id": 1511,
+        "name": "Amon Ra"
+    },
+    {
+        "id": 1512,
+        "name": "Yao Jun"
+    },
+    {
+        "id": 1513,
+        "name": "Mao Guai"
+    },
+    {
+        "id": 1514,
+        "name": "Zhu Po Long"
+    },
+    {
+        "id": 1515,
+        "name": "Filhote Hatii"
+    },
+    {
+        "id": 1516,
+        "name": "Mi Gao"
+    },
+    {
+        "id": 1517,
+        "name": "Jing Guai"
+    },
+    {
+        "id": 1518,
+        "name": "White Lady"
+    },
+    {
+        "id": 1519,
+        "name": "Donzela Verde"
+    },
+    {
+        "id": 1520,
+        "name": "Boiled Rice"
+    },
+    {
+        "id": 1521,
+        "name": "Alice"
+    },
+    {
+        "id": 1522,
+        "name": "M\u00famia Anci\u00e3 "
+    },
+    {
+        "id": 1523,
+        "name": "Zumbi Atirador"
+    },
+    {
+        "id": 1524,
+        "name": "Filhote de Leopardo"
+    },
+    {
+        "id": 1525,
+        "name": "Bathory"
+    },
+    {
+        "id": 1526,
+        "name": "Borboleta Sanguin\u00e1ria"
+    },
+    {
+        "id": 1527,
+        "name": "Gerente"
+    },
+    {
+        "id": 1528,
+        "name": "Rel\u00f3gio"
+    },
+    {
+        "id": 1529,
+        "name": "Serpente Suprema"
+    },
+    {
+        "id": 1530,
+        "name": "Dr\u00e1cula"
+    },
+    {
+        "id": 1531,
+        "name": "Ermit\u00e3o Maligno"
+    },
+    {
+        "id": 1532,
+        "name": "Estrondo"
+    },
+    {
+        "id": 1533,
+        "name": "Foca"
+    },
+    {
+        "id": 1534,
+        "name": "Goblin"
+    },
+    {
+        "id": 1535,
+        "name": "Goblin"
+    },
+    {
+        "id": 1536,
+        "name": "Goblin"
+    },
+    {
+        "id": 1537,
+        "name": "Goblin"
+    },
+    {
+        "id": 1538,
+        "name": "Goblin"
+    },
+    {
+        "id": 1539,
+        "name": "L\u00edder Goblin"
+    },
+    {
+        "id": 1540,
+        "name": "Golem"
+    },
+    {
+        "id": 1541,
+        "name": "Guardi\u00e3o da Floresta"
+    },
+    {
+        "id": 1542,
+        "name": "Samurai Encarnado"
+    },
+    {
+        "id": 1543,
+        "name": "Kapha"
+    },
+    {
+        "id": 1544,
+        "name": "Karakasa"
+    },
+    {
+        "id": 1545,
+        "name": "Kobold"
+    },
+    {
+        "id": 1546,
+        "name": "Kobold"
+    },
+    {
+        "id": 1547,
+        "name": "Kobold"
+    },
+    {
+        "id": 1548,
+        "name": "L\u00edder Kobold"
+    },
+    {
+        "id": 1549,
+        "name": "Golem de Lava"
+    },
+    {
+        "id": 1550,
+        "name": "Pessegueira Encantada"
+    },
+    {
+        "id": 1551,
+        "name": "Marte"
+    },
+    {
+        "id": 1552,
+        "name": "Miyabi Ningyo"
+    },
+    {
+        "id": 1553,
+        "name": "N\u00e9voa"
+    },
+    {
+        "id": 1554,
+        "name": "Pesadelo Sombrio"
+    },
+    {
+        "id": 1555,
+        "name": "Parasita"
+    },
+    {
+        "id": 1556,
+        "name": "Sapo Venenoso"
+    },
+    {
+        "id": 1557,
+        "name": "Giro-Goblin"
+    },
+    {
+        "id": 1558,
+        "name": "Arenoso"
+    },
+    {
+        "id": 1559,
+        "name": "Escorpi\u00e3o"
+    },
+    {
+        "id": 1560,
+        "name": "Shinobi"
+    },
+    {
+        "id": 1561,
+        "name": "Fumacento"
+    },
+    {
+        "id": 1562,
+        "name": "Esqueleto Soldado"
+    },
+    {
+        "id": 1563,
+        "name": "Tengu"
+    },
+    {
+        "id": 1564,
+        "name": "Ninfa Perversa"
+    },
+    {
+        "id": 1565,
+        "name": "Ginseng Selvagem"
+    },
+    {
+        "id": 1566,
+        "name": "Apari\u00e7\u00e3o"
+    },
+    {
+        "id": 1567,
+        "name": "Verme Anci\u00e3o"
+    },
+    {
+        "id": 1568,
+        "name": "Angeling"
+    },
+    {
+        "id": 1569,
+        "name": "Cavaleiro Sanguin\u00e1rio"
+    },
+    {
+        "id": 1570,
+        "name": "C\u00e3ibra"
+    },
+    {
+        "id": 1571,
+        "name": "Deviace"
+    },
+    {
+        "id": 1572,
+        "name": "Drops"
+    },
+    {
+        "id": 1573,
+        "name": "Anci\u00e3o"
+    },
+    {
+        "id": 1574,
+        "name": "Salgueiro Anci\u00e3o"
+    },
+    {
+        "id": 1575,
+        "name": "Flora"
+    },
+    {
+        "id": 1576,
+        "name": "Ghostring"
+    },
+    {
+        "id": 1577,
+        "name": "Goblin Arqueiro"
+    },
+    {
+        "id": 1578,
+        "name": "Horong"
+    },
+    {
+        "id": 1579,
+        "name": "Hidra"
+    },
+    {
+        "id": 1580,
+        "name": "Incubus"
+    },
+    {
+        "id": 1581,
+        "name": "Vocal"
+    },
+    {
+        "id": 1582,
+        "name": "Deviling"
+    },
+    {
+        "id": 1583,
+        "name": "Tao Gunka"
+    },
+    {
+        "id": 1584,
+        "name": "Tamruan"
+    },
+    {
+        "id": 1585,
+        "name": "Mime Monkey"
+    },
+    {
+        "id": 1586,
+        "name": "Gato de Folha"
+    },
+    {
+        "id": 1587,
+        "name": "Kraben"
+    },
+    {
+        "id": 1588,
+        "name": "Orc Natalino"
+    },
+    {
+        "id": 1589,
+        "name": "Mandr\u00e1gora"
+    },
+    {
+        "id": 1590,
+        "name": "Planta Carn\u00edvora"
+    },
+    {
+        "id": 1591,
+        "name": "Lun\u00e1tico"
+    },
+    {
+        "id": 1592,
+        "name": "Yakuza"
+    },
+    {
+        "id": 1593,
+        "name": "M\u00famia Anci\u00e3 "
+    },
+    {
+        "id": 1594,
+        "name": "Congelador"
+    },
+    {
+        "id": 1595,
+        "name": "Marin"
+    },
+    {
+        "id": 1596,
+        "name": "Tamruan"
+    },
+    {
+        "id": 1597,
+        "name": "G\u00e1rgula"
+    },
+    {
+        "id": 1598,
+        "name": "Labareda"
+    },
+    {
+        "id": 1599,
+        "name": "Cochicho"
+    },
+    {
+        "id": 1600,
+        "name": "Aquecedor"
+    },
+    {
+        "id": 1601,
+        "name": "Batedor"
+    },
+    {
+        "id": 1602,
+        "name": "Solidificador"
+    },
+    {
+        "id": 1603,
+        "name": "P\u00e9-Grande"
+    },
+    {
+        "id": 1604,
+        "name": "Zang\u00e3o Gigante"
+    },
+    {
+        "id": 1605,
+        "name": "Ilus\u00e3o das Trevas"
+    },
+    {
+        "id": 1606,
+        "name": "Filhote de Hatii"
+    },
+    {
+        "id": 1607,
+        "name": "Goblin Natalino"
+    },
+    {
+        "id": 1608,
+        "name": "Besouro-Ladr\u00e3o Macho"
+    },
+    {
+        "id": 1609,
+        "name": "Zhu Po Long"
+    },
+    {
+        "id": 1610,
+        "name": "Munak"
+    },
+    {
+        "id": 1611,
+        "name": "Bongun"
+    },
+    {
+        "id": 1612,
+        "name": "Yao Jun"
+    },
+    {
+        "id": 1613,
+        "name": "Metaling"
+    },
+    {
+        "id": 1614,
+        "name": "Mineral"
+    },
+    {
+        "id": 1615,
+        "name": "Obsidiana"
+    },
+    {
+        "id": 1616,
+        "name": "Mineiros"
+    },
+    {
+        "id": 1617,
+        "name": "Fornalha Velha"
+    },
+    {
+        "id": 1618,
+        "name": "Ungoliant"
+    },
+    {
+        "id": 1619,
+        "name": "Porcellio"
+    },
+    {
+        "id": 1620,
+        "name": "Nuvem T\u00f3xica"
+    },
+    {
+        "id": 1621,
+        "name": "Nuvem Venenosa"
+    },
+    {
+        "id": 1622,
+        "name": "Ursinho"
+    },
+    {
+        "id": 1623,
+        "name": "RSX-0806"
+    },
+    {
+        "id": 1624,
+        "name": "Fornalha Velha"
+    },
+    {
+        "id": 1625,
+        "name": "Porcellio"
+    },
+    {
+        "id": 1626,
+        "name": "Espectro de Hellion"
+    },
+    {
+        "id": 1627,
+        "name": "Anopheles"
+    },
+    {
+        "id": 1628,
+        "name": "Holden"
+    },
+    {
+        "id": 1629,
+        "name": "Vento da Colina"
+    },
+    {
+        "id": 1630,
+        "name": "Lady Branca"
+    },
+    {
+        "id": 1631,
+        "name": "Donzela Verde"
+    },
+    {
+        "id": 1632,
+        "name": "Gremlin"
+    },
+    {
+        "id": 1633,
+        "name": "Beholder"
+    },
+    {
+        "id": 1634,
+        "name": "Seyren Windsor"
+    },
+    {
+        "id": 1635,
+        "name": "Eremes Guile"
+    },
+    {
+        "id": 1636,
+        "name": "Harword Alteisen"
+    },
+    {
+        "id": 1637,
+        "name": "Margaretha Sorin"
+    },
+    {
+        "id": 1638,
+        "name": "Cecil Damon"
+    },
+    {
+        "id": 1639,
+        "name": "Kathryne Keyron"
+    },
+    {
+        "id": 1640,
+        "name": "Lorde Seyren"
+    },
+    {
+        "id": 1641,
+        "name": "Algoz Eremes"
+    },
+    {
+        "id": 1642,
+        "name": "Mestre-ferreiro Howard"
+    },
+    {
+        "id": 1643,
+        "name": "Sacerdotisa Margaretha"
+    },
+    {
+        "id": 1644,
+        "name": "Atiradora Cecil"
+    },
+    {
+        "id": 1645,
+        "name": "Arquimaga Kathryne"
+    },
+    {
+        "id": 1646,
+        "name": "Lorde Seyren"
+    },
+    {
+        "id": 1647,
+        "name": "Algoz Eremes"
+    },
+    {
+        "id": 1648,
+        "name": "Mestre-ferreiro Harword"
+    },
+    {
+        "id": 1649,
+        "name": "Sumo Margaretha"
+    },
+    {
+        "id": 1650,
+        "name": "Atiradora Cecil"
+    },
+    {
+        "id": 1651,
+        "name": "Arquimaga Kathryne"
+    },
+    {
+        "id": 1652,
+        "name": "Egnigem Cenia"
+    },
+    {
+        "id": 1653,
+        "name": "Wickebine Tres"
+    },
+    {
+        "id": 1654,
+        "name": "Armeyer Dinze"
+    },
+    {
+        "id": 1655,
+        "name": "Errende Ebecee"
+    },
+    {
+        "id": 1656,
+        "name": "Kavach Icarus"
+    },
+    {
+        "id": 1657,
+        "name": "Laurell Weinder"
+    },
+    {
+        "id": 1658,
+        "name": "Espadachim Egnigem"
+    },
+    {
+        "id": 1659,
+        "name": "Wickebine Tres"
+    },
+    {
+        "id": 1660,
+        "name": "Armeyer Dinze"
+    },
+    {
+        "id": 1661,
+        "name": "Errende Ebecee"
+    },
+    {
+        "id": 1662,
+        "name": "Kavach Icarus"
+    },
+    {
+        "id": 1663,
+        "name": "Laurell Weinder"
+    },
+    {
+        "id": 1664,
+        "name": "Canh\u00e3o de F\u00f3ton"
+    },
+    {
+        "id": 1665,
+        "name": "Canh\u00e3o de F\u00f3ton"
+    },
+    {
+        "id": 1666,
+        "name": "Canh\u00e3o de F\u00f3ton"
+    },
+    {
+        "id": 1667,
+        "name": "Canh\u00e3o de F\u00f3ton"
+    },
+    {
+        "id": 1668,
+        "name": "Archdam"
+    },
+    {
+        "id": 1669,
+        "name": "Dimik"
+    },
+    {
+        "id": 1670,
+        "name": "Dimik"
+    },
+    {
+        "id": 1671,
+        "name": "Dimik"
+    },
+    {
+        "id": 1672,
+        "name": "Dimik"
+    },
+    {
+        "id": 1673,
+        "name": "Dimik"
+    },
+    {
+        "id": 1674,
+        "name": "Monemus"
+    },
+    {
+        "id": 1675,
+        "name": "Venatu"
+    },
+    {
+        "id": 1676,
+        "name": "Venatu"
+    },
+    {
+        "id": 1677,
+        "name": "Venatu"
+    },
+    {
+        "id": 1678,
+        "name": "Venatu"
+    },
+    {
+        "id": 1679,
+        "name": "Venatu"
+    },
+    {
+        "id": 1680,
+        "name": "Vento da Colina"
+    },
+    {
+        "id": 1681,
+        "name": "Gemini-S58"
+    },
+    {
+        "id": 1682,
+        "name": "Remover"
+    },
+    {
+        "id": 1683,
+        "name": "Canh\u00e3o de F\u00f3ton"
+    },
+    {
+        "id": 1684,
+        "name": "Archdam"
+    },
+    {
+        "id": 1685,
+        "name": "Vesper"
+    },
+    {
+        "id": 1686,
+        "name": "Filhote de Orc"
+    },
+    {
+        "id": 1687,
+        "name": "Grove"
+    },
+    {
+        "id": 1688,
+        "name": "Lady Tanee"
+    },
+    {
+        "id": 1689,
+        "name": "Lady Branca"
+    },
+    {
+        "id": 1690,
+        "name": "Coelho da P\u00e1scoa"
+    },
+    {
+        "id": 1691,
+        "name": "Kraben"
+    },
+    {
+        "id": 1692,
+        "name": "Breeze"
+    },
+    {
+        "id": 1693,
+        "name": "Plasma"
+    },
+    {
+        "id": 1694,
+        "name": "Plasma"
+    },
+    {
+        "id": 1695,
+        "name": "Plasma"
+    },
+    {
+        "id": 1696,
+        "name": "Plasma"
+    },
+    {
+        "id": 1697,
+        "name": "Plasma"
+    },
+    {
+        "id": 1698,
+        "name": "Palavra Morta"
+    },
+    {
+        "id": 1699,
+        "name": "M\u00edmico Antigo"
+    },
+    {
+        "id": 1700,
+        "name": "Dama da Guarda"
+    },
+    {
+        "id": 1701,
+        "name": "Senhora do Abrigo"
+    },
+    {
+        "id": 1702,
+        "name": "Baronesa da Retribui\u00e7\u00e3o"
+    },
+    {
+        "id": 1703,
+        "name": "Senhora do Conforto"
+    },
+    {
+        "id": 1704,
+        "name": "Odium de Thanatos"
+    },
+    {
+        "id": 1705,
+        "name": "Despero de Thanatos"
+    },
+    {
+        "id": 1706,
+        "name": "Maero de Thanatos"
+    },
+    {
+        "id": 1707,
+        "name": "Pesar de Thanatos"
+    },
+    {
+        "id": 1708,
+        "name": "Mem\u00f3ria de Thanatos"
+    },
+    {
+        "id": 1709,
+        "name": "Odium de Thanatos"
+    },
+    {
+        "id": 1710,
+        "name": "Despero de Thanatos"
+    },
+    {
+        "id": 1711,
+        "name": "Maero de Thanatos"
+    },
+    {
+        "id": 1712,
+        "name": "Pesar de Thanatos"
+    },
+    {
+        "id": 1713,
+        "name": "Acidus"
+    },
+    {
+        "id": 1714,
+        "name": "Ferus"
+    },
+    {
+        "id": 1715,
+        "name": "Novus"
+    },
+    {
+        "id": 1716,
+        "name": "Acidus"
+    },
+    {
+        "id": 1717,
+        "name": "Ferus"
+    },
+    {
+        "id": 1718,
+        "name": "Novus"
+    },
+    {
+        "id": 1719,
+        "name": "Detardeurus"
+    },
+    {
+        "id": 1720,
+        "name": "Hydrolancer"
+    },
+    {
+        "id": 1721,
+        "name": "Ovo de Drag\u00e3o"
+    },
+    {
+        "id": 1722,
+        "name": "Jakk do Halloween"
+    },
+    {
+        "id": 1723,
+        "name": "Cecil Damon"
+    },
+    {
+        "id": 1724,
+        "name": "Canh\u00e3o de F\u00f3ton"
+    },
+    {
+        "id": 1725,
+        "name": "Poring"
+    },
+    {
+        "id": 1726,
+        "name": "Lun\u00e1tico"
+    },
+    {
+        "id": 1727,
+        "name": "Beb\u00ea Selvagem"
+    },
+    {
+        "id": 1728,
+        "name": "Filhote de Lobo"
+    },
+    {
+        "id": 1729,
+        "name": "Bafom\u00e9 Jr."
+    },
+    {
+        "id": 1730,
+        "name": "Deviruchi"
+    },
+    {
+        "id": 1731,
+        "name": "Doppelganger Cruel"
+    },
+    {
+        "id": 1732,
+        "name": "Ba\u00fa do Ibeu"
+    },
+    {
+        "id": 1733,
+        "name": "Kiel"
+    },
+    {
+        "id": 1734,
+        "name": "Kiel-D-01"
+    },
+    {
+        "id": 1735,
+        "name": "Alicel"
+    },
+    {
+        "id": 1736,
+        "name": "Aliot"
+    },
+    {
+        "id": 1737,
+        "name": "Aliza"
+    },
+    {
+        "id": 1738,
+        "name": "Constant"
+    },
+    {
+        "id": 1739,
+        "name": "Alicel"
+    },
+    {
+        "id": 1740,
+        "name": "Aliot"
+    },
+    {
+        "id": 1741,
+        "name": "Cookie"
+    },
+    {
+        "id": 1742,
+        "name": "Carat"
+    },
+    {
+        "id": 1743,
+        "name": "Presente"
+    },
+    {
+        "id": 1744,
+        "name": "Rosa Selvagem"
+    },
+    {
+        "id": 1745,
+        "name": "Constant"
+    },
+    {
+        "id": 1746,
+        "name": "Aliza"
+    },
+    {
+        "id": 1747,
+        "name": "Jiboia"
+    },
+    {
+        "id": 1748,
+        "name": "Anaconda"
+    },
+    {
+        "id": 1749,
+        "name": "Medusa"
+    },
+    {
+        "id": 1750,
+        "name": "Planta Vermelha"
+    },
+    {
+        "id": 1751,
+        "name": "Valqu\u00edria Randgris"
+    },
+    {
+        "id": 1752,
+        "name": "Skogul"
+    },
+    {
+        "id": 1753,
+        "name": "Frus"
+    },
+    {
+        "id": 1754,
+        "name": "Skeggiold"
+    },
+    {
+        "id": 1755,
+        "name": "Skeggiold"
+    },
+    {
+        "id": 1756,
+        "name": "Hydrolancer"
+    },
+    {
+        "id": 1757,
+        "name": "Acidus"
+    },
+    {
+        "id": 1758,
+        "name": "Ferus"
+    },
+    {
+        "id": 1759,
+        "name": "Acidus"
+    },
+    {
+        "id": 1760,
+        "name": "Ferus"
+    },
+    {
+        "id": 1761,
+        "name": "Skogul"
+    },
+    {
+        "id": 1762,
+        "name": "Frus"
+    },
+    {
+        "id": 1763,
+        "name": "Skeggiold"
+    },
+    {
+        "id": 1764,
+        "name": "Skeggiold"
+    },
+    {
+        "id": 1765,
+        "name": "Valqu\u00edria"
+    },
+    {
+        "id": 1766,
+        "name": "Angeling"
+    },
+    {
+        "id": 1767,
+        "name": "Deviling"
+    },
+    {
+        "id": 1768,
+        "name": "Pesar Noturno"
+    },
+    {
+        "id": 1769,
+        "name": "Agav"
+    },
+    {
+        "id": 1770,
+        "name": "Echio"
+    },
+    {
+        "id": 1771,
+        "name": "Vanberk"
+    },
+    {
+        "id": 1772,
+        "name": "Isilla"
+    },
+    {
+        "id": 1773,
+        "name": "Hodremlin"
+    },
+    {
+        "id": 1774,
+        "name": "Rastreador"
+    },
+    {
+        "id": 1775,
+        "name": "Yeti"
+    },
+    {
+        "id": 1776,
+        "name": "Siroma"
+    },
+    {
+        "id": 1777,
+        "name": "Tit\u00e3 de Gelo"
+    },
+    {
+        "id": 1778,
+        "name": "Gazeti"
+    },
+    {
+        "id": 1779,
+        "name": "Ktullanux"
+    },
+    {
+        "id": 1780,
+        "name": "Muscipular"
+    },
+    {
+        "id": 1781,
+        "name": "Drosera"
+    },
+    {
+        "id": 1782,
+        "name": "Roween"
+    },
+    {
+        "id": 1783,
+        "name": "Galion"
+    },
+    {
+        "id": 1784,
+        "name": "Stapo"
+    },
+    {
+        "id": 1785,
+        "name": "Atroce"
+    },
+    {
+        "id": 1786,
+        "name": "Agav"
+    },
+    {
+        "id": 1787,
+        "name": "Echio"
+    },
+    {
+        "id": 1788,
+        "name": "Tit\u00e3 de Gelo"
+    },
+    {
+        "id": 1789,
+        "name": "Estalactite"
+    },
+    {
+        "id": 1790,
+        "name": "Rafflesia"
+    },
+    {
+        "id": 1791,
+        "name": "Galion"
+    },
+    {
+        "id": 1792,
+        "name": "Bola de Futebol"
+    },
+    {
+        "id": 1793,
+        "name": "Megalith"
+    },
+    {
+        "id": 1794,
+        "name": "Roween"
+    },
+    {
+        "id": 1795,
+        "name": "Cavaleiro Sanguin\u00e1rio"
+    },
+    {
+        "id": 1796,
+        "name": "Aunoe"
+    },
+    {
+        "id": 1797,
+        "name": "Fanat"
+    },
+    {
+        "id": 1798,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 1799,
+        "name": "Seyren"
+    },
+    {
+        "id": 1800,
+        "name": "Eremes"
+    },
+    {
+        "id": 1801,
+        "name": "Harword"
+    },
+    {
+        "id": 1802,
+        "name": "Margaretha"
+    },
+    {
+        "id": 1803,
+        "name": "Cecil"
+    },
+    {
+        "id": 1804,
+        "name": "Katrine"
+    },
+    {
+        "id": 1805,
+        "name": "Seyren"
+    },
+    {
+        "id": 1806,
+        "name": "Eremes"
+    },
+    {
+        "id": 1807,
+        "name": "Harword"
+    },
+    {
+        "id": 1808,
+        "name": "Margaretha"
+    },
+    {
+        "id": 1809,
+        "name": "Cecil"
+    },
+    {
+        "id": 1810,
+        "name": "Katrinn"
+    },
+    {
+        "id": 1811,
+        "name": "Bandit"
+    },
+    {
+        "id": 1812,
+        "name": "Mensageiro do Para\u00edso"
+    },
+    {
+        "id": 1813,
+        "name": "Hydrolancer"
+    },
+    {
+        "id": 1814,
+        "name": "Flor do Luar"
+    },
+    {
+        "id": 1815,
+        "name": "Buzzy Brother"
+    },
+    {
+        "id": 1816,
+        "name": "Gourd"
+    },
+    {
+        "id": 1817,
+        "name": "Detardeurus"
+    },
+    {
+        "id": 1818,
+        "name": "Alarme"
+    },
+    {
+        "id": 1819,
+        "name": "Bathory"
+    },
+    {
+        "id": 1820,
+        "name": "P\u00e9-Grande"
+    },
+    {
+        "id": 1821,
+        "name": "Lobo do Deserto"
+    },
+    {
+        "id": 1822,
+        "name": "Deviruchi"
+    },
+    {
+        "id": 1823,
+        "name": "Congelador"
+    },
+    {
+        "id": 1824,
+        "name": "Filhote de Hatii"
+    },
+    {
+        "id": 1825,
+        "name": "Goblin Natalino"
+    },
+    {
+        "id": 1826,
+        "name": "N\u00e9voa"
+    },
+    {
+        "id": 1827,
+        "name": "Sasquatch"
+    },
+    {
+        "id": 1828,
+        "name": "Gullinbursti"
+    },
+    {
+        "id": 1829,
+        "name": "Espadachim Guardi\u00e3o"
+    },
+    {
+        "id": 1830,
+        "name": "Arqueiro Guardi\u00e3o"
+    },
+    {
+        "id": 1831,
+        "name": "Salamandra"
+    },
+    {
+        "id": 1832,
+        "name": "Ifrit"
+    },
+    {
+        "id": 1833,
+        "name": "Kasa"
+    },
+    {
+        "id": 1834,
+        "name": "Salamandra"
+    },
+    {
+        "id": 1835,
+        "name": "Kasa"
+    },
+    {
+        "id": 1836,
+        "name": "Magmaring"
+    },
+    {
+        "id": 1837,
+        "name": "Imp"
+    },
+    {
+        "id": 1838,
+        "name": "Golpeador"
+    },
+    {
+        "id": 1839,
+        "name": "Byorgue"
+    },
+    {
+        "id": 1840,
+        "name": "Selvagem Dourado"
+    },
+    {
+        "id": 1841,
+        "name": "Snake Lord's Minion"
+    },
+    {
+        "id": 1842,
+        "name": "Snake Lord's Minion"
+    },
+    {
+        "id": 1843,
+        "name": "Snake Lord's Minion"
+    },
+    {
+        "id": 1844,
+        "name": "Snake Lord's Minion"
+    },
+    {
+        "id": 1845,
+        "name": "Treasure Chest"
+    },
+    {
+        "id": 1846,
+        "name": "Emperium"
+    },
+    {
+        "id": 1847,
+        "name": "Poring"
+    },
+    {
+        "id": 1848,
+        "name": "Baphomet"
+    },
+    {
+        "id": 1849,
+        "name": "Osiris"
+    },
+    {
+        "id": 1850,
+        "name": "Orc Hero"
+    },
+    {
+        "id": 1851,
+        "name": "Yakuza"
+    },
+    {
+        "id": 1852,
+        "name": "Angeling"
+    },
+    {
+        "id": 1853,
+        "name": "Deviling"
+    },
+    {
+        "id": 1854,
+        "name": "Muka"
+    },
+    {
+        "id": 1855,
+        "name": "Poison Spore"
+    },
+    {
+        "id": 1856,
+        "name": "Magnolia"
+    },
+    {
+        "id": 1857,
+        "name": "Marin"
+    },
+    {
+        "id": 1858,
+        "name": "Plankton"
+    },
+    {
+        "id": 1859,
+        "name": "Mandragora"
+    },
+    {
+        "id": 1860,
+        "name": "Coco"
+    },
+    {
+        "id": 1861,
+        "name": "Choco"
+    },
+    {
+        "id": 1862,
+        "name": "Martin"
+    },
+    {
+        "id": 1863,
+        "name": "Spring Rabbit"
+    },
+    {
+        "id": 1864,
+        "name": "Massacre"
+    },
+    {
+        "id": 1865,
+        "name": "Zumbi Dilacerado"
+    },
+    {
+        "id": 1866,
+        "name": "C\u00e3o Infernal"
+    },
+    {
+        "id": 1867,
+        "name": "Banshee"
+    },
+    {
+        "id": 1868,
+        "name": "Banshee"
+    },
+    {
+        "id": 1869,
+        "name": "Cr\u00e2nio Flamejante"
+    },
+    {
+        "id": 1870,
+        "name": "Necromante"
+    },
+    {
+        "id": 1871,
+        "name": "Bispo Decadente"
+    },
+    {
+        "id": 1872,
+        "name": "Mosca Infernal"
+    },
+    {
+        "id": 1873,
+        "name": "Belzebu"
+    },
+    {
+        "id": 1874,
+        "name": "Belzebu"
+    },
+    {
+        "id": 1875,
+        "name": "Tristan III"
+    },
+    {
+        "id": 1876,
+        "name": "Lord of the Dead"
+    },
+    {
+        "id": 1877,
+        "name": "Cristal"
+    },
+    {
+        "id": 1878,
+        "name": "Mystic Plant"
+    },
+    {
+        "id": 1879,
+        "name": "Coelho"
+    },
+    {
+        "id": 1880,
+        "name": "Leshij"
+    },
+    {
+        "id": 1881,
+        "name": "Les"
+    },
+    {
+        "id": 1882,
+        "name": "Baba-Yaga"
+    },
+    {
+        "id": 1883,
+        "name": "Kikimora"
+    },
+    {
+        "id": 1884,
+        "name": "Mavka"
+    },
+    {
+        "id": 1885,
+        "name": "Gorynych"
+    },
+    {
+        "id": 1886,
+        "name": "Mavka"
+    },
+    {
+        "id": 1887,
+        "name": "Freezer"
+    },
+    {
+        "id": 1888,
+        "name": "Hatii Baby"
+    },
+    {
+        "id": 1889,
+        "name": "Marozka's Guard"
+    },
+    {
+        "id": 1890,
+        "name": "Koshei, the Immortal"
+    },
+    {
+        "id": 1891,
+        "name": "Valqu\u00edria"
+    },
+    {
+        "id": 1892,
+        "name": "Loli Ruri"
+    },
+    {
+        "id": 1893,
+        "name": "Knight Of Abyss"
+    },
+    {
+        "id": 1894,
+        "name": "Pouring"
+    },
+    {
+        "id": 1895,
+        "name": "Event Seyren"
+    },
+    {
+        "id": 1896,
+        "name": "Event Katrinn"
+    },
+    {
+        "id": 1897,
+        "name": "Event Baphomet "
+    },
+    {
+        "id": 1898,
+        "name": "Event Zombie"
+    },
+    {
+        "id": 1899,
+        "name": "Cavaleiro Guardi\u00e3o"
+    },
+    {
+        "id": 1900,
+        "name": "Archer Guardian"
+    },
+    {
+        "id": 1901,
+        "name": "Condor"
+    },
+    {
+        "id": 1902,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1903,
+        "name": "Tesouro"
+    },
+    {
+        "id": 1904,
+        "name": "Bombporing"
+    },
+    {
+        "id": 1905,
+        "name": "Barricada"
+    },
+    {
+        "id": 1906,
+        "name": "Barricada"
+    },
+    {
+        "id": 1907,
+        "name": "Runa Guardi\u00e3 "
+    },
+    {
+        "id": 1908,
+        "name": "Runa Guardi\u00e3 "
+    },
+    {
+        "id": 1909,
+        "name": "Suprimentos"
+    },
+    {
+        "id": 1910,
+        "name": "Suprimentos"
+    },
+    {
+        "id": 1911,
+        "name": "Bandeira Neutra"
+    },
+    {
+        "id": 1912,
+        "name": "Bandeira de Le\u00e3o"
+    },
+    {
+        "id": 1913,
+        "name": "Bandeira de \u00c1guia"
+    },
+    {
+        "id": 1914,
+        "name": "Cristal Azul"
+    },
+    {
+        "id": 1915,
+        "name": "Cristal Vermelho"
+    },
+    {
+        "id": 1916,
+        "name": "Imperador Morroc"
+    },
+    {
+        "id": 1917,
+        "name": "Morroc Ferido"
+    },
+    {
+        "id": 1918,
+        "name": "Sombra da Inveja"
+    },
+    {
+        "id": 1919,
+        "name": "Sombra da Gula"
+    },
+    {
+        "id": 1920,
+        "name": "Sombra da Vaidade"
+    },
+    {
+        "id": 1921,
+        "name": "Sombra da Ira"
+    },
+    {
+        "id": 1922,
+        "name": "Sombra da Inveja"
+    },
+    {
+        "id": 1923,
+        "name": "Sombra da Gula"
+    },
+    {
+        "id": 1924,
+        "name": "Sombra da Vaidade"
+    },
+    {
+        "id": 1925,
+        "name": "Sombra da Ira"
+    },
+    {
+        "id": 1926,
+        "name": "Jakk Fugitivo"
+    },
+    {
+        "id": 1927,
+        "name": "Sussurro do Halloween"
+    },
+    {
+        "id": 1928,
+        "name": "Deviruchi do Halloween"
+    },
+    {
+        "id": 1929,
+        "name": "Bafom\u00e9 "
+    },
+    {
+        "id": 1930,
+        "name": "Piamette"
+    },
+    {
+        "id": 1931,
+        "name": "Dama dos Desejos"
+    },
+    {
+        "id": 1932,
+        "name": "Guardi\u00e3o"
+    },
+    {
+        "id": 1933,
+        "name": "Vigia"
+    },
+    {
+        "id": 1934,
+        "name": "Flor Azul"
+    },
+    {
+        "id": 1935,
+        "name": "Flor Vermelha"
+    },
+    {
+        "id": 1936,
+        "name": "Flor Amarela"
+    },
+    {
+        "id": 1937,
+        "name": "Constant"
+    },
+    {
+        "id": 1938,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1939,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1940,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1941,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1942,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1943,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1944,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1945,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1946,
+        "name": "Caixa de Tesouro"
+    },
+    {
+        "id": 1947,
+        "name": "Piamette"
+    },
+    {
+        "id": 1948,
+        "name": "G Ygnizem"
+    },
+    {
+        "id": 1949,
+        "name": "Guardi\u00e3o Guerreiro"
+    },
+    {
+        "id": 1950,
+        "name": "Guardi\u00e3o Arqueiro"
+    },
+    {
+        "id": 1951,
+        "name": "Cristal"
+    },
+    {
+        "id": 1952,
+        "name": "Cristal"
+    },
+    {
+        "id": 1953,
+        "name": "Cristal"
+    },
+    {
+        "id": 1954,
+        "name": "Cristal"
+    },
+    {
+        "id": 1955,
+        "name": "Ba\u00fa de Tesouro"
+    },
+    {
+        "id": 1956,
+        "name": "Naght Sieger"
+    },
+    {
+        "id": 1957,
+        "name": "Entweihen Crothen"
+    },
+    {
+        "id": 1958,
+        "name": "Esqueleto Espinhoso"
+    },
+    {
+        "id": 1959,
+        "name": "Esqueleto Espinhoso"
+    },
+    {
+        "id": 1960,
+        "name": "Esqueleto Espinhoso"
+    },
+    {
+        "id": 1961,
+        "name": "Esqueleto Espinhoso"
+    },
+    {
+        "id": 1962,
+        "name": "Ladr\u00e3o de Biscoitos"
+    },
+    {
+        "id": 1963,
+        "name": "New Year Doll"
+    },
+    {
+        "id": 1964,
+        "name": "Nightmare T"
+    },
+    {
+        "id": 1965,
+        "name": "Wild Rose"
+    },
+    {
+        "id": 1966,
+        "name": "Doppelganger"
+    },
+    {
+        "id": 1967,
+        "name": "Egnigem Cenia"
+    },
+    {
+        "id": 1968,
+        "name": "Strouf"
+    },
+    {
+        "id": 1969,
+        "name": "Marc"
+    },
+    {
+        "id": 1970,
+        "name": "Obeaune"
+    },
+    {
+        "id": 1971,
+        "name": "Vadon"
+    },
+    {
+        "id": 1972,
+        "name": "Marina"
+    },
+    {
+        "id": 1973,
+        "name": "Buzzy Bol"
+    },
+    {
+        "id": 1974,
+        "name": "Senhora das Banshees"
+    },
+    {
+        "id": 1975,
+        "name": "Mestre Beholder"
+    },
+    {
+        "id": 1976,
+        "name": "Cobalto"
+    },
+    {
+        "id": 1977,
+        "name": "Metaling Pesado"
+    },
+    {
+        "id": 1978,
+        "name": "Apocalipse Infernal"
+    },
+    {
+        "id": 1979,
+        "name": "Zakudam"
+    },
+    {
+        "id": 1980,
+        "name": "Kublin"
+    },
+    {
+        "id": 1981,
+        "name": "Grand Orc"
+    },
+    {
+        "id": 1982,
+        "name": "Orc Arqueiro"
+    },
+    {
+        "id": 1983,
+        "name": "Orc Esqueleto"
+    },
+    {
+        "id": 1984,
+        "name": "Senhora Orc"
+    },
+    {
+        "id": 1985,
+        "name": "Dandelion"
+    },
+    {
+        "id": 1986,
+        "name": "Tatacho"
+    },
+    {
+        "id": 1987,
+        "name": "Centop\u00e9ia"
+    },
+    {
+        "id": 1988,
+        "name": "Nepenthes"
+    },
+    {
+        "id": 1989,
+        "name": "Le\u00e3o da Montanha"
+    },
+    {
+        "id": 1990,
+        "name": "Mamute Rochoso"
+    },
+    {
+        "id": 1991,
+        "name": "Le\u00e3o de Vinhas"
+    },
+    {
+        "id": 1992,
+        "name": "Cornus"
+    },
+    {
+        "id": 1993,
+        "name": "Naga"
+    },
+    {
+        "id": 1994,
+        "name": "Vespa Vagalume"
+    },
+    {
+        "id": 1995,
+        "name": "Pinguicula"
+    },
+    {
+        "id": 1996,
+        "name": "White Lady"
+    },
+    {
+        "id": 1997,
+        "name": "Tatacho"
+    },
+    {
+        "id": 1998,
+        "name": "Le\u00e3o da Montanha"
+    },
+    {
+        "id": 1999,
+        "name": "Larva de Centop\u00e9ia"
+    },
+    {
+        "id": 2000,
+        "name": "Male Gamemaster"
+    },
+    {
+        "id": 2001,
+        "name": "Female Gamemaster"
+    },
+    {
+        "id": 2002,
+        "name": "Coelho Chin\u00eas"
+    },
+    {
+        "id": 2003,
+        "name": "Ninfa Chinesa"
+    },
+    {
+        "id": 2004,
+        "name": "Lady Chinesa"
+    },
+    {
+        "id": 2005,
+        "name": "Plasma"
+    },
+    {
+        "id": 2006,
+        "name": "Plasma"
+    },
+    {
+        "id": 2007,
+        "name": "Plasma"
+    },
+    {
+        "id": 2008,
+        "name": "Woomawang"
+    },
+    {
+        "id": 2009,
+        "name": "Woomawang"
+    },
+    {
+        "id": 2010,
+        "name": "Ox"
+    },
+    {
+        "id": 2011,
+        "name": "Carni\u00e7al"
+    },
+    {
+        "id": 2012,
+        "name": "Zumbi"
+    },
+    {
+        "id": 2013,
+        "name": "Draco"
+    },
+    {
+        "id": 2014,
+        "name": "Ovo de Draco"
+    },
+    {
+        "id": 2015,
+        "name": "Pinguicula Sombria"
+    },
+    {
+        "id": 2016,
+        "name": "Elemental da \u00c1gua"
+    },
+    {
+        "id": 2017,
+        "name": "Ratatosk"
+    },
+    {
+        "id": 2018,
+        "name": "Duneyrr"
+    },
+    {
+        "id": 2019,
+        "name": "\u00c1rvore Anci\u00e3 "
+    },
+    {
+        "id": 2020,
+        "name": "Rhyncho"
+    },
+    {
+        "id": 2021,
+        "name": "Phylla"
+    },
+    {
+        "id": 2022,
+        "name": "Sombra de Nidhogg"
+    },
+    {
+        "id": 2023,
+        "name": "Sombra Obscura"
+    },
+    {
+        "id": 2024,
+        "name": "Golem de Bradium"
+    },
+    {
+        "id": 2025,
+        "name": "Presentinho"
+    },
+    {
+        "id": 2026,
+        "name": "Dandelion Fugitivo"
+    },
+    {
+        "id": 2027,
+        "name": "Sombra Obscura"
+    },
+    {
+        "id": 2028,
+        "name": "Minorous"
+    },
+    {
+        "id": 2029,
+        "name": "Minorous"
+    },
+    {
+        "id": 2030,
+        "name": "Padre Escondido"
+    },
+    {
+        "id": 2031,
+        "name": "Dandelion Executivo"
+    },
+    {
+        "id": 2032,
+        "name": "Forest Guardian"
+    },
+    {
+        "id": 2033,
+        "name": "Golden Tulip"
+    },
+    {
+        "id": 2034,
+        "name": "Filhote de Lobo"
+    },
+    {
+        "id": 2035,
+        "name": "Pedra da Futilidade"
+    },
+    {
+        "id": 2036,
+        "name": "Pesadelo da Valqu\u00edria"
+    },
+    {
+        "id": 2037,
+        "name": "Valqu\u00edria"
+    },
+    {
+        "id": 2038,
+        "name": "Valqu\u00edria"
+    },
+    {
+        "id": 2039,
+        "name": "Executor"
+    },
+    {
+        "id": 2040,
+        "name": "Augertus"
+    },
+    {
+        "id": 2041,
+        "name": "Mysteltainn"
+    },
+    {
+        "id": 2042,
+        "name": "Artilheiro Prateado"
+    },
+    {
+        "id": 2043,
+        "name": "Distra\u00e7\u00e3o M\u00e1gica"
+    },
+    {
+        "id": 2044,
+        "name": "Distra\u00e7\u00e3o M\u00e1gica"
+    },
+    {
+        "id": 2045,
+        "name": "Distra\u00e7\u00e3o M\u00e1gica"
+    },
+    {
+        "id": 2046,
+        "name": "Distra\u00e7\u00e3o M\u00e1gica"
+    },
+    {
+        "id": 2047,
+        "name": "Naga"
+    },
+    {
+        "id": 2048,
+        "name": "Pinguicula"
+    },
+    {
+        "id": 2049,
+        "name": "Golem"
+    },
+    {
+        "id": 2050,
+        "name": "Elemental"
+    },
+    {
+        "id": 2051,
+        "name": "Bafom\u00e9 Invocado"
+    },
+    {
+        "id": 2052,
+        "name": "Senhor Invocado"
+    },
+    {
+        "id": 2053,
+        "name": "Dimik"
+    },
+    {
+        "id": 2054,
+        "name": "Bathory"
+    },
+    {
+        "id": 2055,
+        "name": "Incubus"
+    },
+    {
+        "id": 2056,
+        "name": "Zealotus"
+    },
+    {
+        "id": 2057,
+        "name": "Rato"
+    },
+    {
+        "id": 2058,
+        "name": "M\u00edmico"
+    },
+    {
+        "id": 2059,
+        "name": "Mascarado"
+    },
+    {
+        "id": 2060,
+        "name": "Alice"
+    },
+    {
+        "id": 2061,
+        "name": "Stapo"
+    },
+    {
+        "id": 2062,
+        "name": "Poporing"
+    },
+    {
+        "id": 2063,
+        "name": "Drops"
+    },
+    {
+        "id": 2064,
+        "name": "Magmaring"
+    },
+    {
+        "id": 2065,
+        "name": "Metaling"
+    },
+    {
+        "id": 2066,
+        "name": "Mestre dos Pernilongos"
+    },
+    {
+        "id": 2067,
+        "name": "Pernilongo"
+    },
+    {
+        "id": 2068,
+        "name": "Boitat\u00e1 "
+    },
+    {
+        "id": 2069,
+        "name": "Iara"
+    },
+    {
+        "id": 2070,
+        "name": "Esp\u00edrito da \u00c1gua"
+    },
+    {
+        "id": 2071,
+        "name": "Mula Sem Cabe\u00e7a"
+    },
+    {
+        "id": 2072,
+        "name": "Esp\u00edrito da Terra"
+    },
+    {
+        "id": 2073,
+        "name": "Esp\u00edrito do Vento"
+    },
+    {
+        "id": 2074,
+        "name": "Curupira"
+    },
+    {
+        "id": 2075,
+        "name": "Vadon X"
+    },
+    {
+        "id": 2076,
+        "name": "Sombra da Decep\u00e7\u00e3o"
+    },
+    {
+        "id": 2077,
+        "name": "Sombra da Ilus\u00e3o"
+    },
+    {
+        "id": 2078,
+        "name": "Sombra do Prazer"
+    },
+    {
+        "id": 2079,
+        "name": "Cristal M\u00e3e"
+    },
+    {
+        "id": 2080,
+        "name": "Cristal Enorme"
+    },
+    {
+        "id": 2081,
+        "name": "An\u00eamona"
+    },
+    {
+        "id": 2082,
+        "name": "Esp\u00edrito da \u00c1gua"
+    },
+    {
+        "id": 2083,
+        "name": "Scaraba Chifre"
+    },
+    {
+        "id": 2084,
+        "name": "Scaraba Chifres Duplos"
+    },
+    {
+        "id": 2085,
+        "name": "Scaraba Galhado"
+    },
+    {
+        "id": 2086,
+        "name": "Scaraba Ancinho"
+    },
+    {
+        "id": 2087,
+        "name": "Rainha Scaraba"
+    },
+    {
+        "id": 2088,
+        "name": "Ovo de Scaraba Chifre"
+    },
+    {
+        "id": 2089,
+        "name": "Ovo de Chifres Duplos"
+    },
+    {
+        "id": 2090,
+        "name": "Ovo de Scaraba Galhado"
+    },
+    {
+        "id": 2091,
+        "name": "Ovo de Scaraba Ancinho"
+    },
+    {
+        "id": 2092,
+        "name": "Dolomedes"
+    },
+    {
+        "id": 2093,
+        "name": "Botaring"
+    },
+    {
+        "id": 2094,
+        "name": "Orc Her\u00f3i Corrompido"
+    },
+    {
+        "id": 2095,
+        "name": "Eddga"
+    },
+    {
+        "id": 2096,
+        "name": "Osiris"
+    },
+    {
+        "id": 2097,
+        "name": "Dracula"
+    },
+    {
+        "id": 2098,
+        "name": "Doppelganger"
+    },
+    {
+        "id": 2099,
+        "name": "Mistress"
+    },
+    {
+        "id": 2100,
+        "name": "Baphomet"
+    },
+    {
+        "id": 2101,
+        "name": "Lord Of Death"
+    },
+    {
+        "id": 2102,
+        "name": "Dark Lord"
+    },
+    {
+        "id": 2103,
+        "name": "Ktullanux"
+    },
+    {
+        "id": 2104,
+        "name": "Evil Snake Lord"
+    },
+    {
+        "id": 2105,
+        "name": "Turtle General"
+    },
+    {
+        "id": 2106,
+        "name": "Vesper"
+    },
+    {
+        "id": 2107,
+        "name": "Fallen Bishop"
+    },
+    {
+        "id": 2108,
+        "name": "Gloom Under Night"
+    },
+    {
+        "id": 2109,
+        "name": "Valkyrie Randgris"
+    },
+    {
+        "id": 2110,
+        "name": "Ifrit"
+    },
+    {
+        "id": 2111,
+        "name": "Mastersmith Howard"
+    },
+    {
+        "id": 2112,
+        "name": "Lord Knight Seyren"
+    },
+    {
+        "id": 2113,
+        "name": "Assassin Cross Eremes"
+    },
+    {
+        "id": 2114,
+        "name": "Agni"
+    },
+    {
+        "id": 2115,
+        "name": "Agni"
+    },
+    {
+        "id": 2116,
+        "name": "Agni"
+    },
+    {
+        "id": 2117,
+        "name": "Varuna"
+    },
+    {
+        "id": 2118,
+        "name": "Varuna"
+    },
+    {
+        "id": 2119,
+        "name": "Varuna"
+    },
+    {
+        "id": 2120,
+        "name": "Vayu"
+    },
+    {
+        "id": 2121,
+        "name": "Vayu"
+    },
+    {
+        "id": 2122,
+        "name": "Vayu"
+    },
+    {
+        "id": 2123,
+        "name": "Chandra"
+    },
+    {
+        "id": 2124,
+        "name": "Chandra"
+    },
+    {
+        "id": 2125,
+        "name": "Chandra"
+    },
+    {
+        "id": 2126,
+        "name": "Anopheles"
+    },
+    {
+        "id": 2127,
+        "name": "Hornet"
+    },
+    {
+        "id": 2128,
+        "name": "Hornet"
+    },
+    {
+        "id": 2129,
+        "name": "Luciola Vespa"
+    },
+    {
+        "id": 2130,
+        "name": "Luciola Vespa"
+    },
+    {
+        "id": 2131,
+        "name": "Drag\u00e3o P\u00farpura"
+    },
+    {
+        "id": 2132,
+        "name": "Aranha Pom"
+    },
+    {
+        "id": 2133,
+        "name": "Louva-a-deus Angra"
+    },
+    {
+        "id": 2134,
+        "name": "Chapim"
+    },
+    {
+        "id": 2135,
+        "name": "Trepadeira"
+    },
+    {
+        "id": 2136,
+        "name": "Pequeno Fatum"
+    },
+    {
+        "id": 2137,
+        "name": "Plagiador"
+    },
+    {
+        "id": 2138,
+        "name": "Lembran\u00e7a da Guardi\u00e3 "
+    },
+    {
+        "id": 2139,
+        "name": "Lembran\u00e7a da Guardi\u00e3 "
+    },
+    {
+        "id": 2140,
+        "name": "Lembran\u00e7a da Guardi\u00e3 "
+    },
+    {
+        "id": 2141,
+        "name": "Lembran\u00e7a da Guardi\u00e3 "
+    },
+    {
+        "id": 2142,
+        "name": "Lembran\u00e7a da Guardi\u00e3 "
+    },
+    {
+        "id": 2143,
+        "name": "Lembran\u00e7a da Guardi\u00e3 "
+    },
+    {
+        "id": 2144,
+        "name": "Scaraba Galhado"
+    },
+    {
+        "id": 2145,
+        "name": "Scaraba Ancinho"
+    },
+    {
+        "id": 2146,
+        "name": "Sombra do Drag\u00e3o"
+    },
+    {
+        "id": 2147,
+        "name": "White Plant"
+    },
+    {
+        "id": 2148,
+        "name": "Blue Plant"
+    },
+    {
+        "id": 2149,
+        "name": "Savage Babe"
+    },
+    {
+        "id": 2150,
+        "name": "Watermelon"
+    },
+    {
+        "id": 2151,
+        "name": "Rafflesia Alnoldi"
+    },
+    {
+        "id": 2152,
+        "name": "Comodo"
+    },
+    {
+        "id": 2153,
+        "name": "Cendrawasih"
+    },
+    {
+        "id": 2154,
+        "name": "Banaspaty"
+    },
+    {
+        "id": 2155,
+        "name": "Butoijo"
+    },
+    {
+        "id": 2156,
+        "name": "Leak"
+    },
+    {
+        "id": 2157,
+        "name": "Banaspaty"
+    },
+    {
+        "id": 2158,
+        "name": "Hornet"
+    },
+    {
+        "id": 2159,
+        "name": "Giant Hornet"
+    },
+    {
+        "id": 2160,
+        "name": "Luciola Vespa"
+    },
+    {
+        "id": 2161,
+        "name": "Scaraba Chifre"
+    },
+    {
+        "id": 2162,
+        "name": "Scaraba Chifres Duplos"
+    },
+    {
+        "id": 2163,
+        "name": "Scaraba Galhado"
+    },
+    {
+        "id": 2164,
+        "name": "Scaraba Ancinho"
+    },
+    {
+        "id": 2165,
+        "name": "Rainha Scaraba"
+    },
+    {
+        "id": 2166,
+        "name": "Ovo de Scaraba Chifre"
+    },
+    {
+        "id": 2167,
+        "name": "Ovo de Chifres Duplos"
+    },
+    {
+        "id": 2168,
+        "name": "Ovo de Scaraba Galhado"
+    },
+    {
+        "id": 2169,
+        "name": "Ovo de Scaraba Ancinho"
+    },
+    {
+        "id": 2170,
+        "name": "Scaraba Galhado"
+    },
+    {
+        "id": 2171,
+        "name": "Scaraba Ancinho"
+    },
+    {
+        "id": 2172,
+        "name": "Scaraba Chifre"
+    },
+    {
+        "id": 2173,
+        "name": "Scaraba Chifres Duplos"
+    },
+    {
+        "id": 2174,
+        "name": "Vadon Ancestral"
+    },
+    {
+        "id": 2175,
+        "name": "Marte das Profundezas"
+    },
+    {
+        "id": 2176,
+        "name": "Caranguejo das Profundezas"
+    },
+    {
+        "id": 2177,
+        "name": "Cornutus das Profundezas"
+    },
+    {
+        "id": 2178,
+        "name": "Ostra das Profundezas"
+    },
+    {
+        "id": 2179,
+        "name": "Kukre Ancestral"
+    },
+    {
+        "id": 2180,
+        "name": "Strouf Ancestral"
+    },
+    {
+        "id": 2181,
+        "name": "Peixe-espada Ancestral"
+    },
+    {
+        "id": 2182,
+        "name": "Cavalo-marinho das Profundezas"
+    },
+    {
+        "id": 2183,
+        "name": "Anolian Mutante"
+    },
+    {
+        "id": 2184,
+        "name": "Obeaune Ancestral"
+    },
+    {
+        "id": 2185,
+        "name": "Kapha Metamorfo"
+    },
+    {
+        "id": 2186,
+        "name": "Celacanto"
+    },
+    {
+        "id": 2187,
+        "name": "Celacanto Sombrio"
+    },
+    {
+        "id": 2188,
+        "name": "Celacanto Cruel"
+    },
+    {
+        "id": 2189,
+        "name": "Celacanto Mutante"
+    },
+    {
+        "id": 2190,
+        "name": "Celacanto Violento"
+    },
+    {
+        "id": 2191,
+        "name": "Alga"
+    },
+    {
+        "id": 2192,
+        "name": "Polvo Pequeno"
+    },
+    {
+        "id": 2193,
+        "name": "Tent\u00e1culo de Polvo"
+    },
+    {
+        "id": 2194,
+        "name": "Polvo Gigante"
+    },
+    {
+        "id": 2195,
+        "name": "Kukre Ancestral"
+    },
+    {
+        "id": 2196,
+        "name": "Strouf Ancestral"
+    },
+    {
+        "id": 2197,
+        "name": "Eruma Vermelho"
+    },
+    {
+        "id": 2198,
+        "name": "Dramoh Rei"
+    },
+    {
+        "id": 2199,
+        "name": "Siorava"
+    },
+    {
+        "id": 2200,
+        "name": "Taini"
+    },
+    {
+        "id": 2201,
+        "name": "Sropho"
+    },
+    {
+        "id": 2202,
+        "name": "Kraken"
+    },
+    {
+        "id": 2203,
+        "name": "Dofle"
+    },
+    {
+        "id": 2204,
+        "name": "Sedora"
+    },
+    {
+        "id": 2205,
+        "name": "Tacnu"
+    },
+    {
+        "id": 2206,
+        "name": "Perna de Kraken"
+    },
+    {
+        "id": 2207,
+        "name": "Racarch"
+    },
+    {
+        "id": 2208,
+        "name": "Montaria Selvagem"
+    },
+    {
+        "id": 2209,
+        "name": "Quick Dark Shadow"
+    },
+    {
+        "id": 2210,
+        "name": "Lebre da Neve"
+    },
+    {
+        "id": 2211,
+        "name": "Ursinho de Natal"
+    },
+    {
+        "id": 2212,
+        "name": "Cavaleiro Invocado"
+    },
+    {
+        "id": 2213,
+        "name": "Wanderer"
+    },
+    {
+        "id": 2214,
+        "name": "Wicked Nymph"
+    },
+    {
+        "id": 2215,
+        "name": "Kasa"
+    },
+    {
+        "id": 2216,
+        "name": "Salamander"
+    },
+    {
+        "id": 2217,
+        "name": "Teddy Bear"
+    },
+    {
+        "id": 2218,
+        "name": "Tent\u00e1culo de Polvo"
+    },
+    {
+        "id": 2219,
+        "name": "Polvo Rei"
+    },
+    {
+        "id": 2220,
+        "name": "Mensageiro do Inferno"
+    },
+    {
+        "id": 2221,
+        "name": "Randel Lawrence"
+    },
+    {
+        "id": 2222,
+        "name": "Flamer Emul"
+    },
+    {
+        "id": 2223,
+        "name": "Celia Alde"
+    },
+    {
+        "id": 2224,
+        "name": "Chen Liu"
+    },
+    {
+        "id": 2225,
+        "name": "Gertie We"
+    },
+    {
+        "id": 2226,
+        "name": "Alphoccio Basil"
+    },
+    {
+        "id": 2227,
+        "name": "Trentini"
+    },
+    {
+        "id": 2228,
+        "name": "Paladino Randel"
+    },
+    {
+        "id": 2229,
+        "name": "Criador Flamel"
+    },
+    {
+        "id": 2230,
+        "name": "Professora Celia"
+    },
+    {
+        "id": 2231,
+        "name": "Mestre Chen"
+    },
+    {
+        "id": 2232,
+        "name": "Desordeira Gertie"
+    },
+    {
+        "id": 2233,
+        "name": "Menestrel Alphochio"
+    },
+    {
+        "id": 2234,
+        "name": "Cigana Trentini"
+    },
+    {
+        "id": 2235,
+        "name": "Paladino Randel"
+    },
+    {
+        "id": 2236,
+        "name": "Criador Flamer"
+    },
+    {
+        "id": 2237,
+        "name": "Professora Celia"
+    },
+    {
+        "id": 2238,
+        "name": "Mestre Chen"
+    },
+    {
+        "id": 2239,
+        "name": "Desordeira Gertie"
+    },
+    {
+        "id": 2240,
+        "name": "Menestrel Alphoccio"
+    },
+    {
+        "id": 2241,
+        "name": "Cigana Trentini"
+    },
+    {
+        "id": 2242,
+        "name": "Cobaia Faminta"
+    },
+    {
+        "id": 2243,
+        "name": "Cobaia Faminta"
+    },
+    {
+        "id": 2244,
+        "name": "Mestre"
+    },
+    {
+        "id": 2245,
+        "name": "Soldado"
+    },
+    {
+        "id": 2246,
+        "name": "Guerreiro Wootan"
+    },
+    {
+        "id": 2247,
+        "name": "Mi Gao"
+    },
+    {
+        "id": 2248,
+        "name": "Poring Dourado"
+    },
+    {
+        "id": 2249,
+        "name": "Pyuriel Furiosa"
+    },
+    {
+        "id": 2250,
+        "name": "Guerreira Laura"
+    },
+    {
+        "id": 2251,
+        "name": "Gioia"
+    },
+    {
+        "id": 2252,
+        "name": "Elvira"
+    },
+    {
+        "id": 2253,
+        "name": "General Daehyun"
+    },
+    {
+        "id": 2254,
+        "name": "Samurai Soheon"
+    },
+    {
+        "id": 2255,
+        "name": "Guardi\u00e3o Morto Kades"
+    },
+    {
+        "id": 2256,
+        "name": "Rudo"
+    },
+    {
+        "id": 2257,
+        "name": "Piamette"
+    },
+    {
+        "id": 2258,
+        "name": "Piamette"
+    },
+    {
+        "id": 2259,
+        "name": "Jardineiro"
+    },
+    {
+        "id": 2260,
+        "name": "Jardineiro"
+    },
+    {
+        "id": 2261,
+        "name": "Vigia do Jardim"
+    },
+    {
+        "id": 2262,
+        "name": "Vigia do Jardim"
+    },
+    {
+        "id": 2263,
+        "name": "Donzela dos Desejos"
+    },
+    {
+        "id": 2264,
+        "name": "Armeyer Dinze"
+    },
+    {
+        "id": 2265,
+        "name": "Armeyer Dinze"
+    },
+    {
+        "id": 2266,
+        "name": "Errende Ebecee"
+    },
+    {
+        "id": 2267,
+        "name": "Errende Ebecee"
+    },
+    {
+        "id": 2268,
+        "name": "Kavach Icarus"
+    },
+    {
+        "id": 2269,
+        "name": "Kavach Icarus"
+    },
+    {
+        "id": 2270,
+        "name": "Laurell Weinder"
+    },
+    {
+        "id": 2271,
+        "name": "Laurell Weinder"
+    },
+    {
+        "id": 2272,
+        "name": "Wickebine Tres"
+    },
+    {
+        "id": 2273,
+        "name": "Wickebine Tres"
+    },
+    {
+        "id": 2274,
+        "name": "Egnigem Cenia"
+    },
+    {
+        "id": 2275,
+        "name": "Egnigem Cenia"
+    },
+    {
+        "id": 2276,
+        "name": "Doppelganger"
+    },
+    {
+        "id": 2277,
+        "name": "Guerreira Laura"
+    },
+    {
+        "id": 2278,
+        "name": "Elvira"
+    },
+    {
+        "id": 2279,
+        "name": "Samurai Soheon"
+    },
+    {
+        "id": 2280,
+        "name": "Rudo"
+    },
+    {
+        "id": 2281,
+        "name": "Sombra Abissal"
+    },
+    {
+        "id": 2282,
+        "name": "Moldura Abissal"
+    },
+    {
+        "id": 2283,
+        "name": "Sacerdote Abissal"
+    },
+    {
+        "id": 2284,
+        "name": "Kobold Abissal"
+    },
+    {
+        "id": 2285,
+        "name": "Kobold Abissal"
+    },
+    {
+        "id": 2286,
+        "name": "Kobold Abissal"
+    },
+    {
+        "id": 2287,
+        "name": "Arqueiro Abissal"
+    },
+    {
+        "id": 2288,
+        "name": "Velha Arca do Tesouro"
+    },
+    {
+        "id": 2289,
+        "name": "\uc5d0 \ud30c\ube0c\ub808"
+    },
+    {
+        "id": 2290,
+        "name": "\uc774 \ud2f0\ud504 \ubd80\ud06c"
+    },
+    {
+        "id": 2291,
+        "name": "\uc5d0 \ud638\ub974\ub124\ud2b8"
+    },
+    {
+        "id": 2292,
+        "name": "\uc5d0 \ud638\ub978"
+    },
+    {
+        "id": 2293,
+        "name": "\uc5d0 \ud0a8\ud2b8 \uc624\ud504 \ubca0\ud2c0\ub808"
+    },
+    {
+        "id": 2294,
+        "name": "\uc5d0 \uc544\ub974\uae30\uc624\ud398"
+    },
+    {
+        "id": 2295,
+        "name": "\uc5d0 \uae30\uc548\ud2b8 \uc288\ud53c\ub354"
+    },
+    {
+        "id": 2296,
+        "name": "\uc5d0 \ud0ac\ub7ec \ub9cc\ud2f0\uc2a4"
+    },
+    {
+        "id": 2297,
+        "name": "\uc5d0 \uae30\uc548\ud2b8 \ud638\ub124\ud2b8"
+    },
+    {
+        "id": 2298,
+        "name": "\uc5d0 \ub4dc\ub77c\uace4 \ud0c0\uc77c"
+    },
+    {
+        "id": 2299,
+        "name": "\uc5d0 \uc288\ud0c0\uc774\ub108"
+    },
+    {
+        "id": 2300,
+        "name": "\uc5d0 \ud63c\ud63c"
+    },
+    {
+        "id": 2301,
+        "name": "\uc5d0 \uc288\ud154 \ud63c\ud63c"
+    },
+    {
+        "id": 2302,
+        "name": "\uc5d0 \ud6c8\ud130 \ud50c\ub93c"
+    },
+    {
+        "id": 2303,
+        "name": "\uc5d0 \ub9c8\uc704\uc544"
+    },
+    {
+        "id": 2304,
+        "name": "\uc5d0 q\uc704\uc5d4 \uc288\uce74\ub77c\ubc14"
+    },
+    {
+        "id": 2305,
+        "name": "\uc5d0 \uc6c5\uace8\ub9ac\uc548\ud2b8"
+    },
+    {
+        "id": 2306,
+        "name": "Besouro Invocado"
+    },
+    {
+        "id": 2307,
+        "name": "\uc774 \ubbf8\uc2a4\ud2b8\ub808\uc2a4"
+    },
+    {
+        "id": 2308,
+        "name": "\ucf54 \ucc2c\ucd08\uc6b0"
+    },
+    {
+        "id": 2309,
+        "name": "Bungisngis"
+    },
+    {
+        "id": 2310,
+        "name": "Engkanto"
+    },
+    {
+        "id": 2311,
+        "name": "Manananggal"
+    },
+    {
+        "id": 2312,
+        "name": "Mangkukulam"
+    },
+    {
+        "id": 2313,
+        "name": "Tikbalang"
+    },
+    {
+        "id": 2314,
+        "name": "Tiyanak"
+    },
+    {
+        "id": 2315,
+        "name": "Wakwak"
+    },
+    {
+        "id": 2316,
+        "name": "Jejeling"
+    },
+    {
+        "id": 2317,
+        "name": "Bangungot"
+    },
+    {
+        "id": 2318,
+        "name": "Bangungot"
+    },
+    {
+        "id": 2319,
+        "name": "Buwaya"
+    },
+    {
+        "id": 2320,
+        "name": "Bakonawa"
+    },
+    {
+        "id": 2321,
+        "name": "Bakonawa"
+    },
+    {
+        "id": 2322,
+        "name": "Bakonawa"
+    },
+    {
+        "id": 2323,
+        "name": "\uc5d0\ud39c\ud2b8 \ubd04\ud504"
+    },
+    {
+        "id": 2324,
+        "name": "\uc5d0\ud39c\ud2b8 \ub791\uac8c"
+    },
+    {
+        "id": 2325,
+        "name": "Bafom\u00e9 Jr."
+    },
+    {
+        "id": 2326,
+        "name": "Galapago"
+    },
+    {
+        "id": 2327,
+        "name": "Bangungot"
+    },
+    {
+        "id": 2328,
+        "name": "Gongo"
+    },
+    {
+        "id": 2329,
+        "name": "Ovo de Buwaya"
+    },
+    {
+        "id": 2330,
+        "name": "Escravo de Buwaya"
+    },
+    {
+        "id": 2331,
+        "name": "Alga de Malaya"
+    },
+    {
+        "id": 2332,
+        "name": "Buwaya"
+    },
+    {
+        "id": 2333,
+        "name": "Ponto Fraco"
+    },
+    {
+        "id": 2334,
+        "name": "Wakwak"
+    },
+    {
+        "id": 2335,
+        "name": "Tesouro de Bakonawa"
+    },
+    {
+        "id": 2336,
+        "name": "Domovoi"
+    },
+    {
+        "id": 2337,
+        "name": "Monstro"
+    },
+    {
+        "id": 2338,
+        "name": "Manananggal"
+    },
+    {
+        "id": 2339,
+        "name": "Mangkukulam"
+    },
+    {
+        "id": 2340,
+        "name": "Tiyanak"
+    },
+    {
+        "id": 2341,
+        "name": "Hrist"
+    },
+    {
+        "id": 2342,
+        "name": "Diabolik"
+    },
+    {
+        "id": 2343,
+        "name": "Monstro"
+    },
+    {
+        "id": 2344,
+        "name": "Dama dos Desejos"
+    },
+    {
+        "id": 2345,
+        "name": "Jirtas"
+    },
+    {
+        "id": 2346,
+        "name": "Ktullanux"
+    },
+    {
+        "id": 2347,
+        "name": "Eddga"
+    },
+    {
+        "id": 2348,
+        "name": "Civil Servant"
+    },
+    {
+        "id": 2349,
+        "name": "Loli Ruri"
+    },
+    {
+        "id": 2350,
+        "name": "Sedora"
+    },
+    {
+        "id": 2351,
+        "name": "Chepet"
+    },
+    {
+        "id": 2352,
+        "name": "RSX-0805"
+    },
+    {
+        "id": 2353,
+        "name": "Minorous Pesadelo"
+    },
+    {
+        "id": 2354,
+        "name": "M\u00famia Pesadelo"
+    },
+    {
+        "id": 2355,
+        "name": "Verit Pesadelo"
+    },
+    {
+        "id": 2356,
+        "name": "M\u00edmico Pesadelo"
+    },
+    {
+        "id": 2357,
+        "name": "M\u00edmico Pesadelo"
+    },
+    {
+        "id": 2358,
+        "name": "Arclouse Pesadelo"
+    },
+    {
+        "id": 2359,
+        "name": "Arclouse Pesadelo"
+    },
+    {
+        "id": 2360,
+        "name": "M\u00famia Anci\u00e3 Pesadelo"
+    },
+    {
+        "id": 2361,
+        "name": "M\u00famia Anci\u00e3 Pesadelo"
+    },
+    {
+        "id": 2362,
+        "name": "Amon Ra Pesadelo"
+    },
+    {
+        "id": 2363,
+        "name": "Menblatt"
+    },
+    {
+        "id": 2364,
+        "name": "Petal"
+    },
+    {
+        "id": 2365,
+        "name": "Cenere"
+    },
+    {
+        "id": 2366,
+        "name": "Antigo Livro Danificado"
+    },
+    {
+        "id": 2367,
+        "name": "Lichtern Laguz"
+    },
+    {
+        "id": 2368,
+        "name": "Lichtern Anzus"
+    },
+    {
+        "id": 2369,
+        "name": "Lichtern Kenaz"
+    },
+    {
+        "id": 2370,
+        "name": "Lichtern Inguz"
+    },
+    {
+        "id": 2371,
+        "name": "Gerente de Bifr\u00f6st"
+    },
+    {
+        "id": 2372,
+        "name": "Monte de Terra"
+    },
+    {
+        "id": 2373,
+        "name": "Pedra"
+    },
+    {
+        "id": 2374,
+        "name": "Monte de Mato"
+    },
+    {
+        "id": 2375,
+        "name": "Suspeito"
+    },
+    {
+        "id": 2376,
+        "name": "Devoto de Morroc"
+    },
+    {
+        "id": 2377,
+        "name": "Filhote Foragido"
+    },
+    {
+        "id": 2378,
+        "name": "Antler Scaraba"
+    },
+    {
+        "id": 2379,
+        "name": "Fumacento em Meias"
+    },
+    {
+        "id": 2380,
+        "name": "Fumacento Natalino"
+    },
+    {
+        "id": 2381,
+        "name": "\ubc14\ub3c8"
+    },
+    {
+        "id": 2382,
+        "name": "\ub77c\uac04\ud0c0"
+    },
+    {
+        "id": 2383,
+        "name": "\ubc14\ub3c8"
+    },
+    {
+        "id": 2384,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2385,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2386,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2387,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2388,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2389,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2390,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2391,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2392,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2393,
+        "name": "\ud06c\ub77c\ucf04 \ub2e4\ub9ac"
+    },
+    {
+        "id": 2394,
+        "name": "\uba38\ub9e8"
+    },
+    {
+        "id": 2395,
+        "name": "\uc138\uc774\ub80c"
+    },
+    {
+        "id": 2396,
+        "name": "\ud3ec\uc138\uc774\ub3c8"
+    },
+    {
+        "id": 2397,
+        "name": "\uc544\uae30 \ud06c\ub77c\ucf04"
+    },
+    {
+        "id": 2398,
+        "name": "Beb\u00ea Poring"
+    },
+    {
+        "id": 2399,
+        "name": "\ucd08\ucf54\ub8e8\uce58 \ubaa8\uce74"
+    },
+    {
+        "id": 2400,
+        "name": "\ucd08\ucf54\ub8e8\uce58 \ube44\ud130"
+    },
+    {
+        "id": 2401,
+        "name": "Alvo de Pr\u00e1tica"
+    },
+    {
+        "id": 2402,
+        "name": "Poporing Anti-Magia"
+    },
+    {
+        "id": 2403,
+        "name": "Poporing Anti-Ataques"
+    },
+    {
+        "id": 2404,
+        "name": "Pl\u00e2ncton Morto"
+    },
+    {
+        "id": 2405,
+        "name": "Esqueleto Fr\u00e1gil"
+    },
+    {
+        "id": 2406,
+        "name": "Soldado Fr\u00e1gil"
+    },
+    {
+        "id": 2407,
+        "name": "Esqueleto Marinheiro"
+    },
+    {
+        "id": 2408,
+        "name": "Ovo N\u00edvel 10"
+    },
+    {
+        "id": 2409,
+        "name": "Ovo N\u00edvel 50"
+    },
+    {
+        "id": 2410,
+        "name": "Ovo N\u00edvel 100"
+    },
+    {
+        "id": 2411,
+        "name": "Ovo N\u00edvel 150"
+    },
+    {
+        "id": 2412,
+        "name": "\ubc1d\ud788\ub9ac"
+    },
+    {
+        "id": 2413,
+        "name": "Ovo N\u00edvel 10 (Fogo)"
+    },
+    {
+        "id": 2414,
+        "name": "Runaway Book"
+    },
+    {
+        "id": 2415,
+        "name": "Cavaleiro"
+    },
+    {
+        "id": 2416,
+        "name": "Mercen\u00e1rio"
+    },
+    {
+        "id": 2417,
+        "name": "Ferreiro"
+    },
+    {
+        "id": 2418,
+        "name": "Ca\u00e7adora"
+    },
+    {
+        "id": 2419,
+        "name": "Bruxa"
+    },
+    {
+        "id": 2420,
+        "name": "Sacerdotisa"
+    },
+    {
+        "id": 2421,
+        "name": "Templ\u00e1ria"
+    },
+    {
+        "id": 2422,
+        "name": "Arruaceira"
+    },
+    {
+        "id": 2423,
+        "name": "Alquimista"
+    },
+    {
+        "id": 2424,
+        "name": "Bardo"
+    },
+    {
+        "id": 2425,
+        "name": "Odalisca"
+    },
+    {
+        "id": 2426,
+        "name": "S\u00e1bio"
+    },
+    {
+        "id": 2427,
+        "name": "Monge"
+    },
+    {
+        "id": 2428,
+        "name": "Cavaleiro Seyren"
+    },
+    {
+        "id": 2429,
+        "name": "Mercen\u00e1rio Eremes"
+    },
+    {
+        "id": 2430,
+        "name": "Ferreiro Howard"
+    },
+    {
+        "id": 2431,
+        "name": "Ca\u00e7adora Cecil"
+    },
+    {
+        "id": 2432,
+        "name": "Bruxa Kathryne"
+    },
+    {
+        "id": 2433,
+        "name": "Sacerdotisa Margaretha"
+    },
+    {
+        "id": 2434,
+        "name": "Templ\u00e1ria Egnigem"
+    },
+    {
+        "id": 2435,
+        "name": "Arruaceira Wikebine"
+    },
+    {
+        "id": 2436,
+        "name": "Alquimista Armeyer"
+    },
+    {
+        "id": 2437,
+        "name": "Bardo Kavach"
+    },
+    {
+        "id": 2438,
+        "name": "Odalisca Trentinni"
+    },
+    {
+        "id": 2439,
+        "name": "S\u00e1bio Laurell"
+    },
+    {
+        "id": 2440,
+        "name": "Monge Errende"
+    },
+    {
+        "id": 2441,
+        "name": "Aprendiz"
+    },
+    {
+        "id": 2442,
+        "name": "Superaprendiz"
+    },
+    {
+        "id": 2443,
+        "name": "Aira"
+    },
+    {
+        "id": 2444,
+        "name": "Kuluna"
+    },
+    {
+        "id": 2445,
+        "name": "Mallina"
+    },
+    {
+        "id": 2446,
+        "name": "Ezella"
+    },
+    {
+        "id": 2447,
+        "name": "Lune"
+    },
+    {
+        "id": 2448,
+        "name": "Morin"
+    },
+    {
+        "id": 2449,
+        "name": "Nasarin"
+    },
+    {
+        "id": 2450,
+        "name": "Poring Suspeito"
+    },
+    {
+        "id": 2451,
+        "name": "Beb\u00ea Suspeito"
+    },
+    {
+        "id": 2452,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2453,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2454,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2455,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2456,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2457,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2458,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2459,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2460,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2461,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2462,
+        "name": "Ba\u00fa do Tesouro"
+    },
+    {
+        "id": 2463,
+        "name": "\ud3ed\ud0c4\ub9c1"
+    },
+    {
+        "id": 2464,
+        "name": "Zumbi Amaldi\u00e7oado"
+    },
+    {
+        "id": 2465,
+        "name": "Alma Amaldi\u00e7oada"
+    },
+    {
+        "id": 2466,
+        "name": "Carni\u00e7al Amaldi\u00e7oado"
+    },
+    {
+        "id": 2467,
+        "name": "Arclouse Amaldi\u00e7oado"
+    },
+    {
+        "id": 2468,
+        "name": "Raydric Amaldi\u00e7oado"
+    },
+    {
+        "id": 2469,
+        "name": "Arqueiro Amaldi\u00e7oado"
+    },
+    {
+        "id": 2470,
+        "name": "Amaldi\u00e7oado do Abismo"
+    },
+    {
+        "id": 2471,
+        "name": "Khalitzburg Amaldi\u00e7oado"
+    },
+    {
+        "id": 2472,
+        "name": "Sanguin\u00e1rio Amaldi\u00e7oado"
+    },
+    {
+        "id": 2473,
+        "name": "Cavaleiro Desmorto"
+    },
+    {
+        "id": 2474,
+        "name": "Cavaleira Desmorta"
+    },
+    {
+        "id": 2475,
+        "name": "Origem da Maldi\u00e7\u00e3o"
+    },
+    {
+        "id": 2476,
+        "name": "Amdarais"
+    },
+    {
+        "id": 2477,
+        "name": "Andarilho Amaldi\u00e7oado"
+    },
+    {
+        "id": 2478,
+        "name": "Rideword Distorcido"
+    },
+    {
+        "id": 2479,
+        "name": "M\u00edmico Distorcido"
+    },
+    {
+        "id": 2480,
+        "name": "Druida Amaldi\u00e7oado"
+    },
+    {
+        "id": 2481,
+        "name": "Apari\u00e7\u00e3o Amaldi\u00e7oada"
+    },
+    {
+        "id": 2482,
+        "name": "Khalitzburg Amaldi\u00e7oada"
+    },
+    {
+        "id": 2483,
+        "name": "Bafom\u00e9 Amaldi\u00e7oado"
+    },
+    {
+        "id": 2484,
+        "name": "Bafom\u00e9 Jr. Amaldi\u00e7oado"
+    },
+    {
+        "id": 2485,
+        "name": "Quimera Amaldi\u00e7oada"
+    },
+    {
+        "id": 2486,
+        "name": "Cultist"
+    },
+    {
+        "id": 2487,
+        "name": "Cultist"
+    },
+    {
+        "id": 2488,
+        "name": "Amset-Ra"
+    },
+    {
+        "id": 2489,
+        "name": "[GM]\ubcf4\ub9ac"
+    },
+    {
+        "id": 2490,
+        "name": "[GM]\uc138\uc774"
+    },
+    {
+        "id": 2491,
+        "name": "[GM]\uc2a4\ubaa8\ud0a4"
+    },
+    {
+        "id": 2492,
+        "name": "[GM]\ud53c\ub2c9\uc2a4"
+    },
+    {
+        "id": 2493,
+        "name": "[GM]\ud5e4\ub974\uba54\uc2a4"
+    },
+    {
+        "id": 2494,
+        "name": "[GM]\ud788\ub098\ub808"
+    },
+    {
+        "id": 2496,
+        "name": "\uc6b0\uc790\uc2a4"
+    },
+    {
+        "id": 2497,
+        "name": "\ub3c4\uae68\ube44"
+    },
+    {
+        "id": 2498,
+        "name": "\uc704\uc2dc \uba54\uc774\ub4e0"
+    },
+    {
+        "id": 2499,
+        "name": "\ud3ec\ub9c1"
+    },
+    {
+        "id": 2500,
+        "name": "\uba54\uac08\ub85c\ub3c8"
+    },
+    {
+        "id": 2501,
+        "name": "Aged Cornutus"
+    },
+    {
+        "id": 2502,
+        "name": "Aged Deviace"
+    },
+    {
+        "id": 2503,
+        "name": "Aged Hydra"
+    },
+    {
+        "id": 2504,
+        "name": "Aged Kukre"
+    },
+    {
+        "id": 2505,
+        "name": "Aged Marc"
+    },
+    {
+        "id": 2506,
+        "name": "Aged Marina"
+    },
+    {
+        "id": 2507,
+        "name": "Aged Marine Sphere"
+    },
+    {
+        "id": 2508,
+        "name": "Aged Marse"
+    },
+    {
+        "id": 2509,
+        "name": "Aged Merman"
+    },
+    {
+        "id": 2510,
+        "name": "Aged Obeaune"
+    },
+    {
+        "id": 2511,
+        "name": "Aged Phen"
+    },
+    {
+        "id": 2512,
+        "name": "Aged Plankton"
+    },
+    {
+        "id": 2513,
+        "name": "Aged Strouf"
+    },
+    {
+        "id": 2514,
+        "name": "Aged Swordfish"
+    },
+    {
+        "id": 2515,
+        "name": "Aged Vadon"
+    },
+    {
+        "id": 2516,
+        "name": "\uc218\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 2517,
+        "name": "\uc218\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 2518,
+        "name": "\uc218\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 2519,
+        "name": "\uc9c0\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 2520,
+        "name": "\uc9c0\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 2521,
+        "name": "\uc9c0\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 2522,
+        "name": "\ud654\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 2523,
+        "name": "\ud654\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 2524,
+        "name": "\ud654\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 2525,
+        "name": "\ud48d\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 2526,
+        "name": "Bandit"
+    },
+    {
+        "id": 2527,
+        "name": "Anopheles"
+    },
+    {
+        "id": 2528,
+        "name": "Verme com Rosto"
+    },
+    {
+        "id": 2529,
+        "name": "Rainha Verme"
+    },
+    {
+        "id": 2530,
+        "name": "Verme Sombrio com Rosto"
+    },
+    {
+        "id": 2531,
+        "name": "Inseto Venenoso"
+    },
+    {
+        "id": 2532,
+        "name": "Rainha Verme"
+    },
+    {
+        "id": 2533,
+        "name": "Rainha Verme"
+    },
+    {
+        "id": 2534,
+        "name": "Rainha Verme"
+    },
+    {
+        "id": 2535,
+        "name": "Rainha Verme"
+    },
+    {
+        "id": 2538,
+        "name": "Rei Poring"
+    },
+    {
+        "id": 2540,
+        "name": "Ovo de Verme com Rosto"
+    },
+    {
+        "id": 2541,
+        "name": "Larva de Verme"
+    },
+    {
+        "id": 2542,
+        "name": "Lorde Irine"
+    },
+    {
+        "id": 2543,
+        "name": "Guarda de Payon"
+    },
+    {
+        "id": 2544,
+        "name": "Soldado de Payon"
+    },
+    {
+        "id": 2545,
+        "name": "Lobo da Guarda"
+    },
+    {
+        "id": 2546,
+        "name": "Lobo da Guarda Feroz"
+    },
+    {
+        "id": 2547,
+        "name": "\ud558\ud2f0\ubca0\ubca0"
+    },
+    {
+        "id": 2548,
+        "name": "\ud790\uc2a4\ub9ac\uc628"
+    },
+    {
+        "id": 2549,
+        "name": "Alphard"
+    },
+    {
+        "id": 2550,
+        "name": "Sirius"
+    },
+    {
+        "id": 2551,
+        "name": "Gatuna de Geffen"
+    },
+    {
+        "id": 2552,
+        "name": "Valent\u00e3o de Geffen"
+    },
+    {
+        "id": 2553,
+        "name": "Bandido de Geffen"
+    },
+    {
+        "id": 2554,
+        "name": "Mirzam"
+    },
+    {
+        "id": 2555,
+        "name": "Muliphen"
+    },
+    {
+        "id": 2556,
+        "name": "Wezen"
+    },
+    {
+        "id": 2557,
+        "name": "Wei"
+    },
+    {
+        "id": 2558,
+        "name": "Sargas"
+    },
+    {
+        "id": 2559,
+        "name": "Shaula"
+    },
+    {
+        "id": 2560,
+        "name": "Ahdara"
+    },
+    {
+        "id": 2561,
+        "name": "Procyon"
+    },
+    {
+        "id": 2562,
+        "name": "Atria"
+    },
+    {
+        "id": 2563,
+        "name": "Fay Kanavion"
+    },
+    {
+        "id": 2564,
+        "name": "Fenris Fenrir"
+    },
+    {
+        "id": 2565,
+        "name": "Alphonse"
+    },
+    {
+        "id": 2566,
+        "name": "Alphonse Jr."
+    },
+    {
+        "id": 2567,
+        "name": "Valent\u00e3o de Geffen"
+    },
+    {
+        "id": 2568,
+        "name": "Bandido de Geffen"
+    },
+    {
+        "id": 2569,
+        "name": "Anopheles"
+    },
+    {
+        "id": 2570,
+        "name": "Breeze"
+    },
+    {
+        "id": 2571,
+        "name": "Butoijo"
+    },
+    {
+        "id": 2572,
+        "name": "Caramel"
+    },
+    {
+        "id": 2573,
+        "name": "Chonchon"
+    },
+    {
+        "id": 2574,
+        "name": "Mao Guai"
+    },
+    {
+        "id": 2575,
+        "name": "CoCo"
+    },
+    {
+        "id": 2576,
+        "name": "Creamy"
+    },
+    {
+        "id": 2577,
+        "name": "Fabre"
+    },
+    {
+        "id": 2578,
+        "name": "Horn"
+    },
+    {
+        "id": 2579,
+        "name": "Hylozoist"
+    },
+    {
+        "id": 2580,
+        "name": "Kaho"
+    },
+    {
+        "id": 2581,
+        "name": "Lude"
+    },
+    {
+        "id": 2582,
+        "name": "Lunatic"
+    },
+    {
+        "id": 2583,
+        "name": "Martin"
+    },
+    {
+        "id": 2584,
+        "name": "Mineral"
+    },
+    {
+        "id": 2585,
+        "name": "Holden"
+    },
+    {
+        "id": 2586,
+        "name": "Nereid"
+    },
+    {
+        "id": 2587,
+        "name": "Obsidian"
+    },
+    {
+        "id": 2588,
+        "name": "Pitman"
+    },
+    {
+        "id": 2589,
+        "name": "PoPoring"
+    },
+    {
+        "id": 2590,
+        "name": "Rocker"
+    },
+    {
+        "id": 2591,
+        "name": "Savage"
+    },
+    {
+        "id": 2592,
+        "name": "Siorava"
+    },
+    {
+        "id": 2593,
+        "name": "Siroma"
+    },
+    {
+        "id": 2594,
+        "name": "Snowier"
+    },
+    {
+        "id": 2595,
+        "name": "Stainer"
+    },
+    {
+        "id": 2596,
+        "name": "Stapo"
+    },
+    {
+        "id": 2597,
+        "name": "Steel Chonchon"
+    },
+    {
+        "id": 2598,
+        "name": "Ungoliant"
+    },
+    {
+        "id": 2599,
+        "name": "Invader!"
+    },
+    {
+        "id": 2600,
+        "name": "Wolf"
+    },
+    {
+        "id": 2601,
+        "name": "Yoyo"
+    },
+    {
+        "id": 2602,
+        "name": "Zipper Bear"
+    },
+    {
+        "id": 2603,
+        "name": "Massacre \u00c1gil"
+    },
+    {
+        "id": 2604,
+        "name": "Prisioneiro Brutal"
+    },
+    {
+        "id": 2605,
+        "name": "Zumbi Mestre Alfa"
+    },
+    {
+        "id": 2606,
+        "name": "Zumbi Feroz"
+    },
+    {
+        "id": 2607,
+        "name": "Zakudam Fugaz"
+    },
+    {
+        "id": 2608,
+        "name": "Yoyo \u00c1gil"
+    },
+    {
+        "id": 2609,
+        "name": "Yoyo Brutal"
+    },
+    {
+        "id": 2610,
+        "name": "Rabo de Verme Alfa"
+    },
+    {
+        "id": 2611,
+        "name": "Guerreiro Wootan Feroz"
+    },
+    {
+        "id": 2612,
+        "name": "Leshij Fugaz"
+    },
+    {
+        "id": 2613,
+        "name": "Lobo \u00c1gil"
+    },
+    {
+        "id": 2614,
+        "name": "Xam\u00e3 do Vento Brutal"
+    },
+    {
+        "id": 2615,
+        "name": "Salgueiro Alfa"
+    },
+    {
+        "id": 2616,
+        "name": "Rosa Selvagem Feroz"
+    },
+    {
+        "id": 2617,
+        "name": "Ninfa Perversa Fugaz"
+    },
+    {
+        "id": 2618,
+        "name": "Sussurro Brutal"
+    },
+    {
+        "id": 2619,
+        "name": "Esqueleto Fr\u00e1gil Alfa"
+    },
+    {
+        "id": 2620,
+        "name": "Andarilho Feroz"
+    },
+    {
+        "id": 2621,
+        "name": "Violinista Fugaz"
+    },
+    {
+        "id": 2622,
+        "name": "Violinista \u00c1gil"
+    },
+    {
+        "id": 2623,
+        "name": "Violinista Brutal"
+    },
+    {
+        "id": 2624,
+        "name": "Nuvem Venenosa Alfa"
+    },
+    {
+        "id": 2625,
+        "name": "Venatu Feroz"
+    },
+    {
+        "id": 2626,
+        "name": "Baba-Yaga Fugaz"
+    },
+    {
+        "id": 2627,
+        "name": "Vanberk \u00c1gil"
+    },
+    {
+        "id": 2628,
+        "name": "Vadon Brutal"
+    },
+    {
+        "id": 2629,
+        "name": "Ungoliant Alfa"
+    },
+    {
+        "id": 2630,
+        "name": "Esp\u00edrito do Vento Feroz"
+    },
+    {
+        "id": 2631,
+        "name": "Tiyanak Fugaz"
+    },
+    {
+        "id": 2632,
+        "name": "Besouro-Ladr\u00e3o Brutal"
+    },
+    {
+        "id": 2633,
+        "name": "Besouro-Ladr\u00e3o Alfa"
+    },
+    {
+        "id": 2634,
+        "name": "Besouro-Ladr\u00e3o Feroz"
+    },
+    {
+        "id": 2635,
+        "name": "Sapo de Thara Fugaz"
+    },
+    {
+        "id": 2636,
+        "name": "Ursinho \u00c1gil"
+    },
+    {
+        "id": 2637,
+        "name": "Tatacho Brutal"
+    },
+    {
+        "id": 2638,
+        "name": "Tarou Alfa"
+    },
+    {
+        "id": 2639,
+        "name": "Tamruan Feroz"
+    },
+    {
+        "id": 2640,
+        "name": "Sting Fugaz"
+    },
+    {
+        "id": 2641,
+        "name": "Talo de Verme \u00c1gil"
+    },
+    {
+        "id": 2642,
+        "name": "Chonchon de A\u00e7o Brutal"
+    },
+    {
+        "id": 2643,
+        "name": "Stapo Alfa"
+    },
+    {
+        "id": 2644,
+        "name": "Estalact\u00edtico Feroz"
+    },
+    {
+        "id": 2645,
+        "name": "Percevejo Fugaz"
+    },
+    {
+        "id": 2646,
+        "name": "Esporo \u00c1gil"
+    },
+    {
+        "id": 2647,
+        "name": "Solidificador Brutal"
+    },
+    {
+        "id": 2648,
+        "name": "Esqueleto Soldado Alfa"
+    },
+    {
+        "id": 2649,
+        "name": "Esqueleto Soldado Feroz"
+    },
+    {
+        "id": 2650,
+        "name": "Senhora Fugaz"
+    },
+    {
+        "id": 2651,
+        "name": "Sohee \u00c1gil"
+    },
+    {
+        "id": 2652,
+        "name": "Yeti Brutal"
+    },
+    {
+        "id": 2653,
+        "name": "Jiboia Alfa"
+    },
+    {
+        "id": 2654,
+        "name": "Fumacento Feroz"
+    },
+    {
+        "id": 2655,
+        "name": "Rochoso Fugaz"
+    },
+    {
+        "id": 2656,
+        "name": "Rochoso \u00c1gil"
+    },
+    {
+        "id": 2657,
+        "name": "Skogul Brutal"
+    },
+    {
+        "id": 2658,
+        "name": "Esqueleto General Alfa"
+    },
+    {
+        "id": 2659,
+        "name": "Esqueleto General Feroz"
+    },
+    {
+        "id": 2660,
+        "name": "Oper\u00e1rio Fugaz"
+    },
+    {
+        "id": 2661,
+        "name": "Siroma \u00c1gil"
+    },
+    {
+        "id": 2662,
+        "name": "Sorrateiro Brutal"
+    },
+    {
+        "id": 2663,
+        "name": "Sorrateiro Alfa"
+    },
+    {
+        "id": 2664,
+        "name": "Shinobi Feroz"
+    },
+    {
+        "id": 2665,
+        "name": "Senhora do Abrigo Fugaz"
+    },
+    {
+        "id": 2666,
+        "name": "Molusco \u00c1gil"
+    },
+    {
+        "id": 2667,
+        "name": "Cecil Damon Brutal"
+    },
+    {
+        "id": 2668,
+        "name": "Lontra Alfa"
+    },
+    {
+        "id": 2669,
+        "name": "Sedora Feroz"
+    },
+    {
+        "id": 2670,
+        "name": "Escorpi\u00e3o Fugaz"
+    },
+    {
+        "id": 2671,
+        "name": "Beb\u00ea Selvagem \u00c1gil"
+    },
+    {
+        "id": 2672,
+        "name": "Selvagem Brutal"
+    },
+    {
+        "id": 2673,
+        "name": "Selvagem Alfa"
+    },
+    {
+        "id": 2674,
+        "name": "Arenoso Feroz"
+    },
+    {
+        "id": 2675,
+        "name": "Salamandra Fugaz"
+    },
+    {
+        "id": 2676,
+        "name": "Marinheiro \u00c1gil"
+    },
+    {
+        "id": 2677,
+        "name": "Roween Brutal"
+    },
+    {
+        "id": 2678,
+        "name": "Sapo de Rodda Alfa"
+    },
+    {
+        "id": 2679,
+        "name": "Sapo de Rodda Feroz"
+    },
+    {
+        "id": 2680,
+        "name": "Rocker Fugaz"
+    },
+    {
+        "id": 2681,
+        "name": "Rideword \u00c1gil"
+    },
+    {
+        "id": 2682,
+        "name": "Rideword Brutal"
+    },
+    {
+        "id": 2683,
+        "name": "Pirralho Alfa"
+    },
+    {
+        "id": 2684,
+        "name": "Baronesa Feroz"
+    },
+    {
+        "id": 2685,
+        "name": "Baronesa Fugaz"
+    },
+    {
+        "id": 2686,
+        "name": "Baronesa \u00c1gil"
+    },
+    {
+        "id": 2687,
+        "name": "R\u00e9quiem Brutal"
+    },
+    {
+        "id": 2688,
+        "name": "Remover Alfa"
+    },
+    {
+        "id": 2689,
+        "name": "Eruma Vermelho Fugaz"
+    },
+    {
+        "id": 2690,
+        "name": "Raydric \u00c1gil"
+    },
+    {
+        "id": 2691,
+        "name": "Raydric Brutal"
+    },
+    {
+        "id": 2692,
+        "name": "Laurell Weinder Alfa"
+    },
+    {
+        "id": 2693,
+        "name": "Scaraba Ancinho Feroz"
+    },
+    {
+        "id": 2694,
+        "name": "Raggler Fugaz"
+    },
+    {
+        "id": 2695,
+        "name": "Rafflesia \u00c1gil"
+    },
+    {
+        "id": 2696,
+        "name": "Poring Alfa"
+    },
+    {
+        "id": 2697,
+        "name": "Poring Feroz"
+    },
+    {
+        "id": 2698,
+        "name": "Poring Fugaz"
+    },
+    {
+        "id": 2699,
+        "name": "Poring \u00c1gil"
+    },
+    {
+        "id": 2700,
+        "name": "Porcellio Brutal"
+    },
+    {
+        "id": 2701,
+        "name": "Poporing Alfa"
+    },
+    {
+        "id": 2702,
+        "name": "Poporing Feroz"
+    },
+    {
+        "id": 2703,
+        "name": "Poporing Fugaz"
+    },
+    {
+        "id": 2704,
+        "name": "Sapo Venenoso \u00c1gil"
+    },
+    {
+        "id": 2705,
+        "name": "Esporo Venenoso Brutal"
+    },
+    {
+        "id": 2706,
+        "name": "Plasma Alfa"
+    },
+    {
+        "id": 2707,
+        "name": "Pl\u00e2ncton Feroz"
+    },
+    {
+        "id": 2708,
+        "name": "Mineiros Fugaz"
+    },
+    {
+        "id": 2709,
+        "name": "Esp\u00edrito da \u00c1gua \u00c1gil"
+    },
+    {
+        "id": 2710,
+        "name": "Pinguicula Brutal"
+    },
+    {
+        "id": 2711,
+        "name": "Pinguicula Alfa"
+    },
+    {
+        "id": 2712,
+        "name": "Picky Feroz"
+    },
+    {
+        "id": 2713,
+        "name": "Fen Fugaz"
+    },
+    {
+        "id": 2714,
+        "name": "Petite \u00c1gil"
+    },
+    {
+        "id": 2715,
+        "name": "Petite Brutal"
+    },
+    {
+        "id": 2716,
+        "name": "Penomena Alfa"
+    },
+    {
+        "id": 2717,
+        "name": "Penomena Feroz"
+    },
+    {
+        "id": 2718,
+        "name": "PecoPeco Fugaz"
+    },
+    {
+        "id": 2719,
+        "name": "Pasana \u00c1gil"
+    },
+    {
+        "id": 2720,
+        "name": "Parasita Brutal"
+    },
+    {
+        "id": 2721,
+        "name": "Duque Coruja Alfa"
+    },
+    {
+        "id": 2722,
+        "name": "Guerreiro Orc Feroz"
+    },
+    {
+        "id": 2723,
+        "name": "Orc Zumbi Fugaz"
+    },
+    {
+        "id": 2724,
+        "name": "Orc Esqueleto \u00c1gil"
+    },
+    {
+        "id": 2725,
+        "name": "Senhora Orc Brutal"
+    },
+    {
+        "id": 2726,
+        "name": "Dama da Guarda Alfa"
+    },
+    {
+        "id": 2727,
+        "name": "Nuvem T\u00f3xica Feroz"
+    },
+    {
+        "id": 2728,
+        "name": "Novus Fugaz"
+    },
+    {
+        "id": 2729,
+        "name": "Novus \u00c1gil"
+    },
+    {
+        "id": 2730,
+        "name": "Novus Brutal"
+    },
+    {
+        "id": 2731,
+        "name": "Novus Alfa"
+    },
+    {
+        "id": 2732,
+        "name": "Pesadelo Sombrio Feroz"
+    },
+    {
+        "id": 2733,
+        "name": "Apari\u00e7\u00e3o Fugaz"
+    },
+    {
+        "id": 2734,
+        "name": "Andarilho \u00c1gil"
+    },
+    {
+        "id": 2735,
+        "name": "Nepenthes Brutal"
+    },
+    {
+        "id": 2736,
+        "name": "Necromante Alfa"
+    },
+    {
+        "id": 2737,
+        "name": "Presente Feroz"
+    },
+    {
+        "id": 2738,
+        "name": "Muscipular Fugaz"
+    },
+    {
+        "id": 2739,
+        "name": "M\u00famia \u00c1gil"
+    },
+    {
+        "id": 2740,
+        "name": "M\u00famia Brutal"
+    },
+    {
+        "id": 2741,
+        "name": "Muka Alfa"
+    },
+    {
+        "id": 2742,
+        "name": "Sombra da Inveja Feroz"
+    },
+    {
+        "id": 2743,
+        "name": "Sombra da Inveja Fugaz"
+    },
+    {
+        "id": 2744,
+        "name": "Sombra da Inveja \u00c1gil"
+    },
+    {
+        "id": 2745,
+        "name": "Holden Brutal"
+    },
+    {
+        "id": 2746,
+        "name": "Miyabi Ningyo Alfa"
+    },
+    {
+        "id": 2747,
+        "name": "Minorous Feroz"
+    },
+    {
+        "id": 2748,
+        "name": "Minorous Fugaz"
+    },
+    {
+        "id": 2749,
+        "name": "Minorous \u00c1gil"
+    },
+    {
+        "id": 2750,
+        "name": "Mineral Brutal"
+    },
+    {
+        "id": 2751,
+        "name": "Plagiador Alfa"
+    },
+    {
+        "id": 2752,
+        "name": "M\u00edmico Feroz"
+    },
+    {
+        "id": 2753,
+        "name": "M\u00edmico Fugaz"
+    },
+    {
+        "id": 2754,
+        "name": "Metaller \u00c1gil"
+    },
+    {
+        "id": 2755,
+        "name": "Metaling Brutal"
+    },
+    {
+        "id": 2756,
+        "name": "Metaling Alfa"
+    },
+    {
+        "id": 2757,
+        "name": "Trit\u00e3o Feroz"
+    },
+    {
+        "id": 2758,
+        "name": "Menblatt Fugaz"
+    },
+    {
+        "id": 2759,
+        "name": "Medusa \u00c1gil"
+    },
+    {
+        "id": 2760,
+        "name": "Martin Brutal"
+    },
+    {
+        "id": 2761,
+        "name": "Marionete Alfa"
+    },
+    {
+        "id": 2762,
+        "name": "Marin Feroz"
+    },
+    {
+        "id": 2763,
+        "name": "Marduk Fugaz"
+    },
+    {
+        "id": 2764,
+        "name": "Louva-a-Deus \u00c1gil"
+    },
+    {
+        "id": 2765,
+        "name": "Mandr\u00e1gora Brutal"
+    },
+    {
+        "id": 2766,
+        "name": "Manananggal Alfa"
+    },
+    {
+        "id": 2767,
+        "name": "Majoruros Feroz"
+    },
+    {
+        "id": 2768,
+        "name": "Magn\u00f3lia Fugaz"
+    },
+    {
+        "id": 2769,
+        "name": "Magmaring \u00c1gil"
+    },
+    {
+        "id": 2770,
+        "name": "Lun\u00e1tico Brutal"
+    },
+    {
+        "id": 2771,
+        "name": "Lun\u00e1tico Alfa"
+    },
+    {
+        "id": 2772,
+        "name": "Lude Feroz"
+    },
+    {
+        "id": 2773,
+        "name": "Vespa Vagalume Fugaz"
+    },
+    {
+        "id": 2774,
+        "name": "Loli Ruri \u00c1gil"
+    },
+    {
+        "id": 2775,
+        "name": "Pessegueira Brutal"
+    },
+    {
+        "id": 2776,
+        "name": "Beb\u00ea Poring Alfa"
+    },
+    {
+        "id": 2777,
+        "name": "Pequeno Fatum Feroz"
+    },
+    {
+        "id": 2778,
+        "name": "Jing Guai Fugaz"
+    },
+    {
+        "id": 2779,
+        "name": "Les \u00c1gil"
+    },
+    {
+        "id": 2780,
+        "name": "Leib Olmai Brutal"
+    },
+    {
+        "id": 2781,
+        "name": "Gato de Folha Alfa"
+    },
+    {
+        "id": 2782,
+        "name": "Arruaceira Feroz"
+    },
+    {
+        "id": 2783,
+        "name": "Mercen\u00e1rio Fugaz"
+    },
+    {
+        "id": 2784,
+        "name": "Kobold Arqueiro \u00c1gil"
+    },
+    {
+        "id": 2785,
+        "name": "Kobold Brutal"
+    },
+    {
+        "id": 2786,
+        "name": "Golpeador Alfa"
+    },
+    {
+        "id": 2787,
+        "name": "Encoura\u00e7ado Feroz"
+    },
+    {
+        "id": 2788,
+        "name": "Kasa Fugaz"
+    },
+    {
+        "id": 2789,
+        "name": "Karakasa \u00c1gil"
+    },
+    {
+        "id": 2790,
+        "name": "Isis Brutal"
+    },
+    {
+        "id": 2791,
+        "name": "Isilla Alfa"
+    },
+    {
+        "id": 2792,
+        "name": "Injusti\u00e7ado Feroz"
+    },
+    {
+        "id": 2793,
+        "name": "Mi Gao Fugaz"
+    },
+    {
+        "id": 2794,
+        "name": "Tit\u00e3 de Gelo \u00c1gil"
+    },
+    {
+        "id": 2795,
+        "name": "Iara Brutal"
+    },
+    {
+        "id": 2796,
+        "name": "Yao Jun Alfa"
+    },
+    {
+        "id": 2797,
+        "name": "Mosca Ca\u00e7adora Feroz"
+    },
+    {
+        "id": 2798,
+        "name": "Zang\u00e3o Fugaz"
+    },
+    {
+        "id": 2799,
+        "name": "Scaraba Chifre \u00c1gil"
+    },
+    {
+        "id": 2800,
+        "name": "Besouro-Chifre Brutal"
+    },
+    {
+        "id": 2801,
+        "name": "Hodremlin Alfa"
+    },
+    {
+        "id": 2802,
+        "name": "Hode Feroz"
+    },
+    {
+        "id": 2803,
+        "name": "Vento da Colina Fugaz"
+    },
+    {
+        "id": 2804,
+        "name": "Vento da Colina \u00c1gil"
+    },
+    {
+        "id": 2805,
+        "name": "Grand Orc Brutal"
+    },
+    {
+        "id": 2806,
+        "name": "Harpia Alfa"
+    },
+    {
+        "id": 2807,
+        "name": "Harpia Feroz"
+    },
+    {
+        "id": 2808,
+        "name": "Grove Fugaz"
+    },
+    {
+        "id": 2809,
+        "name": "Guardi\u00e3o \u00c1gil"
+    },
+    {
+        "id": 2810,
+        "name": "Grand Peco Brutal"
+    },
+    {
+        "id": 2811,
+        "name": "Grand Peco Alfa"
+    },
+    {
+        "id": 2812,
+        "name": "Golem Feroz"
+    },
+    {
+        "id": 2813,
+        "name": "Goblin Fugaz"
+    },
+    {
+        "id": 2814,
+        "name": "Goblin \u00c1gil"
+    },
+    {
+        "id": 2815,
+        "name": "Bode Brutal"
+    },
+    {
+        "id": 2816,
+        "name": "Bode Alfa"
+    },
+    {
+        "id": 2817,
+        "name": "Kobold Abissal Feroz"
+    },
+    {
+        "id": 2818,
+        "name": "Kobold Abissal Fugaz"
+    },
+    {
+        "id": 2819,
+        "name": "Sombra Abissal \u00c1gil"
+    },
+    {
+        "id": 2820,
+        "name": "Sombra Abissal Brutal"
+    },
+    {
+        "id": 2821,
+        "name": "Zang\u00e3o Gigante Alfa"
+    },
+    {
+        "id": 2822,
+        "name": "Carni\u00e7al Feroz"
+    },
+    {
+        "id": 2823,
+        "name": "Carni\u00e7al Fugaz"
+    },
+    {
+        "id": 2824,
+        "name": "Planta Carn\u00edvora \u00c1gil"
+    },
+    {
+        "id": 2825,
+        "name": "Planta Carn\u00edvora Brutal"
+    },
+    {
+        "id": 2826,
+        "name": "G\u00e1rgula Alfa"
+    },
+    {
+        "id": 2827,
+        "name": "G\u00e1rgula Feroz"
+    },
+    {
+        "id": 2828,
+        "name": "Galion Fugaz"
+    },
+    {
+        "id": 2829,
+        "name": "Foca \u00c1gil"
+    },
+    {
+        "id": 2830,
+        "name": "Congelador Brutal"
+    },
+    {
+        "id": 2831,
+        "name": "Congelador Alfa"
+    },
+    {
+        "id": 2832,
+        "name": "Ferus Feroz"
+    },
+    {
+        "id": 2833,
+        "name": "Farmiliar Fugaz"
+    },
+    {
+        "id": 2834,
+        "name": "Anjo Fajuto \u00c1gil"
+    },
+    {
+        "id": 2835,
+        "name": "Fabre Brutal"
+    },
+    {
+        "id": 2836,
+        "name": "Fabre Alfa"
+    },
+    {
+        "id": 2837,
+        "name": "Estrondo Feroz"
+    },
+    {
+        "id": 2838,
+        "name": "Druida Maligno Fugaz"
+    },
+    {
+        "id": 2839,
+        "name": "Salgueiro Anci\u00e3o \u00c1gil"
+    },
+    {
+        "id": 2840,
+        "name": "Salgueiro Anci\u00e3o Brutal"
+    },
+    {
+        "id": 2841,
+        "name": "Echio Alfa"
+    },
+    {
+        "id": 2842,
+        "name": "Poeira Feroz"
+    },
+    {
+        "id": 2843,
+        "name": "Dr\u00edade \u00c1gil"
+    },
+    {
+        "id": 2844,
+        "name": "Drosera Brutal"
+    },
+    {
+        "id": 2845,
+        "name": "Drops Alfa"
+    },
+    {
+        "id": 2846,
+        "name": "Furador Feroz"
+    },
+    {
+        "id": 2847,
+        "name": "Drainliar Fugaz"
+    },
+    {
+        "id": 2848,
+        "name": "Lavadeira \u00c1gil"
+    },
+    {
+        "id": 2849,
+        "name": "Draco Brutal"
+    },
+    {
+        "id": 2850,
+        "name": "Dolomedes Alfa"
+    },
+    {
+        "id": 2851,
+        "name": "Dokebi Feroz"
+    },
+    {
+        "id": 2852,
+        "name": "Mascarado Fugaz"
+    },
+    {
+        "id": 2853,
+        "name": "Dimik \u00c1gil"
+    },
+    {
+        "id": 2854,
+        "name": "Deviruchi Brutal"
+    },
+    {
+        "id": 2855,
+        "name": "Filhote de Lobo Alfa"
+    },
+    {
+        "id": 2856,
+        "name": "Filhote de Lobo Feroz"
+    },
+    {
+        "id": 2857,
+        "name": "Deniro Fugaz"
+    },
+    {
+        "id": 2858,
+        "name": "Palavra Morta \u00c1gil"
+    },
+    {
+        "id": 2859,
+        "name": "Palavra Morta Brutal"
+    },
+    {
+        "id": 2860,
+        "name": "Palavra Morta Alfa"
+    },
+    {
+        "id": 2861,
+        "name": "Sacerdote Maldito Feroz"
+    },
+    {
+        "id": 2862,
+        "name": "Zhu Po Long Fugaz"
+    },
+    {
+        "id": 2863,
+        "name": "Creamy \u00c1gil"
+    },
+    {
+        "id": 2864,
+        "name": "Cornutus Brutal"
+    },
+    {
+        "id": 2865,
+        "name": "Cookie Alfa"
+    },
+    {
+        "id": 2866,
+        "name": "Constant Feroz"
+    },
+    {
+        "id": 2867,
+        "name": "Comodo Fugaz"
+    },
+    {
+        "id": 2868,
+        "name": "Koko \u00c1gil"
+    },
+    {
+        "id": 2869,
+        "name": "Koko Brutal"
+    },
+    {
+        "id": 2870,
+        "name": "Rel\u00f3gio Alfa"
+    },
+    {
+        "id": 2871,
+        "name": "Rel\u00f3gio Feroz"
+    },
+    {
+        "id": 2872,
+        "name": "ChonChon Fugaz"
+    },
+    {
+        "id": 2873,
+        "name": "Centop\u00e9ia \u00c1gil"
+    },
+    {
+        "id": 2874,
+        "name": "Cenere Brutal"
+    },
+    {
+        "id": 2875,
+        "name": "Celia Alde Alfa"
+    },
+    {
+        "id": 2876,
+        "name": "Lagarta Feroz"
+    },
+    {
+        "id": 2877,
+        "name": "Carat Fugaz"
+    },
+    {
+        "id": 2878,
+        "name": "Caramelo \u00c1gil"
+    },
+    {
+        "id": 2879,
+        "name": "Bungisngis Brutal"
+    },
+    {
+        "id": 2880,
+        "name": "Breeze Alfa"
+    },
+    {
+        "id": 2881,
+        "name": "Breeze Feroz"
+    },
+    {
+        "id": 2882,
+        "name": "Golem de Bradium Fugaz"
+    },
+    {
+        "id": 2883,
+        "name": "Borboleta \u00c1gil"
+    },
+    {
+        "id": 2884,
+        "name": "P\u00e9-Grande Alfa"
+    },
+    {
+        "id": 2885,
+        "name": "Bathory Feroz"
+    },
+    {
+        "id": 2886,
+        "name": "Sra das Banshees Fugaz"
+    },
+    {
+        "id": 2887,
+        "name": "Banshee \u00c1gil"
+    },
+    {
+        "id": 2888,
+        "name": "Banaspaty Brutal"
+    },
+    {
+        "id": 2889,
+        "name": "Agressor Alfa"
+    },
+    {
+        "id": 2890,
+        "name": "Argos Feroz"
+    },
+    {
+        "id": 2891,
+        "name": "Argiope Fugaz"
+    },
+    {
+        "id": 2892,
+        "name": "Argiope \u00c1gil"
+    },
+    {
+        "id": 2893,
+        "name": "Arclouse Brutal"
+    },
+    {
+        "id": 2894,
+        "name": "Arclouse Alfa"
+    },
+    {
+        "id": 2895,
+        "name": "Apocalipse Feroz"
+    },
+    {
+        "id": 2896,
+        "name": "Scaraba Galhado Fugaz"
+    },
+    {
+        "id": 2897,
+        "name": "Antigo Livro \u00c1gil"
+    },
+    {
+        "id": 2898,
+        "name": "Antigo Livro Brutal"
+    },
+    {
+        "id": 2899,
+        "name": "Anolian Feroz"
+    },
+    {
+        "id": 2900,
+        "name": "Angra Fugaz"
+    },
+    {
+        "id": 2901,
+        "name": "Angra \u00c1gil"
+    },
+    {
+        "id": 2902,
+        "name": "Andre Brutal"
+    },
+    {
+        "id": 2903,
+        "name": "M\u00edmico Antigo Alfa"
+    },
+    {
+        "id": 2904,
+        "name": "Anaconda Feroz"
+    },
+    {
+        "id": 2905,
+        "name": "Ambernite Fugaz"
+    },
+    {
+        "id": 2906,
+        "name": "Rafflesia Alnoldi \u00c1gil"
+    },
+    {
+        "id": 2907,
+        "name": "Crocodilo Brutal"
+    },
+    {
+        "id": 2908,
+        "name": "Aliza Alfa"
+    },
+    {
+        "id": 2909,
+        "name": "Alicel Feroz"
+    },
+    {
+        "id": 2910,
+        "name": "Alarme Fugaz"
+    },
+    {
+        "id": 2911,
+        "name": "Agav \u00c1gil"
+    },
+    {
+        "id": 2912,
+        "name": "Acidus Brutal"
+    },
+    {
+        "id": 2913,
+        "name": "Acidus Alfa"
+    },
+    {
+        "id": 2914,
+        "name": "Gatuna de Geffen"
+    },
+    {
+        "id": 2916,
+        "name": "Marca-Tempo"
+    },
+    {
+        "id": 2917,
+        "name": "Despertador"
+    },
+    {
+        "id": 2918,
+        "name": "Diretor"
+    },
+    {
+        "id": 2919,
+        "name": "Neo Punk"
+    },
+    {
+        "id": 2920,
+        "name": "Anci\u00e3o Ancestral"
+    },
+    {
+        "id": 2921,
+        "name": "Visconde Coruja"
+    },
+    {
+        "id": 2922,
+        "name": "Visconde Coruja"
+    },
+    {
+        "id": 2923,
+        "name": "Marqu\u00eas Coruja"
+    },
+    {
+        "id": 2924,
+        "name": "Elder Willow"
+    },
+    {
+        "id": 2925,
+        "name": "Willow"
+    },
+    {
+        "id": 2926,
+        "name": "Harpy"
+    },
+    {
+        "id": 2927,
+        "name": "Mineral"
+    },
+    {
+        "id": 2928,
+        "name": "Gibbet"
+    },
+    {
+        "id": 2929,
+        "name": "Plasma"
+    },
+    {
+        "id": 2930,
+        "name": "Solace"
+    },
+    {
+        "id": 2931,
+        "name": "Metaling"
+    },
+    {
+        "id": 2932,
+        "name": "Poporing"
+    },
+    {
+        "id": 2933,
+        "name": "Deviling"
+    },
+    {
+        "id": 2934,
+        "name": "Arc Angeling"
+    },
+    {
+        "id": 2935,
+        "name": "Taoist Hermit"
+    },
+    {
+        "id": 2936,
+        "name": "Ghosting de Halloween"
+    },
+    {
+        "id": 2937,
+        "name": "Loki"
+    },
+    {
+        "id": 2938,
+        "name": "Selo M\u00edstico"
+    },
+    {
+        "id": 2939,
+        "name": "Habitante das Sombras"
+    },
+    {
+        "id": 2940,
+        "name": "Convidado do Inferno"
+    },
+    {
+        "id": 2941,
+        "name": "Esp\u00edrito das Trevas"
+    },
+    {
+        "id": 2942,
+        "name": "Fan\u00e1tico das Trevas"
+    },
+    {
+        "id": 2943,
+        "name": "Mina de Gelo"
+    },
+    {
+        "id": 2944,
+        "name": "\ud638\ub137"
+    },
+    {
+        "id": 2945,
+        "name": "\ubbf8\uc774\ub77c"
+    },
+    {
+        "id": 2946,
+        "name": "\uc544\ub204\ube44\uc2a4"
+    },
+    {
+        "id": 2947,
+        "name": "\ub2ec\uac40\uc758 \uc694\uc815"
+    },
+    {
+        "id": 2948,
+        "name": "Soldado Amaldi\u00e7oado"
+    },
+    {
+        "id": 2949,
+        "name": "Sentinela Amaldi\u00e7oado"
+    },
+    {
+        "id": 2950,
+        "name": "Alma Estilha\u00e7ada"
+    },
+    {
+        "id": 2951,
+        "name": "Lamento Errante"
+    },
+    {
+        "id": 2952,
+        "name": "Supl\u00edcio Perdido"
+    },
+    {
+        "id": 2953,
+        "name": "Mem\u00f3ria Ressentida"
+    },
+    {
+        "id": 2954,
+        "name": "Juramento Desolado"
+    },
+    {
+        "id": 2955,
+        "name": "Rancor Antigo"
+    },
+    {
+        "id": 2956,
+        "name": "Massacre Prazeroso"
+    },
+    {
+        "id": 2957,
+        "name": "Legado Esquecido"
+    },
+    {
+        "id": 2958,
+        "name": "Passado Irrevers\u00edvel"
+    },
+    {
+        "id": 2959,
+        "name": "Ang\u00fastia Torturante"
+    },
+    {
+        "id": 2960,
+        "name": "Cruz de Chamas"
+    },
+    {
+        "id": 2961,
+        "name": "Amargura Perp\u00e9tua"
+    },
+    {
+        "id": 2962,
+        "name": "Deviling"
+    },
+    {
+        "id": 2963,
+        "name": "Woodie"
+    },
+    {
+        "id": 2964,
+        "name": "EXP_1000"
+    },
+    {
+        "id": 2965,
+        "name": "\ud2b8\ube0c \uc544\ud3ec\uce7c\ub9ac\ud504\uc2a4 \ud750"
+    },
+    {
+        "id": 2966,
+        "name": "\ud2b8\ube0c \ud504 \uc5d0\ub808\uba54\uc2a4"
+    },
+    {
+        "id": 2967,
+        "name": "\ud2b8\ube0c \ud504 \ud558\ub974\ubcf4\ub974\ud2b8"
+    },
+    {
+        "id": 2968,
+        "name": "\ud2b8\ube0c \ud504 \uc81c\uc704\ub80c"
+    },
+    {
+        "id": 2969,
+        "name": "\ud2b8\ube0c \ubc14\ud3ec\uba54\ud2b82"
+    },
+    {
+        "id": 2970,
+        "name": "\ud2b8\ube0c \ub2e4\ub974\ud06c \ub85c\ub974\ud2b8"
+    },
+    {
+        "id": 2971,
+        "name": "\ud2b8\ube0c \ub2e4\ub974\ud06c \uc288\ub098\ucf00 \ub85c\ub974\ud2b8"
+    },
+    {
+        "id": 2972,
+        "name": "\ud2b8\ube0c \ub3c4\ud3a0\uac15\uac70"
+    },
+    {
+        "id": 2973,
+        "name": "\ud2b8\ube0c \ub4dc\ub77c\ucfe8\ub77c"
+    },
+    {
+        "id": 2974,
+        "name": "\ud2b8\ube0c \uc5d0\ub4dc\ub4dc\uac00"
+    },
+    {
+        "id": 2975,
+        "name": "\ud2b8\ube0c \ud314\ub9c1\ube44\uc288\ud638\ud504"
+    },
+    {
+        "id": 2976,
+        "name": "\ud2b8\ube0c \uae00\ub85c\uc624\ubb38\ub370\ub974\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 2977,
+        "name": "\ud2b8\ube0c \uc774\ud504\ub9ac\ud2b8"
+    },
+    {
+        "id": 2978,
+        "name": "\ud2b8\ube0c \ud06c\ud234\ub77c\ub204\ud06c\uc2a4"
+    },
+    {
+        "id": 2979,
+        "name": "\ud2b8\ube0c \ub85c\ub974\ud2b8 \uc624\ud504 \ub370\uc544\ud2b82"
+    },
+    {
+        "id": 2980,
+        "name": "\ud2b8\ube0c \ubbf8\uc2a4\ud2b8\ub808\uc2a4"
+    },
+    {
+        "id": 2981,
+        "name": "\ud2b8\ube0c \uc624\ub974\ud06c \ud5e4\ub85c2"
+    },
+    {
+        "id": 2982,
+        "name": "\ud2b8\ube0c \uc624\uc9c0\ub9ac\uc9882"
+    },
+    {
+        "id": 2983,
+        "name": "\ud2b8\ube0c \ub780\ub4dc\uadf8\ub9ac\uc2a4"
+    },
+    {
+        "id": 2984,
+        "name": "\ud2b8\ube0c \ud22c\ub974\ud2c0\ub808 \uac8c\ub124\ub784"
+    },
+    {
+        "id": 2985,
+        "name": "Besouro Misterioso"
+    },
+    {
+        "id": 2986,
+        "name": "\uc77c\ubcf8\uc120\ubb3c\ub108\uad6c\ub9ac"
+    },
+    {
+        "id": 2987,
+        "name": "\u00c1rvore Maldita Decorada"
+    },
+    {
+        "id": 2988,
+        "name": "Antonio Sombrio"
+    },
+    {
+        "id": 2989,
+        "name": "Cookie Aterrorizante"
+    },
+    {
+        "id": 2990,
+        "name": "Soldadinho Corrompido"
+    },
+    {
+        "id": 2991,
+        "name": "Presente das Trevas"
+    },
+    {
+        "id": 2992,
+        "name": "Lude Grotesco"
+    },
+    {
+        "id": 2993,
+        "name": "Poltergeist Sangrento"
+    },
+    {
+        "id": 2994,
+        "name": "Marionete Demon\u00edaca"
+    },
+    {
+        "id": 2995,
+        "name": "Ursinho Abomin\u00e1vel"
+    },
+    {
+        "id": 2996,
+        "name": "Celine Kimi"
+    },
+    {
+        "id": 2997,
+        "name": "Espectro da Celine"
+    },
+    {
+        "id": 2998,
+        "name": "Imperador Morroc"
+    },
+    {
+        "id": 2999,
+        "name": "Necromante de Morroc"
+    },
+    {
+        "id": 3000,
+        "name": "Necromante de Morroc"
+    },
+    {
+        "id": 3001,
+        "name": "Carni\u00e7al Profano"
+    },
+    {
+        "id": 3002,
+        "name": "M\u00famia Profana"
+    },
+    {
+        "id": 3003,
+        "name": "Esqueleto Profano"
+    },
+    {
+        "id": 3004,
+        "name": "Apari\u00e7\u00e3o Profana"
+    },
+    {
+        "id": 3005,
+        "name": "Verit Profano"
+    },
+    {
+        "id": 3006,
+        "name": "Lude Profano"
+    },
+    {
+        "id": 3007,
+        "name": "Morroc Falso"
+    },
+    {
+        "id": 3008,
+        "name": "Imperador Morroc"
+    },
+    {
+        "id": 3009,
+        "name": "Necromante Ca\u00eddo"
+    },
+    {
+        "id": 3010,
+        "name": "Beb\u00ea Orc Ca\u00eddo"
+    },
+    {
+        "id": 3011,
+        "name": "Filhote de Lobo Ca\u00eddo"
+    },
+    {
+        "id": 3012,
+        "name": "Farmiliar Ca\u00eddo"
+    },
+    {
+        "id": 3013,
+        "name": "Orc Ca\u00eddo"
+    },
+    {
+        "id": 3014,
+        "name": "Lobo Ca\u00eddo"
+    },
+    {
+        "id": 3015,
+        "name": "Fen Ca\u00eddo"
+    },
+    {
+        "id": 3016,
+        "name": "Orc Zumbi Ca\u00eddo"
+    },
+    {
+        "id": 3017,
+        "name": "Verit Ca\u00eddo"
+    },
+    {
+        "id": 3018,
+        "name": "Megalodon Ca\u00eddo"
+    },
+    {
+        "id": 3019,
+        "name": "Celine Kimi"
+    },
+    {
+        "id": 3020,
+        "name": "Condor de Fogo"
+    },
+    {
+        "id": 3021,
+        "name": "Arenoso de Fogo"
+    },
+    {
+        "id": 3022,
+        "name": "Frilldora de Fogo"
+    },
+    {
+        "id": 3023,
+        "name": "Golem de Fogo"
+    },
+    {
+        "id": 3024,
+        "name": "Construtora"
+    },
+    {
+        "id": 3025,
+        "name": "Construtor"
+    },
+    {
+        "id": 3026,
+        "name": "Fosso de Fogo"
+    },
+    {
+        "id": 3027,
+        "name": "Besouro Rola Brasa"
+    },
+    {
+        "id": 3028,
+        "name": "Sonia"
+    },
+    {
+        "id": 3029,
+        "name": "Ceifador Ankou"
+    },
+    {
+        "id": 3030,
+        "name": "\uc11c\uc788\ub294 \uc601\ud63c"
+    },
+    {
+        "id": 3031,
+        "name": "\ubcc0\ud615 \ub124\ud06c\ub85c\ub9e8\uc11c"
+    },
+    {
+        "id": 3032,
+        "name": "\ubcc0\ud615 \uad6c\uc6b8"
+    },
+    {
+        "id": 3033,
+        "name": "\ubcc0\ud615 \uc624\uc2dc\ub9ac\uc2a4"
+    },
+    {
+        "id": 3034,
+        "name": "\ubcc0\ud615 \uc544\uccd0\uc2a4\ucf08\ub808\ud1a4"
+    },
+    {
+        "id": 3035,
+        "name": "\ubcc0\ud615 \ub808\uc774\uc2a4"
+    },
+    {
+        "id": 3036,
+        "name": "\ubcc0\ud615 \ubca0\ub9ac\ud2b8"
+    },
+    {
+        "id": 3037,
+        "name": "\ubcc0\ud615 \ub8e8\ub4dc"
+    },
+    {
+        "id": 3039,
+        "name": "Lamento da Inveja"
+    },
+    {
+        "id": 3040,
+        "name": "Lamento da Gula"
+    },
+    {
+        "id": 3041,
+        "name": "Lamento da Ira"
+    },
+    {
+        "id": 3042,
+        "name": "\ud48d\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 3043,
+        "name": "\ud48d\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 3044,
+        "name": "\ub3c5\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 3045,
+        "name": "\ub3c5\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 3046,
+        "name": "\ub3c5\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 3047,
+        "name": "\uc131\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 3048,
+        "name": "\uc131\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 3049,
+        "name": "\uc131\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 3050,
+        "name": "\uc554\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 3051,
+        "name": "\uc554\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 3052,
+        "name": "\uc554\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 3053,
+        "name": "\uc5fc\uc18d\uc131 \uc18c\ud615"
+    },
+    {
+        "id": 3054,
+        "name": "\uc5fc\uc18d\uc131 \uc911\ud615"
+    },
+    {
+        "id": 3055,
+        "name": "\uc5fc\uc18d\uc131 \ub300\ud615"
+    },
+    {
+        "id": 3056,
+        "name": "\uc5b8\ub370\ub4dc \uc18c\ud615"
+    },
+    {
+        "id": 3057,
+        "name": "\uc5b8\ub370\ub4dc \uc911\ud615"
+    },
+    {
+        "id": 3058,
+        "name": "\uc5b8\ub370\ub4dc \ub300\ud615"
+    },
+    {
+        "id": 3059,
+        "name": "8\uc0ac\ub2e8"
+    },
+    {
+        "id": 3060,
+        "name": "Polvo Rei"
+    },
+    {
+        "id": 3061,
+        "name": "M\u00edmico Enfurecido"
+    },
+    {
+        "id": 3062,
+        "name": "\uc790\uc774\uc5b8\ud2b8 \ucd08\ucf54\ub8e8\uce58"
+    },
+    {
+        "id": 3063,
+        "name": "\ud654\uc774\ud2b8 \ucd08\ucf54\ub8e8\uce58"
+    },
+    {
+        "id": 3064,
+        "name": "\uc790\uc774\uc5b8\ud2b8 \ud654\uc774\ud2b8 \ucd08\ucf54\ub8e8\uce58"
+    },
+    {
+        "id": 3065,
+        "name": "\uc544\uc774\uc2a4 \ub9c8\uc778"
+    },
+    {
+        "id": 3066,
+        "name": "\ubc40\ud574 \uc601\uc218"
+    },
+    {
+        "id": 3067,
+        "name": "Orc Woman"
+    },
+    {
+        "id": 3068,
+        "name": "\ube44\ub2e8\ubc40\uc758 \ud5c8\ubb3c"
+    },
+    {
+        "id": 3069,
+        "name": "Allegro"
+    },
+    {
+        "id": 3070,
+        "name": "Sonata"
+    },
+    {
+        "id": 3071,
+        "name": "Adagio"
+    },
+    {
+        "id": 3072,
+        "name": "Minueto"
+    },
+    {
+        "id": 3073,
+        "name": "R\u00e9quiem de Marfim"
+    },
+    {
+        "id": 3074,
+        "name": "Vigia do Tempo"
+    },
+    {
+        "id": 3075,
+        "name": "Wave Treasure box"
+    },
+    {
+        "id": 3076,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3077,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3078,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3079,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3080,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3081,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3082,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3083,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3084,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3085,
+        "name": "Wave Monster"
+    },
+    {
+        "id": 3086,
+        "name": "Wave Mercenary"
+    },
+    {
+        "id": 3087,
+        "name": "Lamento de Nidhogg"
+    },
+    {
+        "id": 3088,
+        "name": "Brinaranha Jovem"
+    },
+    {
+        "id": 3089,
+        "name": "Kasa Enfurecido"
+    },
+    {
+        "id": 3090,
+        "name": "Salamandra Enfurecida"
+    },
+    {
+        "id": 3091,
+        "name": "Brinaranha"
+    },
+    {
+        "id": 3092,
+        "name": "Skoll"
+    },
+    {
+        "id": 3093,
+        "name": "N\u00facleo de Brinaranha"
+    },
+    {
+        "id": 3094,
+        "name": "N\u00facleo de Skoll"
+    },
+    {
+        "id": 3095,
+        "name": "Lamento dos Deuses"
+    },
+    {
+        "id": 3096,
+        "name": "Reencarna\u00e7\u00e3o de Morroc"
+    },
+    {
+        "id": 3097,
+        "name": "Deus Morroc"
+    },
+    {
+        "id": 3098,
+        "name": "Morroc Ex\u00f3rdio"
+    },
+    {
+        "id": 3099,
+        "name": "Morroc Ca\u00eddo"
+    },
+    {
+        "id": 3100,
+        "name": "Mana da Escurid\u00e3o"
+    },
+    {
+        "id": 3101,
+        "name": "Mana da Aurora"
+    },
+    {
+        "id": 3102,
+        "name": "Mana da Vitalidade"
+    },
+    {
+        "id": 3103,
+        "name": "Mana da Terra"
+    },
+    {
+        "id": 3104,
+        "name": "Mana do Oceano"
+    },
+    {
+        "id": 3105,
+        "name": "Lamento da Inveja"
+    },
+    {
+        "id": 3106,
+        "name": "Lamento da Ira"
+    },
+    {
+        "id": 3107,
+        "name": "Easter Bunny"
+    },
+    {
+        "id": 3108,
+        "name": "Sustenido"
+    },
+    {
+        "id": 3109,
+        "name": "Bemol"
+    },
+    {
+        "id": 3110,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3111,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3112,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3113,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3114,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3115,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3116,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3117,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3118,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3119,
+        "name": "\uc774\ubca4\ud2b8\ubaac\uc2a4\ud130"
+    },
+    {
+        "id": 3120,
+        "name": "ISIS Mercenary"
+    },
+    {
+        "id": 3121,
+        "name": "Byorgue Mercenary"
+    },
+    {
+        "id": 3122,
+        "name": "Charleston 01"
+    },
+    {
+        "id": 3123,
+        "name": "Charleston 02"
+    },
+    {
+        "id": 3124,
+        "name": "Charleston 03"
+    },
+    {
+        "id": 3125,
+        "name": "Roboring"
+    },
+    {
+        "id": 3126,
+        "name": "Mecha v2.0"
+    },
+    {
+        "id": 3127,
+        "name": "Transistor"
+    },
+    {
+        "id": 3128,
+        "name": "Mecha v1.6"
+    },
+    {
+        "id": 3129,
+        "name": "King Poring"
+    },
+    {
+        "id": 3130,
+        "name": "iRO GM Cultist"
+    },
+    {
+        "id": 3131,
+        "name": "iRO GM Cultist"
+    },
+    {
+        "id": 3132,
+        "name": "Orc Lady"
+    },
+    {
+        "id": 3133,
+        "name": "Detardeurus"
+    },
+    {
+        "id": 3134,
+        "name": "Dark Lord"
+    },
+    {
+        "id": 3135,
+        "name": "Ifrit"
+    },
+    {
+        "id": 3136,
+        "name": "Orc Hero"
+    },
+    {
+        "id": 3137,
+        "name": "High Orc"
+    },
+    {
+        "id": 3138,
+        "name": "Shadow of Fenrir"
+    },
+    {
+        "id": 3139,
+        "name": "Zumbi Sombrio"
+    },
+    {
+        "id": 3140,
+        "name": "Alma Penada Sombria"
+    },
+    {
+        "id": 3141,
+        "name": "Carni\u00e7al Sombrio"
+    },
+    {
+        "id": 3142,
+        "name": "Larva"
+    },
+    {
+        "id": 3143,
+        "name": "Raydric Sombrio"
+    },
+    {
+        "id": 3144,
+        "name": "Arqueiro Sombrio"
+    },
+    {
+        "id": 3145,
+        "name": "Cavaleiro Sombrio"
+    },
+    {
+        "id": 3146,
+        "name": "Khalitzburg Sombria"
+    },
+    {
+        "id": 3147,
+        "name": "Sanguin\u00e1rio Sombrio"
+    },
+    {
+        "id": 3148,
+        "name": "Desmorto Sombrio"
+    },
+    {
+        "id": 3149,
+        "name": "Desmorta Sombria"
+    },
+    {
+        "id": 3150,
+        "name": "Amdarais Sombrio"
+    },
+    {
+        "id": 3151,
+        "name": "Origem da Escurid\u00e3o"
+    },
+    {
+        "id": 3152,
+        "name": "Khalitzburg Sombria"
+    },
+    {
+        "id": 3153,
+        "name": "Rob\u00f4 Escavador"
+    },
+    {
+        "id": 3154,
+        "name": "Rob\u00f4 de Reconhecimento"
+    },
+    {
+        "id": 3155,
+        "name": "Rob\u00f4 Reparador"
+    },
+    {
+        "id": 3156,
+        "name": "Rob\u00f4 Explorador"
+    },
+    {
+        "id": 3157,
+        "name": "Adorador do Infort\u00fanio"
+    },
+    {
+        "id": 3158,
+        "name": "Adorador do Infort\u00fanio"
+    },
+    {
+        "id": 3159,
+        "name": "Propaganda Ilegal"
+    },
+    {
+        "id": 3160,
+        "name": "\ub2e8\uc624\uc808 \uc8fc\uba39\ubc25"
+    },
+    {
+        "id": 3161,
+        "name": "Bomba"
+    },
+    {
+        "id": 3162,
+        "name": "Elephant"
+    },
+    {
+        "id": 3163,
+        "name": "Gorilla"
+    },
+    {
+        "id": 3164,
+        "name": "Lion"
+    },
+    {
+        "id": 3165,
+        "name": "Rhino"
+    },
+    {
+        "id": 3166,
+        "name": "\u8043\uc963"
+    },
+    {
+        "id": 3167,
+        "name": "Poporing de Evento"
+    },
+    {
+        "id": 3168,
+        "name": "Pouring Marinho"
+    },
+    {
+        "id": 3169,
+        "name": "Alvo"
+    },
+    {
+        "id": 3170,
+        "name": "N\u00e3o-alvo"
+    },
+    {
+        "id": 3171,
+        "name": "\uc800\uaca9\uc758 \ud0d1"
+    },
+    {
+        "id": 3172,
+        "name": "\ub9c8\ub825\uc758 \ud0d1"
+    },
+    {
+        "id": 3173,
+        "name": "\ubd88\uaf43 \uc5ec\uc6b0"
+    },
+    {
+        "id": 3174,
+        "name": "\ud5ec \ud50c\ub77c\uc774"
+    },
+    {
+        "id": 3175,
+        "name": "Giro-Goblin Invasor"
+    },
+    {
+        "id": 3176,
+        "name": "Gremlin Invasor"
+    },
+    {
+        "id": 3177,
+        "name": "Beholder Invasor"
+    },
+    {
+        "id": 3178,
+        "name": "Wyvern Azul"
+    },
+    {
+        "id": 3179,
+        "name": "Wyvern Dourado"
+    },
+    {
+        "id": 3180,
+        "name": "Wyvern Gigante"
+    },
+    {
+        "id": 3181,
+        "name": "Capit\u00e3o Ferlock"
+    },
+    {
+        "id": 3182,
+        "name": "Giro-Goblin Invasor"
+    },
+    {
+        "id": 3183,
+        "name": "Gremlin Invasor"
+    },
+    {
+        "id": 3184,
+        "name": "Beholder Invasor"
+    },
+    {
+        "id": 3185,
+        "name": "Wyvern Azul"
+    },
+    {
+        "id": 3186,
+        "name": "Wyvern Dourado"
+    },
+    {
+        "id": 3187,
+        "name": "Wyvern Gigante"
+    },
+    {
+        "id": 3188,
+        "name": "Capit\u00e3o Ferlock"
+    },
+    {
+        "id": 3189,
+        "name": "\ubcfc\ud504 \ubaa8\uc628"
+    },
+    {
+        "id": 3190,
+        "name": "Sara Irine"
+    },
+    {
+        "id": 3191,
+        "name": "Gigante"
+    },
+    {
+        "id": 3192,
+        "name": "Gigante"
+    },
+    {
+        "id": 3193,
+        "name": "Gigante"
+    },
+    {
+        "id": 3194,
+        "name": "Gigante Antimagia"
+    },
+    {
+        "id": 3195,
+        "name": "Gigante Imaterial"
+    },
+    {
+        "id": 3196,
+        "name": "Gigante Ancestral"
+    },
+    {
+        "id": 3197,
+        "name": "G\u00e1rgula Ancestral"
+    },
+    {
+        "id": 3198,
+        "name": "Galion Ancestral"
+    },
+    {
+        "id": 3199,
+        "name": "Drag\u00e3o Ancestral"
+    },
+    {
+        "id": 3200,
+        "name": "Quimera Ancestral"
+    },
+    {
+        "id": 3201,
+        "name": "\ub8e8\ud034\uce74\uc81c"
+    },
+    {
+        "id": 3202,
+        "name": "Ab\u00f3bora Org\u00e2nica"
+    },
+    {
+        "id": 3203,
+        "name": "Ab\u00f3bora Inorg\u00e2nica"
+    },
+    {
+        "id": 3204,
+        "name": "\ud53c\ud06c\uc950 \ud540\ud06c \ud3ec\ub9c1"
+    },
+    {
+        "id": 3205,
+        "name": "\ud53c\ud06c\uc950 \ube14\ub93c \ud3ec\ub9c1"
+    },
+    {
+        "id": 3206,
+        "name": "\uc288\ud37c \ubcf4\ub108\uc2a4 \ud3ec\ub9c1"
+    },
+    {
+        "id": 3207,
+        "name": "1\uae09\uc218"
+    },
+    {
+        "id": 3208,
+        "name": "Eremes Guile"
+    },
+    {
+        "id": 3209,
+        "name": "Margaretha Sorin"
+    },
+    {
+        "id": 3210,
+        "name": "Kathryne Keyron"
+    },
+    {
+        "id": 3211,
+        "name": "Cecil Damon"
+    },
+    {
+        "id": 3212,
+        "name": "Harword Alteisen"
+    },
+    {
+        "id": 3213,
+        "name": "Seyren Windsor"
+    },
+    {
+        "id": 3214,
+        "name": "Cobaia Eremes"
+    },
+    {
+        "id": 3215,
+        "name": "Cobaia Margaretha"
+    },
+    {
+        "id": 3216,
+        "name": "Cobaia Kathryne"
+    },
+    {
+        "id": 3217,
+        "name": "Cobaia Cecil"
+    },
+    {
+        "id": 3218,
+        "name": "Cobaia Harword"
+    },
+    {
+        "id": 3219,
+        "name": "Cobaia Seyren"
+    },
+    {
+        "id": 3220,
+        "name": "Sic\u00e1rio Eremes"
+    },
+    {
+        "id": 3221,
+        "name": "Arcebispa Margaretha"
+    },
+    {
+        "id": 3222,
+        "name": "Sentinela Cecil"
+    },
+    {
+        "id": 3223,
+        "name": "Mec\u00e2nico Harword"
+    },
+    {
+        "id": 3224,
+        "name": "Arcana Kathryne"
+    },
+    {
+        "id": 3225,
+        "name": "Cavaleiro R\u00fanico Seyren"
+    },
+    {
+        "id": 3226,
+        "name": "Randel Lawrence"
+    },
+    {
+        "id": 3227,
+        "name": "Flamel Emule"
+    },
+    {
+        "id": 3228,
+        "name": "Celia Alde"
+    },
+    {
+        "id": 3229,
+        "name": "Chen Liu"
+    },
+    {
+        "id": 3230,
+        "name": "Gertie We"
+    },
+    {
+        "id": 3231,
+        "name": "Alphoccio Basil"
+    },
+    {
+        "id": 3232,
+        "name": "Trentini"
+    },
+    {
+        "id": 3233,
+        "name": "Cobaia Randel"
+    },
+    {
+        "id": 3234,
+        "name": "Cobaia Flamel"
+    },
+    {
+        "id": 3235,
+        "name": "Cobaia Celia"
+    },
+    {
+        "id": 3236,
+        "name": "Cobaia Chen"
+    },
+    {
+        "id": 3237,
+        "name": "Cobaia Gertie"
+    },
+    {
+        "id": 3238,
+        "name": "Cobaia Alphoccio"
+    },
+    {
+        "id": 3239,
+        "name": "Cobaia Trentini"
+    },
+    {
+        "id": 3240,
+        "name": "Guardi\u00e3o Real Randel"
+    },
+    {
+        "id": 3241,
+        "name": "Bioqu\u00edmico Flamel"
+    },
+    {
+        "id": 3242,
+        "name": "Feiticeira Celia"
+    },
+    {
+        "id": 3243,
+        "name": "Shura Chen"
+    },
+    {
+        "id": 3244,
+        "name": "Renegada Gertie"
+    },
+    {
+        "id": 3245,
+        "name": "Trovador Alphoccio"
+    },
+    {
+        "id": 3246,
+        "name": "Musa Trentini"
+    },
+    {
+        "id": 3247,
+        "name": "Fuma\u00e7a Verde"
+    },
+    {
+        "id": 3248,
+        "name": "Rob\u00f4 Reparador Turbo"
+    },
+    {
+        "id": 3249,
+        "name": "Rob\u00f4 Explorador Turbo"
+    },
+    {
+        "id": 3250,
+        "name": "Rob\u00f4 de Sucata"
+    },
+    {
+        "id": 3251,
+        "name": "GC109"
+    },
+    {
+        "id": 3252,
+        "name": "DR815"
+    },
+    {
+        "id": 3253,
+        "name": "Glitch do Sistema"
+    },
+    {
+        "id": 3254,
+        "name": "T_W_O"
+    },
+    {
+        "id": 3255,
+        "name": "Carni\u00e7al Fedorento"
+    },
+    {
+        "id": 3256,
+        "name": "Zumbi Fedorento"
+    },
+    {
+        "id": 3257,
+        "name": "\uc2e0\uc0ac \ud3ec\ub9c1"
+    },
+    {
+        "id": 3258,
+        "name": "\uc219\ub140 \ud3ec\ub9c1"
+    },
+    {
+        "id": 3259,
+        "name": "Cavalo Azul Furioso"
+    },
+    {
+        "id": 3260,
+        "name": "Pequeno Cavalo Azul"
+    },
+    {
+        "id": 3261,
+        "name": "Unic\u00f3rnio"
+    },
+    {
+        "id": 3262,
+        "name": "\uc74c\ud750 \ud3ec\ub9c1"
+    },
+    {
+        "id": 3263,
+        "name": "\uc74c\ud750 \ud3ec\ud3ec\ub9c1"
+    },
+    {
+        "id": 3264,
+        "name": "\uc74c\ud750 \ub4dc\ub85c\ud504\uc2a4"
+    },
+    {
+        "id": 3265,
+        "name": "\uc74c\ud750 \uace8\ub4dc\ud3ec\ub9c1"
+    },
+    {
+        "id": 3266,
+        "name": "\uc74c\ud750 \ub9c8\ub9b0"
+    },
+    {
+        "id": 3267,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \uc740 \uc5441"
+    },
+    {
+        "id": 3268,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \uc740 \uc5442"
+    },
+    {
+        "id": 3269,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \uc740 \uc5443"
+    },
+    {
+        "id": 3270,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \uc740 \uc5444"
+    },
+    {
+        "id": 3271,
+        "name": "\uc74c\ud750 \uc5d0 \uba54\uac08\ub85c\ub3c81"
+    },
+    {
+        "id": 3272,
+        "name": "\uc74c\ud750 \uc790\uc288q\uc6b0\uc544\ud2b8\ud788"
+    },
+    {
+        "id": 3273,
+        "name": "\uc74c\ud750 \ubc14\ucf54\ub098\ubc14 1"
+    },
+    {
+        "id": 3274,
+        "name": "\uc74c\ud750 \ubc14\ud06c\uc870\uc778"
+    },
+    {
+        "id": 3275,
+        "name": "\uc74c\ud750 \ud6c8\ud130 \ud50c\ub93c1"
+    },
+    {
+        "id": 3276,
+        "name": "\uc74c\ud750 \ub514\ubbf8\ud06c"
+    },
+    {
+        "id": 3277,
+        "name": "\uc74c\ud750 \ub514\ubbf8\ud06c 2"
+    },
+    {
+        "id": 3278,
+        "name": "\uc74c\ud750 \ub514\ubbf8\ud06c 4"
+    },
+    {
+        "id": 3279,
+        "name": "\uc74c\ud750 \ub514\ubbf8\ud06c 1"
+    },
+    {
+        "id": 3280,
+        "name": "\uc74c\ud750 \ub514\ubbf8\ud06c 3"
+    },
+    {
+        "id": 3281,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \ud750 \uc5441"
+    },
+    {
+        "id": 3282,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \ud750 \uc5442"
+    },
+    {
+        "id": 3283,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \ud750 \uc5443"
+    },
+    {
+        "id": 3284,
+        "name": "\uc74c\ud750 \ucfb0\ub77c\uce78\ud2b8 \ud750 \uc5444"
+    },
+    {
+        "id": 3285,
+        "name": "\uc74c\ud750 \uc5d0 \uba54\uac08\ub85c\ub3c82"
+    },
+    {
+        "id": 3286,
+        "name": "\uc74c\ud750 \uae00\ub85c\uc624\ubb38\ub370\ub974\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 3287,
+        "name": "\uc74c\ud750 \uc544\ud2b8\ub85c\uccb4"
+    },
+    {
+        "id": 3288,
+        "name": "\uc74c\ud750 \ub77c\ub4a4 \ud0c0\ub124"
+    },
+    {
+        "id": 3289,
+        "name": "\uc74c\ud750 \ud6c8\ud130 \ud50c\ub93c2"
+    },
+    {
+        "id": 3290,
+        "name": "Thief Choco"
+    },
+    {
+        "id": 3291,
+        "name": "GM\uacf5\uc131 \ubcf4\ubb3c\uc0c1\uc790"
+    },
+    {
+        "id": 3292,
+        "name": "\ubcf4\ubb3c \uc704\ub808\uc2a4"
+    },
+    {
+        "id": 3293,
+        "name": "\ub370\ubc14\ud06c \uace0\uc6b0\ub974\ud2b8"
+    },
+    {
+        "id": 3294,
+        "name": "\ubd84\ub178\ud55c \ud558\uc774\ub4dc\ub9ac\ud788"
+    },
+    {
+        "id": 3295,
+        "name": "\ubcf4\uc2a4 \uc9c0\ud0b4\uc774"
+    },
+    {
+        "id": 3296,
+        "name": "\ud788\ub4dc\ub374 \ud14c\uc2a4\ud2b8"
+    },
+    {
+        "id": 3297,
+        "name": "\ud30c\ud2b8 \ub808\ud53c\uc544\ud0c4"
+    },
+    {
+        "id": 3298,
+        "name": "\ud30c\ud2b8 \ud30c\ud504\ub2c8\uc5b4"
+    },
+    {
+        "id": 3299,
+        "name": "\ud30c\ud2b8 \uc774\ud504\ub9ac\ud2b8"
+    },
+    {
+        "id": 3300,
+        "name": "\ud30c\ud2b8 \ud638\ub77c\uc774"
+    },
+    {
+        "id": 3301,
+        "name": "\ud30c\ud2b8 \uc288\ud56d\ub9b4\ub77c"
+    },
+    {
+        "id": 3302,
+        "name": "\ud30c\ud2b8 \ub2c8\ub77c\uc774\uce74\ub098\uc774"
+    },
+    {
+        "id": 3303,
+        "name": "\ud30c\ud2b8 \ud5ec\ud558\uc784"
+    },
+    {
+        "id": 3304,
+        "name": "\ud30c\ud2b8 \ubb34\uc288\ud3a0\ud558\uc784"
+    },
+    {
+        "id": 3305,
+        "name": "\ud30c\ud2b8 \uccb4\ub85c\ud06c"
+    },
+    {
+        "id": 3306,
+        "name": "Tamadora"
+    },
+    {
+        "id": 3307,
+        "name": "\ud30c\ud2b8 \ud0c0\ub9c8\ub3c4\ub77c\ubc14\ubdd4"
+    },
+    {
+        "id": 3308,
+        "name": "\ub85c\ud06c \uc5e0\ud3a0\ub9ac\uc6c0"
+    },
+    {
+        "id": 3309,
+        "name": "\ub85c\ud06c \uc624\ube44 \uc544"
+    },
+    {
+        "id": 3310,
+        "name": "\ub85c\ud06c \uc624\ube44 \ud504"
+    },
+    {
+        "id": 3311,
+        "name": "\ub85c\ud06c \uc624\ube44 \uc740"
+    },
+    {
+        "id": 3312,
+        "name": "\ub85c\ud06c \ud1a0\ubc84 \uc544"
+    },
+    {
+        "id": 3313,
+        "name": "\ub85c\ud06c \ud1a0\ubc84 \ud504"
+    },
+    {
+        "id": 3314,
+        "name": "\uc288\ubaa8\ud0a4 \ud2f0\ud504"
+    },
+    {
+        "id": 3315,
+        "name": "\ud30c\ud2b8 \ud0b9\uace8\ud2b8"
+    },
+    {
+        "id": 3316,
+        "name": "\ud30c\ud2b8 \ud0b9\uba54\ud0c8"
+    },
+    {
+        "id": 3317,
+        "name": "Rubylit"
+    },
+    {
+        "id": 3318,
+        "name": "Sapphilit"
+    },
+    {
+        "id": 3319,
+        "name": "Emelit"
+    },
+    {
+        "id": 3320,
+        "name": "Topalit"
+    },
+    {
+        "id": 3321,
+        "name": "Amelit"
+    },
+    {
+        "id": 3322,
+        "name": "\ud30c\ud2b8 \uba54\ud0c8 \ub4dc\ub77c\uace4"
+    },
+    {
+        "id": 3323,
+        "name": "\ud30c\ud2b8 \uc74c \ud50c\ub77c\uba54 \ud06c\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 3324,
+        "name": "\ud30c\ud2b8 \uc74c \uc774\uccb4 \ud06c\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 3325,
+        "name": "\ud30c\ud2b8 \uc74c \uc288\ud1a0\ub124 \ud06c\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 3326,
+        "name": "\ud30c\ud2b8 \uc74c \ub9ac\uadf8\ud750\ud2b8 \ud06c\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 3327,
+        "name": "\ud30c\ud2b8 \uc74c \ub2e4\ub974\ud06c \ud06c\ub2c8\uadf8\ud750\ud2b8"
+    },
+    {
+        "id": 3328,
+        "name": "\ud30c\ud2b8 \ud06c \ud2b8 \ub4dc\ub77c\uace4"
+    },
+    {
+        "id": 3329,
+        "name": "\ud30c\ud2b8 \uc5d0\ud788\ub4dc\ub098"
+    },
+    {
+        "id": 3330,
+        "name": "\ud30c\ud2b8 \uc9c0\ub80c"
+    },
+    {
+        "id": 3331,
+        "name": "\ud30c\ud2b8 \ub9b4\ub9ac\ud2b8"
+    },
+    {
+        "id": 3332,
+        "name": "\ud30c\ud2b8 \ud5e4\ub77c"
+    },
+    {
+        "id": 3333,
+        "name": "\ud30c\ud2b8 \ub8e8\ubddc\ub9ac\ud2b8 \ud750"
+    },
+    {
+        "id": 3334,
+        "name": "\ud30c\ud2b8 \uc790\ud544\ub9ac\ud2b8 \ud750"
+    },
+    {
+        "id": 3335,
+        "name": "\ud30c\ud2b8 \uc5d0\uba5c\ub9ac\ud2b8 \ud750"
+    },
+    {
+        "id": 3336,
+        "name": "\ud30c\ud2b8 \ud1a0\ud314\ub9ac\ud2b8 \ud750"
+    },
+    {
+        "id": 3337,
+        "name": "\ud30c\ud2b8 \uc544\uba5c\ub9ac\ud2b8 \ud750"
+    },
+    {
+        "id": 3338,
+        "name": "\ud30c\ud2b8 \uba54\ud0c8 \ub4dc\ub77c\uace4 \ud750"
+    },
+    {
+        "id": 3339,
+        "name": "\ud30c\ud2b8 \uc74c \ud50c\ub77c\uba54 \ud06c\ub2c8\uadf8\ud750\ud2b8 \ud750"
+    },
+    {
+        "id": 3340,
+        "name": "\ud30c\ud2b8 \uc74c \uc774\uccb4 \ud06c\ub2c8\uadf8\ud750\ud2b8 \ud750"
+    },
+    {
+        "id": 3341,
+        "name": "\ud30c\ud2b8 \uc74c \uc288\ud1a0\ub124 \ud06c\ub2c8\uadf8\ud750\ud2b8 \ud750"
+    },
+    {
+        "id": 3342,
+        "name": "\ud30c\ud2b8 \uc74c \ub9ac\uadf8\ud750\ud2b8 \ud06c\ub2c8\uadf8\ud750\ud2b8 \ud750"
+    },
+    {
+        "id": 3343,
+        "name": "\ud30c\ud2b8 \uc74c \ub2e4\ub974\ud06c \ud06c\ub2c8\uadf8\ud750\ud2b8 \ud750"
+    },
+    {
+        "id": 3344,
+        "name": "\ud30c\ud2b8 \ud06c \ud2b8 \ub4dc\ub77c\uace4 \ud750"
+    },
+    {
+        "id": 3345,
+        "name": "\ud30c\ud2b8 \uc5d0\ud788\ub4dc\ub098 \ud750"
+    },
+    {
+        "id": 3346,
+        "name": "\ud30c\ud2b8 \uc9c0\ub80c \ud750"
+    },
+    {
+        "id": 3347,
+        "name": "\ud30c\ud2b8 \ub9b4\ub9ac\ud2b8 \ud750"
+    },
+    {
+        "id": 3348,
+        "name": "\ud30c\ud2b8 \ud5e4\ub77c \ud750"
+    },
+    {
+        "id": 3349,
+        "name": "Mythlit"
+    },
+    {
+        "id": 3350,
+        "name": "\ud30c\ud2b8 \ud280\ub77c"
+    },
+    {
+        "id": 3351,
+        "name": "\ud30c\ud2b8 \ud280\ub77c\ub178\uc2a4"
+    },
+    {
+        "id": 3352,
+        "name": "\ud30c\ud2b8 \ud50c\ub808\uc2dc"
+    },
+    {
+        "id": 3353,
+        "name": "\ud30c\ud2b8 \ud50c\ub808\uc9c0\uc624\uc2a4"
+    },
+    {
+        "id": 3354,
+        "name": "\ud30c\ud2b8 \ube0c\ub77c\ud718"
+    },
+    {
+        "id": 3355,
+        "name": "\ud30c\ud2b8 \ube0c\ub77c\ud718\uc2a4"
+    },
+    {
+        "id": 3356,
+        "name": "Robert"
+    },
+    {
+        "id": 3357,
+        "name": "Hawkeye"
+    },
+    {
+        "id": 3358,
+        "name": "The Giant"
+    },
+    {
+        "id": 3359,
+        "name": "Gabor"
+    },
+    {
+        "id": 3360,
+        "name": "Bay"
+    },
+    {
+        "id": 3361,
+        "name": "Havlock"
+    },
+    {
+        "id": 3362,
+        "name": "O'Connell"
+    },
+    {
+        "id": 3363,
+        "name": "E. Carnahan"
+    },
+    {
+        "id": 3364,
+        "name": "J. Carnahan"
+    },
+    {
+        "id": 3365,
+        "name": "Imhotep"
+    },
+    {
+        "id": 3381,
+        "name": "Alma da Escurid\u00e3o"
+    },
+    {
+        "id": 3382,
+        "name": "Alma Andarilha"
+    },
+    {
+        "id": 3384,
+        "name": "Poring"
+    },
+    {
+        "id": 3385,
+        "name": "Lunatic"
+    },
+    {
+        "id": 3386,
+        "name": "Fabre"
+    },
+    {
+        "id": 3387,
+        "name": "Picky"
+    },
+    {
+        "id": 3388,
+        "name": "Condor"
+    },
+    {
+        "id": 3389,
+        "name": "Willow"
+    },
+    {
+        "id": 3390,
+        "name": "Spore"
+    },
+    {
+        "id": 3391,
+        "name": "Poporing"
+    },
+    {
+        "id": 3392,
+        "name": "Smokie"
+    },
+    {
+        "id": 3393,
+        "name": "Dokebi"
+    },
+    {
+        "id": 3394,
+        "name": "Bigfoot"
+    },
+    {
+        "id": 3395,
+        "name": "Wormtail"
+    },
+    {
+        "id": 3396,
+        "name": "Wolf"
+    },
+    {
+        "id": 3397,
+        "name": "Snake"
+    },
+    {
+        "id": 3398,
+        "name": "Anacondaq"
+    },
+    {
+        "id": 3399,
+        "name": "Marin"
+    },
+    {
+        "id": 3400,
+        "name": "Muka"
+    },
+    {
+        "id": 3401,
+        "name": "Peco Peco"
+    },
+    {
+        "id": 3402,
+        "name": "Deniro"
+    },
+    {
+        "id": 3403,
+        "name": "Piere"
+    },
+    {
+        "id": 3404,
+        "name": "Andre"
+    },
+    {
+        "id": 3405,
+        "name": "Golem"
+    },
+    {
+        "id": 3406,
+        "name": "Scorpion"
+    },
+    {
+        "id": 3407,
+        "name": "Chonchon"
+    },
+    {
+        "id": 3408,
+        "name": "Metaller"
+    },
+    {
+        "id": 3409,
+        "name": "Sandman"
+    },
+    {
+        "id": 3410,
+        "name": "Raggler"
+    },
+    {
+        "id": 3411,
+        "name": "Dragon Tail"
+    },
+    {
+        "id": 3412,
+        "name": "Grove"
+    },
+    {
+        "id": 3413,
+        "name": "Sea Otter"
+    },
+    {
+        "id": 3414,
+        "name": "Galapago"
+    },
+    {
+        "id": 3415,
+        "name": "Seal"
+    },
+    {
+        "id": 3416,
+        "name": "Alligator"
+    },
+    {
+        "id": 3417,
+        "name": "Megalodon"
+    },
+    {
+        "id": 3418,
+        "name": "Tri Joint"
+    },
+    {
+        "id": 3419,
+        "name": "Megalith"
+    },
+    {
+        "id": 3420,
+        "name": "Dryad"
+    },
+    {
+        "id": 3421,
+        "name": "Toad"
+    },
+    {
+        "id": 3422,
+        "name": "Vagabond Wolf"
+    },
+    {
+        "id": 3423,
+        "name": "Infinite Vocal"
+    },
+    {
+        "id": 3424,
+        "name": "Infinite Eclise"
+    },
+    {
+        "id": 3425,
+        "name": "Chimera"
+    },
+    {
+        "id": 3426,
+        "name": "Eddga"
+    },
+    {
+        "id": 3427,
+        "name": "Osiris"
+    },
+    {
+        "id": 3428,
+        "name": "Phreeoni"
+    },
+    {
+        "id": 3429,
+        "name": "Orc Hero"
+    },
+    {
+        "id": 3430,
+        "name": "Tao Gunka"
+    },
+    {
+        "id": 3431,
+        "name": "Roda Frog"
+    },
+    {
+        "id": 3432,
+        "name": "Wolf"
+    },
+    {
+        "id": 3433,
+        "name": "Rocker"
+    },
+    {
+        "id": 3434,
+        "name": "Lunatic"
+    },
+    {
+        "id": 3435,
+        "name": "Gargoyle"
+    },
+    {
+        "id": 3436,
+        "name": "Bigfoot"
+    },
+    {
+        "id": 3437,
+        "name": "Ancient Mummy"
+    },
+    {
+        "id": 3438,
+        "name": "Sandman"
+    },
+    {
+        "id": 3439,
+        "name": "High Orc"
+    },
+    {
+        "id": 3440,
+        "name": "Megalith"
+    },
+    {
+        "id": 3441,
+        "name": "Sealed Dracula"
+    },
+    {
+        "id": 3442,
+        "name": "Lobo de Gelo"
+    },
+    {
+        "id": 3443,
+        "name": "Tappy"
+    },
+    {
+        "id": 3444,
+        "name": "Observador"
+    },
+    {
+        "id": 3445,
+        "name": "Arqueiro Imortal"
+    },
+    {
+        "id": 3446,
+        "name": "Esqueleto Imortal"
+    },
+    {
+        "id": 3447,
+        "name": "Soldado Imortal"
+    },
+    {
+        "id": 3448,
+        "name": "Amdarais Imortal"
+    },
+    {
+        "id": 3449,
+        "name": "Amdarais Mortal"
+    },
+    {
+        "id": 3450,
+        "name": "Bijou"
+    },
+    {
+        "id": 3451,
+        "name": "Legion\u00e1rio Imortal"
+    },
+    {
+        "id": 3452,
+        "name": "Zumbi da Guarda"
+    },
+    {
+        "id": 3453,
+        "name": "Carneiro Perdido"
+    },
+    {
+        "id": 3454,
+        "name": "Intruso"
+    },
+    {
+        "id": 3455,
+        "name": "Prato Luxuoso"
+    },
+    {
+        "id": 3473,
+        "name": "Jack Wolf"
+    },
+    {
+        "id": 3474,
+        "name": "Cavaleiro Imortal"
+    },
+    {
+        "id": 3475,
+        "name": "Xam\u00e3 Imortal"
+    },
+    {
+        "id": 3476,
+        "name": "Zumbi Imortal"
+    },
+    {
+        "id": 3477,
+        "name": "Legion\u00e1rio Imortal"
+    },
+    {
+        "id": 3478,
+        "name": "Guardi\u00e3o da Chave"
+    },
+    {
+        "id": 3479,
+        "name": "Carni\u00e7al Imortal"
+    },
+    {
+        "id": 3480,
+        "name": "Dilacerado Imortal"
+    },
+    {
+        "id": 3481,
+        "name": "Habitante Imortal"
+    },
+    {
+        "id": 3482,
+        "name": "Convidado Imortal"
+    },
+    {
+        "id": 3483,
+        "name": "Esp\u00edrito Imortal"
+    },
+    {
+        "id": 3484,
+        "name": "Jack Wolf"
+    },
+    {
+        "id": 3485,
+        "name": "Dilacerado Mortal"
+    },
+    {
+        "id": 3486,
+        "name": "\uc0b0 \ud1a0\ub07c\ud1a0\ub07c"
+    },
+    {
+        "id": 3487,
+        "name": "Legion\u00e1rio Imortal"
+    },
+    {
+        "id": 3488,
+        "name": "Legion\u00e1rio Imortal"
+    },
+    {
+        "id": 3489,
+        "name": "Legion\u00e1rio Imortal"
+    },
+    {
+        "id": 3490,
+        "name": "General Imortal"
+    },
+    {
+        "id": 3492,
+        "name": "\ubd88\ubc95 \ubc00\ub835\uafbc"
+    },
+    {
+        "id": 3494,
+        "name": "\ubb34\ud55c\uc758 \ud3ec\ub9c1"
+    },
+    {
+        "id": 3495,
+        "name": "Omeleting"
+    },
+    {
+        "id": 3496,
+        "name": "Lun\u00e1tico Folhado"
+    },
+    {
+        "id": 3497,
+        "name": "Fabre Gram\u00edneo"
+    },
+    {
+        "id": 3498,
+        "name": "Zang\u00e3o Selvagem"
+    },
+    {
+        "id": 3499,
+        "name": "Sapo de Rodda Doce"
+    },
+    {
+        "id": 3500,
+        "name": "Filhote de Lobo Ca\u00e7ador"
+    },
+    {
+        "id": 3501,
+        "name": "Esporo de \u00c1gua Doce"
+    },
+    {
+        "id": 3502,
+        "name": "Basilisco Guarda"
+    },
+    {
+        "id": 3503,
+        "name": "Basilisco Guerreiro"
+    },
+    {
+        "id": 3504,
+        "name": "Basilisco General"
+    },
+    {
+        "id": 3505,
+        "name": "Gemaring"
+    },
+    {
+        "id": 3506,
+        "name": "Mandr\u00e1gora da Selva"
+    },
+    {
+        "id": 3507,
+        "name": "Aranha Pomar"
+    },
+    {
+        "id": 3508,
+        "name": "Omeleting"
+    },
+    {
+        "id": 3510,
+        "name": "Guarda de Freya"
+    },
+    {
+        "id": 3511,
+        "name": "Crente Agressiva"
+    },
+    {
+        "id": 3512,
+        "name": "Crente Agressivo"
+    },
+    {
+        "id": 3513,
+        "name": "Cachorro"
+    },
+    {
+        "id": 3514,
+        "name": "Sacerdote Violento"
+    },
+    {
+        "id": 3515,
+        "name": "Cora\u00e7\u00e3o Congelado"
+    },
+    {
+        "id": 3516,
+        "name": "Loomin"
+    },
+    {
+        "id": 3517,
+        "name": "Espectro de Gelo"
+    },
+    {
+        "id": 3518,
+        "name": "Guarda de Freya"
+    },
+    {
+        "id": 3519,
+        "name": "Crente Agressiva"
+    },
+    {
+        "id": 3520,
+        "name": "Crente Agressivo"
+    },
+    {
+        "id": 3521,
+        "name": "Cachorro"
+    },
+    {
+        "id": 3522,
+        "name": "Sacerdote Violento"
+    },
+    {
+        "id": 3523,
+        "name": "Cora\u00e7\u00e3o Congelado"
+    },
+    {
+        "id": 3524,
+        "name": "Loomin"
+    },
+    {
+        "id": 3525,
+        "name": "Espectro de Gelo"
+    },
+    {
+        "id": 3526,
+        "name": "Espectro de Ktullanux"
+    },
+    {
+        "id": 3527,
+        "name": "Papisa"
+    },
+    {
+        "id": 3528,
+        "name": "Papisa Casual"
+    },
+    {
+        "id": 3529,
+        "name": "MDEF0"
+    },
+    {
+        "id": 3530,
+        "name": "MDEF100"
+    },
+    {
+        "id": 3531,
+        "name": "MDEF200"
+    },
+    {
+        "id": 3532,
+        "name": "MDEF300"
+    },
+    {
+        "id": 3533,
+        "name": "MDEF400"
+    },
+    {
+        "id": 3534,
+        "name": "DEF0"
+    },
+    {
+        "id": 3535,
+        "name": "DEF100"
+    },
+    {
+        "id": 3536,
+        "name": "DEF200"
+    },
+    {
+        "id": 3537,
+        "name": "DEF300"
+    },
+    {
+        "id": 3538,
+        "name": "DEF400"
+    },
+    {
+        "id": 3539,
+        "name": "\ubb34\ud615"
+    },
+    {
+        "id": 3540,
+        "name": "\ubd88\uc0ac\ud615"
+    },
+    {
+        "id": 3541,
+        "name": "\ub3d9\ubb3c\ud615"
+    },
+    {
+        "id": 3542,
+        "name": "\uc2dd\ubb3c\ud615"
+    },
+    {
+        "id": 3543,
+        "name": "\uace4\ucda9\ud615"
+    },
+    {
+        "id": 3544,
+        "name": "\uc5b4\ud328\ud615"
+    },
+    {
+        "id": 3545,
+        "name": "\uc545\ub9c8\ud615"
+    },
+    {
+        "id": 3546,
+        "name": "\uc778\uac04\ud615"
+    },
+    {
+        "id": 3547,
+        "name": "\ucc9c\uc0ac\ud615"
+    },
+    {
+        "id": 3548,
+        "name": "\uc6a9\uc871"
+    },
+    {
+        "id": 3549,
+        "name": "\uc18c\ud615"
+    },
+    {
+        "id": 3550,
+        "name": "\uc911\ud615"
+    },
+    {
+        "id": 3551,
+        "name": "\ub300\ud615"
+    },
+    {
+        "id": 3569,
+        "name": "Papisa"
+    },
+    {
+        "id": 3570,
+        "name": "Papisa Casual"
+    },
+    {
+        "id": 3621,
+        "name": "Fofinho"
+    },
+    {
+        "id": 3622,
+        "name": "Ca\u00e7a-Cora\u00e7\u00e3o Guarda"
+    },
+    {
+        "id": 3623,
+        "name": "Chama Et\u00e9rea"
+    },
+    {
+        "id": 3624,
+        "name": "Chama Et\u00e9rea"
+    },
+    {
+        "id": 3625,
+        "name": "Chama Et\u00e9rea"
+    },
+    {
+        "id": 3626,
+        "name": "Ca\u00e7a-Cora\u00e7\u00e3o Gigante"
+    },
+    {
+        "id": 3627,
+        "name": "Ca\u00e7a-Cora\u00e7\u00e3o"
+    },
+    {
+        "id": 3628,
+        "name": "Mal\u00edcia"
+    },
+    {
+        "id": 3629,
+        "name": "Rancor de Arma"
+    },
+    {
+        "id": 3630,
+        "name": "Elena Bolkova"
+    },
+    {
+        "id": 3631,
+        "name": "Quimera Humana"
+    },
+    {
+        "id": 3632,
+        "name": "Quimera Disforme"
+    },
+    {
+        "id": 3633,
+        "name": "Quimera Venenosa"
+    },
+    {
+        "id": 3634,
+        "name": "Presente Gigante"
+    },
+    {
+        "id": 3635,
+        "name": "\uc2dc\ub2ec\ub9b0 \uc6d0\uc8fc\ubbfc"
+    },
+    {
+        "id": 3636,
+        "name": "Beb\u00ea Isis"
+    },
+    {
+        "id": 3637,
+        "name": "Esqueleto 60"
+    },
+    {
+        "id": 3638,
+        "name": "Esqueleto 80"
+    },
+    {
+        "id": 3639,
+        "name": "Esqueleto 100"
+    },
+    {
+        "id": 3640,
+        "name": "Esqueleto 120"
+    },
+    {
+        "id": 3641,
+        "name": "Esqueleto 140"
+    },
+    {
+        "id": 3642,
+        "name": "Esqueleto 160"
+    },
+    {
+        "id": 3643,
+        "name": "Familiar 60"
+    },
+    {
+        "id": 3644,
+        "name": "Familiar 80"
+    },
+    {
+        "id": 3645,
+        "name": "Familiar 100"
+    },
+    {
+        "id": 3646,
+        "name": "Familiar 140"
+    },
+    {
+        "id": 3647,
+        "name": "Familiar 140"
+    },
+    {
+        "id": 3648,
+        "name": "Familiar 160"
+    },
+    {
+        "id": 3649,
+        "name": "Zumbi 60"
+    },
+    {
+        "id": 3650,
+        "name": "Zumbi 80"
+    },
+    {
+        "id": 3651,
+        "name": "Zumbi 100"
+    },
+    {
+        "id": 3652,
+        "name": "Zumbi 120"
+    },
+    {
+        "id": 3653,
+        "name": "Zumbi 140"
+    },
+    {
+        "id": 3654,
+        "name": "Zumbi 160"
+    },
+    {
+        "id": 3655,
+        "name": "Lacaio"
+    },
+    {
+        "id": 3656,
+        "name": "\ub9c8\ubc95\uac78\ub9b0 \ud22c\ud45c\uc6a9\uc9c0"
+    },
+    {
+        "id": 3657,
+        "name": "\ub9c8\ubc95\uac78\ub9b0 \ud22c\ud45c\uc6a9\uc9c0"
+    },
+    {
+        "id": 3658,
+        "name": "Monarca Lich"
+    },
+    {
+        "id": 3659,
+        "name": "Monarca Lich"
+    },
+    {
+        "id": 3660,
+        "name": "Pesadelo 100"
+    },
+    {
+        "id": 3661,
+        "name": "Pesadelo 160"
+    },
+    {
+        "id": 3662,
+        "name": "Jakk 100"
+    },
+    {
+        "id": 3663,
+        "name": "Jakk 160"
+    },
+    {
+        "id": 3664,
+        "name": "Carni\u00e7al 100"
+    },
+    {
+        "id": 3665,
+        "name": "Carni\u00e7al 160"
+    },
+    {
+        "id": 3666,
+        "name": "Drainliar 100"
+    },
+    {
+        "id": 3667,
+        "name": "Drainliar 160"
+    },
+    {
+        "id": 3668,
+        "name": "\ud0a4\uc5d8-D-01"
+    },
+    {
+        "id": 3669,
+        "name": "Diabolik"
+    },
+    {
+        "id": 3670,
+        "name": "Delet\u00e9rio"
+    },
+    {
+        "id": 3721,
+        "name": "Poring"
+    },
+    {
+        "id": 3722,
+        "name": "Poporing"
+    },
+    {
+        "id": 3723,
+        "name": "Drops"
+    },
+    {
+        "id": 3724,
+        "name": "Lun\u00e1tico"
+    },
+    {
+        "id": 3725,
+        "name": "Salgueiro"
+    },
+    {
+        "id": 3726,
+        "name": "Picky"
+    },
+    {
+        "id": 3727,
+        "name": "Picky"
+    },
+    {
+        "id": 3728,
+        "name": "Zumbi"
+    },
+    {
+        "id": 3729,
+        "name": "Esporo Venenoso"
+    },
+    {
+        "id": 3731,
+        "name": "Zumbichano"
+    },
+    {
+        "id": 3734,
+        "name": "Merry Santa Orc"
+    },
+    {
+        "id": 3735,
+        "name": "Santa Poring"
+    },
+    {
+        "id": 3736,
+        "name": "B\u00fafalo Bandido"
+    },
+    {
+        "id": 3737,
+        "name": "B\u00fafalo Atirador"
+    },
+    {
+        "id": 3738,
+        "name": "B\u00fafalo Ladr\u00e3o"
+    },
+    {
+        "id": 3739,
+        "name": "Coiote"
+    },
+    {
+        "id": 3740,
+        "name": "Gaster"
+    },
+    {
+        "id": 3741,
+        "name": "Aranha Mec\u00e2nica"
+    },
+    {
+        "id": 3742,
+        "name": "Purple Ore"
+    },
+    {
+        "id": 3743,
+        "name": "Sea Anemone"
+    },
+    {
+        "id": 3744,
+        "name": "Buffalo Bandit"
+    },
+    {
+        "id": 3745,
+        "name": "Buffalo Bandit"
+    },
+    {
+        "id": 3746,
+        "name": "Buffalo Bandit"
+    },
+    {
+        "id": 3747,
+        "name": "Bandido de Elite"
+    },
+    {
+        "id": 3748,
+        "name": "Atirador de Elite"
+    },
+    {
+        "id": 3749,
+        "name": "Ladr\u00e3o de Elite"
+    },
+    {
+        "id": 3750,
+        "name": "Mattiliar"
+    },
+    {
+        "id": 3751,
+        "name": "Morto-Vivo"
+    },
+    {
+        "id": 3752,
+        "name": "Zumbi Ilusional"
+    },
+    {
+        "id": 3753,
+        "name": "Carni\u00e7al Ilusional"
+    },
+    {
+        "id": 3754,
+        "name": "Doce Pesadelo"
+    },
+    {
+        "id": 3755,
+        "name": "Cogumelo Brilhante"
+    },
+    {
+        "id": 3756,
+        "name": "Bomi"
+    },
+    {
+        "id": 3757,
+        "name": "Conde Dr\u00e1cula"
+    },
+    {
+        "id": 3758,
+        "name": "Ilus\u00e3o do Luar"
+    },
+    {
+        "id": 3759,
+        "name": "Raposa Raivosa"
+    },
+    {
+        "id": 3760,
+        "name": "Munak Ressentida"
+    },
+    {
+        "id": 3761,
+        "name": "Bongun Ressentido"
+    },
+    {
+        "id": 3762,
+        "name": "Sohee Maldita"
+    },
+    {
+        "id": 3763,
+        "name": "Arqueiro Cruel"
+    },
+    {
+        "id": 3764,
+        "name": "Veritas"
+    },
+    {
+        "id": 3765,
+        "name": "Aventureiro"
+    },
+    {
+        "id": 3787,
+        "name": "Tapuru"
+    },
+    {
+        "id": 3788,
+        "name": "Gabiru"
+    },
+    {
+        "id": 3789,
+        "name": "Escaped Letter"
+    },
+    {
+        "id": 3790,
+        "name": "Quinding"
+    },
+    {
+        "id": 3792,
+        "name": "Gazeti de Cristal"
+    },
+    {
+        "id": 3793,
+        "name": "Yeti de Cristal"
+    },
+    {
+        "id": 3794,
+        "name": "Tit\u00e3 de Cristal"
+    },
+    {
+        "id": 3795,
+        "name": "Cristal de Gelo"
+    },
+    {
+        "id": 3796,
+        "name": "Ktullanux de Cristal"
+    },
+    {
+        "id": 3797,
+        "name": "Vrid"
+    },
+    {
+        "id": 3798,
+        "name": "Zeith"
+    },
+    {
+        "id": 3799,
+        "name": "Agressor Ominoso"
+    },
+    {
+        "id": 3800,
+        "name": "Batedor Ominoso"
+    },
+    {
+        "id": 3801,
+        "name": "Congelador Ominoso"
+    },
+    {
+        "id": 3802,
+        "name": "Solidificador Ominoso"
+    },
+    {
+        "id": 3803,
+        "name": "Aquecedor Ominoso"
+    },
+    {
+        "id": 3804,
+        "name": "Marechal Tartaruga"
+    },
+    {
+        "id": 3805,
+        "name": "Ovo Decorado"
+    },
+    {
+        "id": 3806,
+        "name": "Strange Egg"
+    },
+    {
+        "id": 3807,
+        "name": "Lun\u00e1tico de Trevo"
+    },
+    {
+        "id": 3808,
+        "name": "Clover Poporing"
+    },
+    {
+        "id": 3809,
+        "name": "Deadly Thief Bug"
+    },
+    {
+        "id": 3810,
+        "name": "Rei Poring"
+    },
+    {
+        "id": 3811,
+        "name": "Dourading Gigante"
+    },
+    {
+        "id": 3812,
+        "name": "Amering Gigante"
+    },
+    {
+        "id": 3813,
+        "name": "Drops Encorpado"
+    },
+    {
+        "id": 3814,
+        "name": "Poporing Encorpado"
+    },
+    {
+        "id": 3815,
+        "name": "Poring Encorpado"
+    },
+    {
+        "id": 3816,
+        "name": "Marin Encorpado"
+    },
+    {
+        "id": 3817,
+        "name": "Meloring"
+    },
+    {
+        "id": 3818,
+        "name": "Meloring Gigante"
+    },
+    {
+        "id": 3819,
+        "name": "Erva M\u00e1gica"
+    },
+    {
+        "id": 3820,
+        "name": "Imp Morno"
+    },
+    {
+        "id": 3821,
+        "name": "Estrondo Morno"
+    },
+    {
+        "id": 3822,
+        "name": "Picky Vulc\u00e2nico"
+    },
+    {
+        "id": 3823,
+        "name": "Imp Vulc\u00e2nico"
+    },
+    {
+        "id": 3824,
+        "name": "Estrondo Vulc\u00e2nico"
+    },
+    {
+        "id": 3825,
+        "name": "Salamandra de Lava"
+    },
+    {
+        "id": 3826,
+        "name": "Y.S.F.01"
+    },
+    {
+        "id": 3877,
+        "name": "\ub0d0\uc77c\ub85c"
+    },
+    {
+        "id": 3878,
+        "name": "\uad6c\ub369\uc774"
+    },
+    {
+        "id": 3879,
+        "name": "\ubd88\ub7c9 \uad6d\uc218"
+    },
+    {
+        "id": 3880,
+        "name": "\uc791\uc740 \uc18c\uc6a9\ub3cc\uc774"
+    },
+    {
+        "id": 3881,
+        "name": "\uc798 \uc775\uc740 \uc218\ubc15"
+    },
+    {
+        "id": 3882,
+        "name": "\ub0d0\uc77c\ub85c"
+    },
+    {
+        "id": 3883,
+        "name": "\ub0d0\uc77c\ub85c\uc758 \ub2e4\ub9ac"
+    },
+    {
+        "id": 3884,
+        "name": "\uc791\uc740 \ubcf4\ubb3c\uc0c1\uc790"
+    },
+    {
+        "id": 3885,
+        "name": "\ucee4\ub2e4\ub780 \ubcf4\ubb3c\uc0c1\uc790"
+    },
+    {
+        "id": 3886,
+        "name": "\uc0c1\uc790\uc758 \ud558\uc218\uc778"
+    },
+    {
+        "id": 3887,
+        "name": "\uc5b5\uc6b8\ud55c \uc601\ud63c"
+    },
+    {
+        "id": 3896,
+        "name": "Agressor Ominoso"
+    },
+    {
+        "id": 3897,
+        "name": "Orc Zumbi Putrefato"
+    },
+    {
+        "id": 3898,
+        "name": "Orc Zumbi"
+    },
+    {
+        "id": 3899,
+        "name": "Orc Guerreiro Antigo"
+    },
+    {
+        "id": 3900,
+        "name": "Orc Arqueiro Antigo"
+    },
+    {
+        "id": 3901,
+        "name": "Orc Falso"
+    },
+    {
+        "id": 3902,
+        "name": "Senhor dos Orcs Antigo"
+    },
+    {
+        "id": 3903,
+        "name": "Flor dos Orcs"
+    },
+    {
+        "id": 3910,
+        "name": "Runa Guardi\u00e3 "
+    },
+    {
+        "id": 3911,
+        "name": "Entidade Sombria"
+    },
+    {
+        "id": 3912,
+        "name": "Entidade Sombria"
+    },
+    {
+        "id": 3913,
+        "name": "Entidade Sombria"
+    },
+    {
+        "id": 3914,
+        "name": "Entidade Sombria"
+    },
+    {
+        "id": 3915,
+        "name": "Runa Guardi\u00e3 "
+    },
+    {
+        "id": 3948,
+        "name": "\uc554\ud751 \uc624\ud06c\uc6cc\ub9ac\uc5b4"
+    },
+    {
+        "id": 3949,
+        "name": "\uc554\ud751 \uc624\ud06c\ub808\uc774\ub514"
+    },
+    {
+        "id": 3950,
+        "name": "\uc554\ud751 \uc624\ud06c\ubca0\uc774\ube44"
+    },
+    {
+        "id": 3951,
+        "name": "\uc554\ud751 \ud558\uc774\uc624\ud06c"
+    },
+    {
+        "id": 3952,
+        "name": "\uc554\ud751 \uc624\ud06c\uc544\uccd0"
+    },
+    {
+        "id": 3955,
+        "name": "Hungry Boar"
+    },
+    {
+        "id": 3956,
+        "name": "Revived Branch"
+    },
+    {
+        "id": 3965,
+        "name": "\uc0ac\ub9c9\uc758 \ud504\ub9b4\ub3c4\ub77c"
+    },
+    {
+        "id": 3966,
+        "name": "\uc0ac\ub9c9\uc758 \uc0cc\ub4dc\ub9e8"
+    },
+    {
+        "id": 3967,
+        "name": "\uc0ac\ub9c9\uc758 \ud638\ub4dc"
+    },
+    {
+        "id": 3969,
+        "name": "Red Mushroom"
+    },
+    {
+        "id": 3970,
+        "name": "Red Mushroom"
+    },
+    {
+        "id": 3971,
+        "name": "EsqueLe\u00e3o"
+    },
+    {
+        "id": 3972,
+        "name": "\uc9c0\ud558 \ub3c4\ub451\ubc8c\ub808#6"
+    },
+    {
+        "id": 3973,
+        "name": "#1"
+    },
+    {
+        "id": 3974,
+        "name": "\ubd80\ud654 \uc9c1\uc804\uc758 \uc54c#1"
+    },
+    {
+        "id": 3975,
+        "name": "\uace0\ub300\uc758 \ud669\uae08\ubc8c\ub808"
+    },
+    {
+        "id": 3976,
+        "name": "Fada"
+    }
+]
