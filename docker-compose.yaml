@@ -32,6 +32,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
     volumes:
       - ./upgrader/mongodb_init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+      - mongodb:/data/db
 
   mongo-express:
     image: mongo-express
@@ -44,3 +45,6 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongo:27017/
     depends_on:
       - mongo
+
+volumes:
+  mongodb:
