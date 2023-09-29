@@ -75,7 +75,7 @@ while True:
                 break
 
             elif response.status_code == 403:
-                logging.error(f'id {data["id"]} with status code 403')
+                logging.error(f'id {n} with status code 403')
                 time.sleep(3600)
             
             else:
