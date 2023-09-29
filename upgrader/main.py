@@ -36,7 +36,10 @@ collection = db["monsters"]
 status = db["status"]
 
 # position
-position = status.find_one({'status': 'id'})['id']
+try:
+    position = status.find_one({'status': 'id'})['id']
+except:
+    position = 1001
 
 def save_status(position):
     status.update_one(
