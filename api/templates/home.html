@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Table</title>
+    <title>Monsters</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container mt-5">
-        <h1>JSON Table</h1>
+        <h1>Monsters</h1>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -41,7 +41,7 @@
     
                     // Transforma cada linha em um link com base no ID
                     const monsterLink = document.createElement('a');
-                    monsterLink.href = `http://localhost:8000/monster/${item.id}`;
+                    monsterLink.href = `monster/${item.id}`;
                     monsterLink.textContent = `${item.id}`;
     
                     idCell.appendChild(monsterLink);

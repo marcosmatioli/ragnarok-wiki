@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3-slim
 
 WORKDIR /app
 
@@ -8,4 +8,4 @@ COPY templates/ templates/
 
 RUN ["python3", "-m", "pip", "install", "-r", "requirements.txt"]
 
-ENTRYPOINT [ "python3", "-m", "uvicorn", "main:app", "--reload" ]
+ENTRYPOINT [ "python3", "-m", "uvicorn", "main:app", "--host", "0.0.0.0" ]
