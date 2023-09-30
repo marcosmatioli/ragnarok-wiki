@@ -19,12 +19,42 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>{{ monster_info.id }}</td>
-                    <td>{{ monster_info.name }}</td>
-                    <td>{{ monster_info.health }}</td>
+                    <td id="monsterId"></td>
+                    <td id="monsterName"></td>
+                    <td id="monsterHealth"></td>
                 </tr>
             </tbody>
         </table>
     </div>
+
+    <script>
+        // Função para buscar informações do monstro
+        function getMonsterInfo(id) {
+            fetch(`/api/monster/${id}`)
+                .then(response => response.json())
+                .then(data => {
+                    if ("error" in data) {
+                        alert(data.error);
+                    } else {
+                        document.getElementById("monsterId").textContent = data.id;
+                        document.getElementById("monsterName").textContent = data.name;
+                        document.getElementById("monsterHealth").textContent = data.stats.health;
+                    }
+                })
+                .catch(error => {
+                    console.error("Erro ao buscar informações do monstro:", error);
+                });
+        }
+
+        // Obtém o ID do monstro da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const monsterId = urlParams.get("id");
+
+        if (monsterId) {
+            getMonsterInfo(monsterId);
+        } else {
+            alert("ID do monstro não encontrado na URL.");
+        }
+    </script>
 </body>
 </html>

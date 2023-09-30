@@ -27,7 +27,7 @@
         // Função para carregar e exibir os dados do JSON
         async function loadJSONData() {
             try {
-                const response = await fetch('data'); // Altere o nome do arquivo conforme necessário
+                const response = await fetch('/api/monsters');
                 const data = await response.json();
                 const tableBody = document.getElementById('table-body');
     
@@ -41,7 +41,7 @@
     
                     // Transforma cada linha em um link com base no ID
                     const monsterLink = document.createElement('a');
-                    monsterLink.href = `monster/${item.id}`;
+                    monsterLink.href = `monster?id=${item.id}`;
                     monsterLink.textContent = `${item.id}`;
     
                     idCell.appendChild(monsterLink);
@@ -51,7 +51,6 @@
                     const imageUrl = `https://static.divine-pride.net/images/mobs/png/${item.id}.png`;
                     image.src = imageUrl;
                     image.alt = `Monster Image ${item.id}`;
-                    //image.width = 100; // Define a largura da imagem conforme necessário
                     image.height = 75;
     
                     imageLink.appendChild(image);
