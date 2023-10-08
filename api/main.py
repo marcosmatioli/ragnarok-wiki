@@ -1,4 +1,5 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Query
+from typing import List, Optional
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import JSONResponse
 from pymongo import MongoClient
@@ -25,9 +26,22 @@ async def monster(request: Request):
     return templates.TemplateResponse("monster_info.html", {"request": request})
 
 
-@app.get("/api/monsters", response_model=list[dict])
-async def get_monsters():
-    monsters = collection.find({}, {"_id": 0, "name": 1, "id": 1})
+@app.get("/api/monsters", response_model=List[dict])
+async def get_monsters(
+        page: Optional[int] = Query(
+            default=None, description="Page number", ge=1
+        ), 
+        per_page: int = Query(
+            default=100, description="Items per page", le=100
+        )
+):
+    if page is None:
+        monsters = collection.find({}, {"_id": 0, "name": 1, "id": 1})
+    
+    else:
+        skip = (page - 1) * per_page
+        monsters = collection.find({}, {"_id": 0, "name": 1, "id": 1}).skip(skip).limit(per_page)
+    
     monsters = [monster for monster in monsters]
     return JSONResponse(content=monsters)
 

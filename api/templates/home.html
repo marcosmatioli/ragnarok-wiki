@@ -18,58 +18,87 @@
                 </tr>
             </thead>
             <tbody id="table-body">
-                <!-- Table rows will be added here dynamically -->
+                <!-- table rows will be added here dynamically by js -->
             </tbody>
         </table>
+        <div class="pagination">
+            <ul class="pagination">
+                <li class="page-item">
+                    <button id="prev-page" class="page-link" onclick="loadPage(-1)">
+                        <span aria-hidden="true" class="mr-1">&laquo;</span> Previous Page
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button id="next-page" class="page-link" onclick="loadPage(1)">
+                        Next Page <span aria-hidden="true" class="ml-1">&raquo;</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
     </div>
-
     <script>
-        // Função para carregar e exibir os dados do JSON
-        async function loadJSONData() {
+        let currentPage = 1;
+        const perPage = 100;
+
+        async function loadPage(direction) {
+            currentPage += direction;
+
+            if (currentPage < 1) {
+                currentPage = 1;
+            }
+
             try {
-                const response = await fetch('/api/monsters');
+                // call monters api
+                const response = await fetch(`/api/monsters?page=${currentPage}&per_page=${perPage}`);
                 const data = await response.json();
                 const tableBody = document.getElementById('table-body');
-    
+
+                tableBody.innerHTML = ''; // clean table body
+
                 data.forEach(item => {
+                    // create table elements
                     const row = document.createElement('tr');
                     const idCell = document.createElement('td');
                     const nameCell = document.createElement('td');
                     const imageCell = document.createElement('td');
                     const imageLink = document.createElement('a');
                     const image = document.createElement('img');
-    
-                    // Transforma cada linha em um link com base no ID
+
+                    // create link of each monster
                     const monsterLink = document.createElement('a');
                     monsterLink.href = `monster?id=${item.id}`;
                     monsterLink.textContent = `${item.id}`;
-    
+
                     idCell.appendChild(monsterLink);
                     nameCell.textContent = item.name;
-    
-                    // Construa o link da imagem com base no ID
+
+                    // build imagem link based on id
                     const imageUrl = `https://static.divine-pride.net/images/mobs/png/${item.id}.png`;
                     image.src = imageUrl;
                     image.alt = `Monster Image ${item.id}`;
                     image.height = 75;
-    
+
                     imageLink.appendChild(image);
                     imageCell.appendChild(imageLink);
-    
+
                     row.appendChild(idCell);
                     row.appendChild(nameCell);
                     row.appendChild(imageCell);
                     tableBody.appendChild(row);
                 });
+
+                // update buttom pagination based on actual state
+                document.getElementById('prev-page').hidden = currentPage === 1;
+                document.getElementById('next-page').hidden = data.length < perPage;
             } catch (error) {
                 console.error('Erro ao carregar os dados do JSON:', error);
             }
         }
-    
-        // Chame a função para carregar os dados quando a página for carregada
-        window.addEventListener('load', loadJSONData);
+
+        // call function to load first page
+        window.addEventListener('load', () => {
+            loadPage(0);
+        });
     </script>
-    
-    
 </body>
 </html>
