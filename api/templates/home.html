@@ -9,6 +9,9 @@
 <body>
     <div class="container mt-5">
         <h1>Monsters</h1>
+        <div class="form-group">
+            <input type="text" id="search-name" class="form-control" placeholder="Pesquise pelo nome">
+        </div>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -47,9 +50,11 @@
                 currentPage = 1;
             }
 
+            const searchName = document.getElementById('search-name').value;
+
             try {
-                // call monters api
-                const response = await fetch(`/api/monsters?page=${currentPage}&per_page=${perPage}`);
+                // call monsters api with the name parameter
+                const response = await fetch(`/api/monsters?name=${searchName}&page=${currentPage}&per_page=${perPage}`);
                 const data = await response.json();
                 const tableBody = document.getElementById('table-body');
 
@@ -72,7 +77,7 @@
                     idCell.appendChild(monsterLink);
                     nameCell.textContent = item.name;
 
-                    // build imagem link based on id
+                    // build image link based on id
                     const imageUrl = `https://static.divine-pride.net/images/mobs/png/${item.id}.png`;
                     image.src = imageUrl;
                     image.alt = `Monster Image ${item.id}`;
@@ -87,13 +92,20 @@
                     tableBody.appendChild(row);
                 });
 
-                // update buttom pagination based on actual state
+                // update button pagination based on actual state
                 document.getElementById('prev-page').hidden = currentPage === 1;
                 document.getElementById('next-page').hidden = data.length < perPage;
             } catch (error) {
-                console.error('Erro ao carregar os dados do JSON:', error);
+                console.error('Error loading JSON data:', error);
             }
         }
+        
+        // eventlistener based on "Enter" event key
+        document.getElementById('search-name').addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                loadPage(0);
+            }
+        });
 
         // call function to load first page
         window.addEventListener('load', () => {
