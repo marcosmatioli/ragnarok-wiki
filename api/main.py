@@ -10,7 +10,10 @@ import re
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
-mongodb_url = os.environ['MONGODB_URL']
+mongodb_url = os.getenv(
+    'MONGODB_URL',
+    'mongodb://root:changeme@localhost:27017/'
+)
 
 mongo_client = MongoClient(mongodb_url)
 db = mongo_client["ragnarok"]
