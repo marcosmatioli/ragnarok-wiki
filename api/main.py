@@ -62,4 +62,4 @@ async def get_monster(monster_id: int):
         monster["image_url"] = f"https://static.divine-pride.net/images/mobs/png/{monster['id']}.png"
         return JSONResponse(content=monster)
     else:
-        return JSONResponse(content={"error": f"{monster['name']} not found"}, status_code=404)
+        return JSONResponse(content={"error": f"monsterid {monster_id} not found"}, status_code=404)
