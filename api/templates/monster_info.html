@@ -14,14 +14,36 @@
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
+                    <th>Level</th>
                     <th>Health</th>
+                    <th>Defense</th>
+                    <th>Magic Defense</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td id="monsterId"></td>
                     <td id="monsterName"></td>
+                    <td id="monsterLevel"></td>
                     <td id="monsterHealth"></td>
+                    <td id="monsterDef"></td>
+                    <td id="monsterMDef"></td>
+                </tr>
+                <tr>
+                    <th>Strenght</th>
+                    <th>Agility</th>
+                    <th>Vitality</th>
+                    <th>Intelligence</th>
+                    <th>Dexterity</th>
+                    <th>Luck</th>
+                </tr>
+                <tr>
+                    <td id="monsterStr"></td>
+                    <td id="monsterAgi"></td>
+                    <td id="monsterVit"></td>
+                    <td id="monsterInt"></td>
+                    <td id="monsterDex"></td>
+                    <td id="monsterLuk"></td>
                 </tr>
             </tbody>
         </table>
@@ -36,9 +58,20 @@
                     if ("error" in data) {
                         alert(data.error);
                     } else {
+                        // get main info
                         document.getElementById("monsterId").textContent = data.id;
                         document.getElementById("monsterName").textContent = data.name;
                         document.getElementById("monsterHealth").textContent = data.stats.health;
+                        document.getElementById("monsterLevel").textContent = data.stats.level;
+                        document.getElementById("monsterDef").textContent = data.stats.defense;
+                        document.getElementById("monsterMDef").textContent = data.stats.magicDefense;
+                        // get stats
+                        document.getElementById("monsterStr").textContent = data.stats.str;
+                        document.getElementById("monsterAgi").textContent = data.stats.agi;
+                        document.getElementById("monsterVit").textContent = data.stats.vit;
+                        document.getElementById("monsterInt").textContent = data.stats.int;
+                        document.getElementById("monsterDex").textContent = data.stats.dex;
+                        document.getElementById("monsterLuk").textContent = data.stats.luk;
                     }
                 })
                 .catch(error => {
