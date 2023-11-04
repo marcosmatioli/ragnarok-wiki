@@ -1,5 +1,9 @@
 # Ragnarok
 
+## Diagram
+
+![Diagram](diagram.png)
+
 ## Running
 
 Create a `.env` file to configure some variables like this:
