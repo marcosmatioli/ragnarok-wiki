@@ -9,22 +9,27 @@
 Create a `.env` file to configure some variables like this:
 
 ```dotenv
-MONGO_INITDB_ROOT_USERNAME=root
-MONGO_INITDB_ROOT_PASSWORD=changeme
-ME_CONFIG_MONGODB_ADMINUSERNAME=admin
-ME_CONFIG_MONGODB_ADMINPASSWORD=admin
+MONGO_ROOT_USERNAME=root
+MONGO_ROOT_PASSWORD=changeme
+ME_CONFIG_BASICAUTH_USERNAME=admin
+ME_CONFIG_BASICAUTH_PASSWORD=admin
 API_KEY=e8b1fbd9a8f4dfd9d430174bcfd2bfea
 ```
 
-Bellow the explanation about each variable:
+All variables are optional for development environments, except by `API_KEY` that needs to be set to **upgrader** microservice works.
 
-| Variable                        | Description                                          |
-| ------------------------------- | ---------------------------------------------------- |
-| MONGO_INITDB_ROOT_USERNAME      | Mongo DB root admin                                  |
-| MONGO_INITDB_ROOT_PASSWORD      | Mongo DB root password                               |
-| ME_CONFIG_MONGODB_ADMINUSERNAME | Mongo Express admin user                             |
-| ME_CONFIG_MONGODB_ADMINPASSWORD | Mongo Express admin password                         |
-| API_KEY                         | [Divine Pride](https://www.divine-pride.net) API key |
+Below the options and explanation about each variable:
+
+| Variable                     | Default Value | Description                                                                                 |
+| ---------------------------- | ------------- | ------------------------------------------------------------------------------------------- |
+| MONGO_ROOT_USERNAME          | root          | Mongo DB root username. Cannot be changed after first execution until clean mongodb volume. |
+| MONGO_ROOT_PASSWORD          | changeme      | Mongo DB root password. Cannot be changed after first execution until clean mongodb volume. |
+| MONGO_HOST                   | mongo         | Mongo host.                                                                                 |
+| MONGO_PORT                   | 27017         | Mongo port.                                                                                 |
+| ME_CONFIG_BASICAUTH_USERNAME | admin         | Mongo Express admin username.                                                               |
+| ME_CONFIG_BASICAUTH_PASSWORD | pass          | Mongo Express admin password.                                                               |
+| API_KEY                      | \--           | [Divine Pride](https://www.divine-pride.net) API key.                                       |
+| LOG_LEVEL                    | INFO          | Log level of upgrader microservice, can be DEBUG, INFO, WARNING, ERROR or CRITICAL.        |
 
 ```bash
 docker compose up -d
