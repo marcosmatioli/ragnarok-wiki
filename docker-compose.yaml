@@ -1,15 +1,24 @@
-version: '3.1'
+version: '3.8'
 
 services:
+
+  autoheal:
+    image: willfarrell/autoheal:latest
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
 
   api:
     image: api
     build: ./api
     restart: always
+    labels:
+      - autoheal=true
     depends_on:
-      - upgrader
+      mongo:
+        condition: service_healthy
     ports:
-      - 80:8000
+      - 80:80
     environment:
       MONGODB_URL:
         "mongodb://\
@@ -17,6 +26,12 @@ services:
         ${MONGO_ROOT_PASSWORD:-changeme}@\
         ${MONGO_HOST:-mongo}:\
         ${MONGO_PORT:-27017}/"
+    healthcheck:
+      test: curl --fail http://localhost/api/health || exit 1
+      interval: 10s
+      timeout: 1s
+      retries: 3
+      start_period: 10s
 
   upgrader:
     image: upgrader
@@ -32,10 +47,13 @@ services:
       API_KEY: ${API_KEY}
       LOG_LEVEL: "${LOG_LEVEL:-INFO}"
     depends_on:
-      - mongo
+      mongo:
+        condition: service_healthy
 
   mongo:
     image: mongo
+    labels:
+      - autoheal=true
     restart: always
     ports:
       - ${MONGO_PORT:-27017}:${MONGO_PORT:-27017}
@@ -44,7 +62,19 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-changeme}
     volumes:
       - mongodb:/data/db
-    
+    healthcheck:
+      test: 
+        - CMD
+        - mongosh
+        - --eval
+        - db.runCommand('ping').ok
+        - localhost:27017/test
+        - --quiet
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
   mongo-express:
     image: mongo-express:1.0.0-alpha.4
     restart: always
@@ -60,7 +90,8 @@ services:
       ME_CONFIG_BASICAUTH_USERNAME: ${ME_CONFIG_BASICAUTH_USERNAME:-admin}
       ME_CONFIG_BASICAUTH_PASSWORD: ${ME_CONFIG_BASICAUTH_PASSWORD:-pass}
     depends_on:
-      - mongo
+      mongo:
+        condition: service_healthy
 
 volumes:
   mongodb:
