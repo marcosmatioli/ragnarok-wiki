@@ -2,6 +2,16 @@ version: '3.8'
 
 services:
 
+  frontend:
+    image: nginx
+    build: ./frontend
+    restart: always
+    ports:
+      - ${PORT:-80}:${PORT:-80}
+    environment:
+      HOST: ${HOST:-localhost}
+      PORT: ${PORT:-80}
+
   autoheal:
     image: willfarrell/autoheal:latest
     restart: always
@@ -17,8 +27,8 @@ services:
     depends_on:
       mongo:
         condition: service_healthy
-    ports:
-      - 80:80
+    expose:
+      - 80
     environment:
       MONGODB_URL:
         "mongodb://\
