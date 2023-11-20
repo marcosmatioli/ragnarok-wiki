@@ -26,6 +26,12 @@ async def healthz():
     return JSONResponse(content=status)
 
 
+@app.get("/api/health")
+async def healthz():
+    status = { "healthy": "true" }
+    return JSONResponse(content=status)
+
+
 @app.get("/api/monsters", response_model=List[dict])
 async def get_monsters(
     name: Optional[str] = Query(
