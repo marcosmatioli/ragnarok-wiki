@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY main.py main.py
 COPY requirements.txt requirements.txt
-
 COPY docker-entrypoint.sh /
 
 RUN apt-get update && \
