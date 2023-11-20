@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monsters</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Monsters</h1>
+        <div class="form-group">
+            <input type="text" id="search-name" class="form-control" placeholder="Pesquise pelo nome">
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- table rows will be added here dynamically by js -->
+            </tbody>
+        </table>
+        <div class="pagination">
+            <ul class="pagination">
+                <li class="page-item">
+                    <button id="prev-page" class="page-link" onclick="loadPage(-1)">
+                        <span aria-hidden="true" class="mr-1">&laquo;</span> Previous Page
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button id="next-page" class="page-link" onclick="loadPage(1)">
+                        Next Page <span aria-hidden="true" class="ml-1">&raquo;</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script async src="js/getmonsters.js"></script>
+</html>
