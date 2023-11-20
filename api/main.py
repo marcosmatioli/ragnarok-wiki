@@ -20,16 +20,6 @@ db = mongo_client["ragnarok"]
 collection = db["monsters"]
 
 
-@app.get("/")
-async def home(request: Request):
-    return templates.TemplateResponse("home.html", {"request": request})
-
-
-@app.get("/monster")
-async def monster(request: Request):
-    return templates.TemplateResponse("monster_info.html", {"request": request})
-
-
 @app.get("/api/health")
 async def healthz():
     status = { "healthy": "true" }
