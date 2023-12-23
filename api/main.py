@@ -47,7 +47,15 @@ async def get_monsters(
         monsters = collection.find(query, {"_id": 0, "name": 1, "id": 1})
     else:
         skip = (page - 1) * per_page
-        monsters = collection.find(query, {"_id": 0, "name": 1, "id": 1}).skip(skip).limit(per_page)
+        monsters = collection.find(query, {
+            "_id": 0,
+            "name": 1,
+            "id": 1,
+            "stats.level": 1,
+            "propertyTable": 1,
+            "stats.scale": 1,
+            "stats.race": 1
+        }).skip(skip).limit(per_page)
     
     monsters = [monster for monster in monsters]
     return JSONResponse(content=monsters)
