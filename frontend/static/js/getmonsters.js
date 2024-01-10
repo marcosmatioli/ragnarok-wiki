@@ -102,25 +102,22 @@ async function loadPage(direction) {
 
                 if (monsterScale[item.stats.scale]) {
                     const { scale } = monsterScale[item.stats.scale];
-
-                    // Encontre o menor valor na propertyTable
-                    let menorValor = Infinity;
-                    let monsterTypeID = '';
-
-                    for (const chave in item.propertyTable) {
-                        const valor = item.propertyTable[chave];
-                        if (valor < menorValor) {
-                            menorValor = valor;
-                            monsterTypeID = chave;
-                        }
+                    
+                    let monsterTypeLevel = ""
+                    
+                    if (Math.trunc(item.stats.element/20) != 0) {
+                        const roman = { 1: 'I', 2: 'II', 3: 'III', 4: 'IV' };
+                        monsterTypeLevel = " " + roman[Math.trunc(item.stats.element/20)]
                     }
+                    
+                    let monsterTypeKey = item.stats.element%20
 
-                    const monsterTypeText = monsterType[monsterTypeID];
+                    const monsterTypeText = monsterType[monsterTypeKey];
                     if (monsterTypeText) {
 
                         const { monsterType, monsterTypeColor } = monsterTypeText;
                         monsterCard.innerHTML = `
-                            <div class="card h-100 shadow-lg">
+                            <div class="card h-100 shadow-sm">
                                 <div class="card-img-top d-flex justify-content-center align-items-center" style="background-color: rgb(235, 235, 235); height: 10rem;">
                                     <img src="https://static.divine-pride.net/images/mobs/png/${item.id}.png" class="img-fluid" alt="Monster Image ${item.id}" style="max-height: 90%;">
                                     <i class="${icon} position-absolute m-1 fa-xl" title="${title}" style="top: 0; left: 0; color: ${color}; font-size: 20px;"></i>
@@ -140,8 +137,8 @@ async function loadPage(direction) {
                                             <span class="badge bg-secondary text-truncate ms-1">${item.stats.level}</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Propriedade
-                                            <span class="badge text-truncate ms-1" style="background-color: ${monsterTypeColor}">${monsterType}</span>
+                                            Elemento
+                                            <span class="badge text-truncate ms-1" style="background-color: ${monsterTypeColor}">${monsterType}${monsterTypeLevel}</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between align-items-center">
                                             Tamanho
