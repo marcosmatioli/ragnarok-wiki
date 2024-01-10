@@ -137,7 +137,7 @@ async function loadPage(direction) {
                                             <span class="badge bg-secondary text-truncate ms-1">${item.stats.level}</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Elemento
+                                            Propriedade
                                             <span class="badge text-truncate ms-1" style="background-color: ${monsterTypeColor}">${monsterType}${monsterTypeLevel}</span>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between align-items-center">
