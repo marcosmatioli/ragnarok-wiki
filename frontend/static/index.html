@@ -18,24 +18,10 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 mb-3">
-            <div class="col mt-3">
-            </div>
-        </div>
-        <div class="pagination">
-            <ul class="pagination">
-                <li class="page-item">
-                    <button id="prev-page" class="page-link" onclick="loadPage(-1)">
-                        <span aria-hidden="true" class="mr-1">&laquo;</span> Previous Page
-                    </button>
-                </li>
-                <li class="page-item">
-                    <button id="next-page" class="page-link" onclick="loadPage(1)">
-                        Next Page <span aria-hidden="true" class="ml-1">&raquo;</span>
-                    </button>
-                </li>
-            </ul>
-        </div>
+        <div class="row row-cols-1 row-cols-md-4 mb-3"></div>
+        <button id="backToTopButton" onclick="scrollToTop()" style="position: fixed; bottom: 20px; right: 20px; z-index: 99; font-size: 18px; border: none; outline: none; background-color: #555; color: white; cursor: pointer; padding: 15px 25px; border-radius: 4px;">
+            ↑
+        </button>
     </div>
 </body>
 <script async src="js/getmonsters.js"></script>
