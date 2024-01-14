@@ -53,7 +53,6 @@ async def get_monsters(
             "id": 1,
             "stats.level": 1,
             "stats.element": 1,
-            "propertyTable": 1,
             "stats.scale": 1,
             "stats.race": 1
         }).skip(skip).limit(per_page)

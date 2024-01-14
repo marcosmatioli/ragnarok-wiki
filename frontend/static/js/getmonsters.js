@@ -1,7 +1,9 @@
 const API_ADDRESS = window.location.origin
 
 let currentPage = 1;
-let perPage = 100;
+let perPage = 60;
+let isLoading = false;
+let allItemsLoaded = false;
 
 const raceIcons = {
     0: {
@@ -90,83 +92,89 @@ async function loadPage(direction) {
         const data = await response.json();
         const rowContainer = document.querySelector('.row.row-cols-1.row-cols-md-4.mb-3');
 
-        rowContainer.innerHTML = '';
+        if (direction == 0) {
+            rowContainer.innerHTML = '';
+        }
 
-        data.forEach(item => {
-            // create monster card elements
-            const monsterCard = document.createElement('div');
-            monsterCard.className = 'col mt-3';
-            
-            if (raceIcons[item.stats.race]) {
-                const { icon, color, title } = raceIcons[item.stats.race];
-
-                if (monsterScale[item.stats.scale]) {
-                    const { scale } = monsterScale[item.stats.scale];
-                    
-                    let monsterTypeLevel = ""
-                    
-                    if (Math.trunc(item.stats.element/20) != 0) {
-                        const roman = { 1: 'I', 2: 'II', 3: 'III', 4: 'IV' };
-                        monsterTypeLevel = " " + roman[Math.trunc(item.stats.element/20)]
-                    }
-                    
-                    let monsterTypeKey = item.stats.element%20
-
-                    const monsterTypeText = monsterType[monsterTypeKey];
-                    if (monsterTypeText) {
-
-                        const { monsterType, monsterTypeColor } = monsterTypeText;
-                        monsterCard.innerHTML = `
-                            <div class="card h-100 shadow-sm">
-                                <div class="card-img-top d-flex justify-content-center align-items-center" style="background-color: rgb(235, 235, 235); height: 10rem;">
-                                    <img src="https://static.divine-pride.net/images/mobs/png/${item.id}.png" class="img-fluid" alt="Monster Image ${item.id}" style="max-height: 90%;">
-                                    <i class="${icon} position-absolute m-1 fa-xl" title="${title}" style="top: 0; left: 0; color: ${color}; font-size: 20px;"></i>
-                                    <span class="badge text-bg-danger position-absolute m-1" style="top: 0; right: 0;">
-                                        #${item.id}
-                                    </span>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        <span class="d-inline-block text-truncate" title="${item.name}" style="max-width: 100%;">
-                                            ${item.name}
+        if (data.length === 0) {
+            allItemsLoaded = true;
+        } else {
+            data.forEach(item => {
+                // create monster card elements
+                const monsterCard = document.createElement('div');
+                monsterCard.className = 'col mt-3';
+                
+                if (raceIcons[item.stats.race]) {
+                    const { icon, color, title } = raceIcons[item.stats.race];
+    
+                    if (monsterScale[item.stats.scale]) {
+                        const { scale } = monsterScale[item.stats.scale];
+                        
+                        let monsterTypeLevel = ""
+                        
+                        if (Math.trunc(item.stats.element/20) != 0) {
+                            const roman = { 1: 'I', 2: 'II', 3: 'III', 4: 'IV' };
+                            monsterTypeLevel = " " + roman[Math.trunc(item.stats.element/20)]
+                        }
+                        
+                        let monsterTypeKey = item.stats.element%20
+    
+                        const monsterTypeText = monsterType[monsterTypeKey];
+                        if (monsterTypeText) {
+    
+                            const { monsterType, monsterTypeColor } = monsterTypeText;
+                            monsterCard.innerHTML = `
+                                <div class="card h-100 shadow-sm">
+                                    <div class="card-img-top d-flex justify-content-center align-items-center" style="background-color: rgb(235, 235, 235); height: 10rem;">
+                                        <img src="https://static.divine-pride.net/images/mobs/png/${item.id}.png" class="img-fluid" alt="Monster Image ${item.id}" style="max-height: 90%;">
+                                        <i class="${icon} position-absolute m-1 fa-xl" title="${title}" style="top: 0; left: 0; color: ${color}; font-size: 20px;"></i>
+                                        <span class="badge text-bg-danger position-absolute m-1" style="top: 0; right: 0;">
+                                            #${item.id}
                                         </span>
-                                    </h5>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Level
-                                            <span class="badge bg-secondary text-truncate ms-1">${item.stats.level}</span>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Propriedade
-                                            <span class="badge text-truncate ms-1" style="background-color: ${monsterTypeColor}">${monsterType}${monsterTypeLevel}</span>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            Tamanho
-                                            <span class="badge bg-secondary text-truncate ms-1">${scale}</span>
-                                        </li>
-                                    </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <span class="d-inline-block text-truncate" title="${item.name}" style="max-width: 100%;">
+                                                ${item.name}
+                                            </span>
+                                        </h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Level
+                                                <span class="badge bg-secondary text-truncate ms-1">${item.stats.level}</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Propriedade
+                                                <span class="badge text-truncate ms-1" style="background-color: ${monsterTypeColor}">${monsterType}${monsterTypeLevel}</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Tamanho
+                                                <span class="badge bg-secondary text-truncate ms-1">${scale}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        `;
-
-                        rowContainer.appendChild(monsterCard);
-                    }
-                } 
-            }
-        });
-
-        // update button pagination based on actual state
-        document.getElementById('prev-page').hidden = currentPage === 1;
-        document.getElementById('next-page').hidden = data.length < perPage;
+                            `;
+    
+                            rowContainer.appendChild(monsterCard);
+                        }
+                    } 
+                }
+            });
+        }
+    
     } catch (error) {
         console.error('Error loading JSON data:', error);
     }
+
+    isLoading = false;
 }
 
 // eventlistener based on "Enter" event key
 const search_box = document.getElementById('search-name');
 search_box?.addEventListener('keyup', function(event) {
     if (event.key === 'Enter') {
+        allItemsLoaded = false;
         currentPage = 1
         loadPage(0);
     }
@@ -176,3 +184,37 @@ search_box?.addEventListener('keyup', function(event) {
 window.addEventListener('load', () => {
     loadPage(0);
 });
+
+// infinity scroll function
+function handleScroll() {
+    const offset = 600;
+
+    if (!allItemsLoaded && (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - offset) && !isLoading) {
+        isLoading = true;
+        loadPage(1);
+    }
+};
+
+// function to scroll to the top of the page
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+// function to toggle the visibility of the back to top button
+function toggleBackToTopButton() {
+    const backToTopButton = document.getElementById('backToTopButton');
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+}
+
+// event listener for scrolling
+window.onscroll = function() {
+    toggleBackToTopButton();
+    handleScroll(); // Existing function for infinite loading
+};
+
+// call the function once to ensure the button is in the correct state on page load
+toggleBackToTopButton();
