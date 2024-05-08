@@ -147,6 +147,30 @@
             ↑
         </button>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="monsterName"></h1>
+                    <span class="badge text-bg-danger m-1" id="monsterId"></span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-content">
+                    <img id="monsterImage" class="img-fluid mb-2 border border-dark p-5" alt="Monster Image">
+                    <p id="monsterLevel"></p>
+                    <p id="monsterHealth"></p>
+                    <p id="monsterDef"></p>
+                    <p id="monsterMDef"></p>
+                    <p id="monsterStr"></p>
+                    <p id="monsterAgi"></p>
+                    <p id="monsterVit"></p>
+                    <p id="monsterInt"></p>
+                    <p id="monsterDex"></p>
+                    <p id="monsterLuk"></p>
+                </div>
+            </div>
+        </div>
+    </div>      
 </body>
 <script async src="js/getmonsters.js"></script>
 </html>

@@ -1,4 +1,5 @@
-const API_ADDRESS = window.location.origin
+// const API_ADDRESS = window.location.origin
+const API_ADDRESS = "https://ragnarokwiki.com.br"
 
 let currentPage = 1;
 let perPage = 60;
@@ -130,55 +131,94 @@ async function loadPage(direction) {
                         
                         let monsterTypeKey = item.stats.element%20
     
-                    const monsterTypeText = monsterType[monsterTypeKey];
-                    if (monsterTypeText) {
-
-                        const { monsterType, monsterTypeColor } = monsterTypeText;
-                        monsterCard.innerHTML = `
-                            <div class="card h-100 shadow-sm">
-                                <div class="card-img-top d-flex justify-content-center align-items-center" style="background-color: rgb(235, 235, 235); height: 10rem;">
-                                    <img src="https://static.divine-pride.net/images/mobs/png/${item.id}.png" class="img-fluid" alt="Monster Image ${item.id}" style="max-height: 90%;">
-                                    <i class="${icon} position-absolute m-1 fa-xl" title="${title}" style="top: 0; left: 0; color: ${color}; font-size: 20px;"></i>
-                                    <span class="badge text-bg-danger position-absolute m-1" style="top: 0; right: 0;">
-                                        #${item.id}
-                                    </span>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        <span class="d-inline-block text-truncate" title="${item.name}" style="max-width: 100%;">
-                                            ${item.name}
+                        const monsterTypeText = monsterType[monsterTypeKey];
+                        if (monsterTypeText) {
+    
+                            const { monsterType, monsterTypeColor } = monsterTypeText;
+                            monsterCard.innerHTML = `
+                                <div class="card h-100 shadow-sm" id="${item.id}" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('${item.id}')">
+                                    <div class="card-img-top d-flex justify-content-center align-items-center" style="background-color: rgb(235, 235, 235); height: 10rem;">
+                                        <img src="https://static.divine-pride.net/images/mobs/png/${item.id}.png" class="img-fluid" alt="Monster Image ${item.id}" style="max-height: 90%;">
+                                        <i class="${icon} position-absolute m-1 fa-xl" title="${title}" style="top: 0; left: 0; color: ${color}; font-size: 20px;"></i>
+                                        <span class="badge text-bg-danger position-absolute m-1" style="top: 0; right: 0;">
+                                            #${item.id}
                                         </span>
-                                    </h5>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            <span class="text-truncate">Level</span>
-                                            <span class="badge bg-secondary ms-1">${item.stats.level}</span>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            <span class="text-truncate">Propriedade</span>
-                                            <span class="badge ms-1" style="background-color: ${monsterTypeColor}">${monsterType}${monsterTypeLevel}</span>
-                                        </li>
-                                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                                            <span class="text-truncate">Tamanho</span>
-                                            <span class="badge bg-secondary ms-1">${scale}</span>
-                                        </li>
-                                    </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <span class="d-inline-block text-truncate" title="${item.name}" style="max-width: 100%;">
+                                                ${item.name}
+                                            </span>
+                                        </h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Level
+                                                <span class="badge bg-secondary text-truncate ms-1">${item.stats.level}</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Propriedade
+                                                <span class="badge text-truncate ms-1" style="background-color: ${monsterTypeColor}">${monsterType}${monsterTypeLevel}</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Tamanho
+                                                <span class="badge bg-secondary text-truncate ms-1">${scale}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        `;
-
-                        rowContainer.appendChild(monsterCard);
-                    }
-                } 
-            }
-        });
-    }
-
+                            `;
+    
+                            rowContainer.appendChild(monsterCard);
+                        }
+                    } 
+                }
+            });
+        }
+    
     } catch (error) {
         console.error('Error loading JSON data:', error);
     }
 
     isLoading = false;
+}
+
+// modal call
+function openModal(cardId) {
+    fetch(`${API_ADDRESS}/api/monster/${cardId}`)
+        .then(response => response.json())
+        .then(data => {
+            if ("error" in data) {
+                alert(data.error);
+            } else {
+                // get main info
+                console.log(data.id)
+                document.getElementById("monsterId").textContent = `#${data.id}`;
+                document.getElementById("monsterImage").src = `https://static.divine-pride.net/images/mobs/png/${data.id}.png`;
+
+                document.getElementById("monsterName").textContent = data.name;
+                document.getElementById("monsterHealth").textContent = `Health: ${data.stats.health}`;
+                document.getElementById("monsterLevel").textContent = `Level: ${data.stats.level}`;
+                document.getElementById("monsterDef").textContent = `Defesa: ${data.stats.defense}`;
+                document.getElementById("monsterMDef").textContent = `Defesa Mágica: ${data.stats.magicDefense}`;
+                // get stats
+                document.getElementById("monsterStr").textContent = data.stats.str;
+                document.getElementById("monsterAgi").textContent = data.stats.agi;
+                document.getElementById("monsterVit").textContent = data.stats.vit;
+                document.getElementById("monsterInt").textContent = data.stats.int;
+                document.getElementById("monsterDex").textContent = data.stats.dex;
+                document.getElementById("monsterLuk").textContent = data.stats.luk;
+            }
+        })
+        .catch(error => {
+            console.error("Erro ao buscar informações do monstro:", error);
+        });
+
+    // Exibe o modal
+    const modal = document.getElementById('exampleModal');
+    modal.style.display = 'flex';
+    //modal.style.display = "block";
+
+    
 }
 
 // event listener to each checkbox
