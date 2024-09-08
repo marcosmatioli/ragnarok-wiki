@@ -80,11 +80,24 @@ const monsterType = {
 const checkboxes = document.querySelectorAll('.btn-check');
 
 function getCheckboxQueryString() {
-    const checkboxStates = [];
-    checkboxes.forEach(checkbox => {
-        checkboxStates.push(`${checkbox.id}=${checkbox.checked}`);
+    const elements = [];
+    const races = [];
+
+    document.querySelectorAll('.btn-check').forEach(checkbox => {
+        if (checkbox.checked) {
+            if (checkbox.dataset.type === 'element') {
+                elements.push(checkbox.id);
+            } else if (checkbox.dataset.type === 'race') {
+                races.push(checkbox.id);
+            }
+        }
     });
-    return checkboxStates.join('&');
+
+    const elementQuery = elements.length ? `element=${elements.join(',')}` : '';
+    const raceQuery = races.length ? `race=${races.join(',')}` : '';
+
+    const queryString = [elementQuery, raceQuery].filter(Boolean).join('&');
+    return queryString;
 }
 
 async function loadPage(direction) {
