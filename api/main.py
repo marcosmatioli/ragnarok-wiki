@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, Query
+from fastapi import FastAPI, Query
 from typing import List, Optional
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import JSONResponse
@@ -29,140 +29,74 @@ async def healthz():
 @app.get("/api/monsters", response_model=List[dict])
 async def get_monsters(
     name: Optional[str] = Query(
-        default=None, description="monster name to search"
+        default=None,
+        description="Monster name to search"
     ),
     page: Optional[int] = Query(
-        default=None, description="page number", ge=1
-    ), 
-    per_page: int = Query(
-        default=100, description="items per page", le=100
+        default=1,
+        description="Page number",
+        ge=1
     ),
-    
-    formless: Optional[bool] = None,
-    undead: Optional[bool] = None,
-    brute: Optional[bool] = None,
-    plant: Optional[bool] = None,
-    insect: Optional[bool] = None,
-    fish: Optional[bool] = None,
-    demon: Optional[bool] = None,
-    human: Optional[bool] = None,
-    angel: Optional[bool] = None,
-    dragon: Optional[bool] = None,
-
-    neutral: Optional[bool] = None,
-    water: Optional[bool] = None,
-    earth: Optional[bool] = None,
-    fire: Optional[bool] = None,
-    wind: Optional[bool] = None,
-    poison: Optional[bool] = None,
-    holy: Optional[bool] = None,
-    dark: Optional[bool] = None,
-    ghost: Optional[bool] = None,
-    maledict: Optional[bool] = None
-    
+    per_page: Optional[int] = Query(
+        default=60,
+        description="Items per page",
+        le=100
+    ),
+    race: Optional[str] = Query(
+        default=None,
+        description="Comma-separated list of races (e.g., 'undead,plant')"
+    ),
+    element: Optional[str] = Query(
+        default=None, 
+        description="Comma-separated list of elements (e.g., 'fire,dragon')"
+    )
 ):
     query = {}
 
     if name:
         query["name"] = {"$regex": re.escape(name), "$options": "i"}
 
-    query_sum = []
+    # race query generate
+    race_mapping = {
+        "formless": 0, "undead": 1, "brute": 2, "plant": 3, "insect": 4,
+        "fish": 5, "demon": 6, "human": 7, "angel": 8, "dragon": 9
+    }
 
-    types_filter = []
-    if formless:
-        types_filter.append({"stats.race": 0})
-    if undead:
-        types_filter.append({"stats.race": 1})
-    if brute:
-        types_filter.append({"stats.race": 2})
-    if plant:
-        types_filter.append({"stats.race": 3})
-    if insect:
-        types_filter.append({"stats.race": 4})
-    if fish:
-        types_filter.append({"stats.race": 5})
-    if demon:
-        types_filter.append({"stats.race": 6})
-    if human:
-        types_filter.append({"stats.race": 7})
-    if angel:
-        types_filter.append({"stats.race": 8})
-    if dragon:
-        types_filter.append({"stats.race": 9})
-    if types_filter:
-        query_race = {}
-        query_race["$or"] = types_filter
-        query_sum.append(query_race)
+    if race:
+        race_list = race.split(',')
+        race_filters = [
+            {"stats.race": race_mapping[r]}
+            for r in race_list
+            if r in race_mapping
+        ]
+        if race_filters:
+            query["$or"] = race_filters
 
-    elements_filter = []
-    if neutral:
-        elements_filter.append({"stats.element": 0})
-        elements_filter.append({"stats.element": 20})
-        elements_filter.append({"stats.element": 40})
-        elements_filter.append({"stats.element": 60})
-        elements_filter.append({"stats.element": 80})
-    if water:
-        elements_filter.append({"stats.element": 1})
-        elements_filter.append({"stats.element": 21})
-        elements_filter.append({"stats.element": 41})
-        elements_filter.append({"stats.element": 61})
-        elements_filter.append({"stats.element": 81})
-    if earth:
-        elements_filter.append({"stats.element": 2})
-        elements_filter.append({"stats.element": 22})
-        elements_filter.append({"stats.element": 42})
-        elements_filter.append({"stats.element": 62})
-        elements_filter.append({"stats.element": 82})
-    if fire:
-        elements_filter.append({"stats.element": 3})
-        elements_filter.append({"stats.element": 23})
-        elements_filter.append({"stats.element": 43})
-        elements_filter.append({"stats.element": 63})
-        elements_filter.append({"stats.element": 83})
-    if wind:
-        elements_filter.append({"stats.element": 4})
-        elements_filter.append({"stats.element": 24})
-        elements_filter.append({"stats.element": 44})
-        elements_filter.append({"stats.element": 64})
-        elements_filter.append({"stats.element": 84})
-    if poison:
-        elements_filter.append({"stats.element": 5})
-        elements_filter.append({"stats.element": 25})
-        elements_filter.append({"stats.element": 45})
-        elements_filter.append({"stats.element": 65})
-        elements_filter.append({"stats.element": 85})
-    if holy:
-        elements_filter.append({"stats.element": 6})
-        elements_filter.append({"stats.element": 26})
-        elements_filter.append({"stats.element": 46})
-        elements_filter.append({"stats.element": 66})
-        elements_filter.append({"stats.element": 86})
-    if dark:
-        elements_filter.append({"stats.element": 7})
-        elements_filter.append({"stats.element": 27})
-        elements_filter.append({"stats.element": 47})
-        elements_filter.append({"stats.element": 67})
-        elements_filter.append({"stats.element": 87})
-    if ghost:
-        elements_filter.append({"stats.element": 8})
-        elements_filter.append({"stats.element": 28})
-        elements_filter.append({"stats.element": 48})
-        elements_filter.append({"stats.element": 68})
-        elements_filter.append({"stats.element": 88})
-    if maledict:
-        elements_filter.append({"stats.element": 9})
-        elements_filter.append({"stats.element": 29})
-        elements_filter.append({"stats.element": 49})
-        elements_filter.append({"stats.element": 69})
-        elements_filter.append({"stats.element": 89})
-    if elements_filter:
-        query_elements = {}
-        query_elements["$or"] = elements_filter
-        query_sum.append(query_elements)
+    # element query generate
+    element_mapping = {
+        "neutral": [0, 20, 40, 60, 80], "water": [1, 21, 41, 61, 81],
+        "earth": [2, 22, 42, 62, 82], "fire": [3, 23, 43, 63, 83],
+        "wind": [4, 24, 44, 64, 84], "poison": [5, 25, 45, 65, 85],
+        "holy": [6, 26, 46, 66, 86], "dark": [7, 27, 47, 67, 87],
+        "ghost": [8, 28, 48, 68, 88], "maledict": [9, 29, 49, 69, 89]
+    }
 
-    if query_sum:
-        query["$and"] = query_sum
+    if element:
+        element_list = element.split(',')
+        element_filters = [
+            {"stats.element": { "$in": element_mapping[e] }}
+            for e in element_list if e in element_mapping
+        ]
+        if element_filters:
+            if "$or" in query:
+                query["$and"] = [
+                    {"$or": query["$or"]}, {"$or": element_filters}
+                ]
+                del query["$or"]
+            else:
+                query["$or"] = element_filters
 
+    # pagination
     filter_values = {
         "_id": 0,
         "name": 1,
@@ -173,13 +107,10 @@ async def get_monsters(
         "stats.race": 1
     }
 
-    print(query)
-    
-    if page is not None:
-        skip = (page - 1) * per_page
-        monsters = collection.find(query, filter_values).skip(skip).limit(per_page)
-    else:
-        monsters = collection.find(query, filter_values)
+    print(query, filter_values)
+
+    skip = (page - 1) * per_page
+    monsters = collection.find(query, filter_values).skip(skip).limit(per_page)
     
     monsters = [monster for monster in monsters]
     return JSONResponse(content=monsters)
@@ -193,4 +124,7 @@ async def get_monster(monster_id: int):
         monster["image_url"] = f"https://static.divine-pride.net/images/mobs/png/{monster['id']}.png"
         return JSONResponse(content=monster)
     else:
-        return JSONResponse(content={"error": f"monsterid {monster_id} not found"}, status_code=404)
+        return JSONResponse(
+            content={"error": f"monsterid {monster_id} not found"},
+            status_code=404
+        )
