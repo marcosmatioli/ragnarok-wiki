@@ -32,5 +32,5 @@ Below the options and explanation about each variable:
 | LOG_LEVEL                    | INFO          | Log level of upgrader microservice, can be DEBUG, INFO, WARNING, ERROR or CRITICAL.        |
 
 ```bash
-docker compose up -d
+docker compose up -d --build
 ```
