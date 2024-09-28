@@ -40,6 +40,7 @@ async def get_monsters(
     per_page: Optional[int] = Query(
         default=60,
         description="Items per page",
+        gt=0,
         le=100
     ),
     race: Optional[str] = Query(
