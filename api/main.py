@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, HTTPException
 from typing import List, Optional
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import JSONResponse
@@ -65,6 +65,9 @@ async def get_monsters(
 
     if race:
         race_list = race.split(',')
+        for r in race_list:
+            if r not in race_mapping:
+                raise HTTPException(status_code=422, detail=f'race not exist: {r}')
         race_filters = [
             {"stats.race": race_mapping[r]}
             for r in race_list
@@ -84,6 +87,9 @@ async def get_monsters(
 
     if element:
         element_list = element.split(',')
+        for e in element_list:
+            if e not in element_mapping:
+                raise HTTPException(status_code=422, detail=f'element not exist: {e}')
         element_filters = [
             {"stats.element": { "$in": element_mapping[e] }}
             for e in element_list if e in element_mapping
