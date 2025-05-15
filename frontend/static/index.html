@@ -1,24 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monsters</title>
+    <title>Monstros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/moster-races-icons.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container mt-5">
-        <h1>Monsters</h1>
+        <h1>Monstros</h1>
         <div class="row">
-            <div class="col-12">
+            <div class="col-10">
                 <div class="form-group">
                     <input type="text" id="search-name" class="form-control" placeholder="Pesquise pelo nome">
                 </div>
             </div>
+            <div class="col-2">
+                <button class="btn btn-primary w-100 text-truncate" type="button" data-bs-toggle="collapse" data-bs-target="#filter">
+                    <i class="icon-searchengin"></i>
+                    <span class="d-none d-lg-inline text-truncate">Pesquisa Avançada</span>
+                </button>
+            </div>
+        </div>        
+        <div class="collapse" id="filter">
+            <div class="btn-group btn-group-sm w-100 mt-3" role="group" aria-label="Raças">
+                <input type="checkbox" id="formless" class="btn-check btn-formless" data-type="race">
+                <label class="btn btn-race btn-formless w-100" for="formless">
+                    <i class="icon-formless"></i>
+                    <span class="d-none d-lg-inline text-truncate">Amorfo</span>
+                </label>
+                <input type="checkbox" id="undead" class="btn-check btn-undead" data-type="race">
+                <label class="btn btn-race btn-undead w-100 text-nowrap" for="undead">
+                    <i class="icon-undead"></i>
+                    <span class="d-none d-lg-inline text-truncate">Morto-Vivo</span>
+                </label>
+                <input type="checkbox" id="brute" class="btn-check btn-brute" data-type="race">
+                <label class="btn btn-race btn-brute w-100" for="brute">
+                    <i class="icon-brute"></i>
+                    <span class="d-none d-lg-inline text-truncate">Bruto</span>
+                </label>
+                <input type="checkbox" id="plant" class="btn-check btn-plant" data-type="race">
+                <label class="btn btn-race btn-plant w-100" for="plant">
+                    <i class="icon-plant"></i>
+                    <span class="d-none d-lg-inline text-truncate">Planta</span>
+                </label>
+                <input type="checkbox" id="insect" class="btn-check btn-insect" data-type="race">
+                <label class="btn btn-race btn-insect w-100" for="insect">
+                    <i class="icon-insect"></i>
+                    <span class="d-none d-lg-inline text-truncate">Inseto</span>
+                </label>
+                <input type="checkbox" id="fish" class="btn-check btn-fish" data-type="race">
+                <label class="btn btn-race btn-fish w-100" for="fish">
+                    <i class="icon-fish"></i>
+                    <span class="d-none d-lg-inline text-truncate">Peixe</span>
+                </label>
+                <input type="checkbox" id="demon" class="btn-check btn-demon" data-type="race">
+                <label class="btn btn-race btn-demon w-100" for="demon">
+                    <i class="icon-demon"></i>
+                    <span class="d-none d-lg-inline text-truncate">Demon</span>
+                </label>
+                <input type="checkbox" id="human" class="btn-check btn-human" data-type="race">
+                <label class="btn btn-race btn-human w-100" for="human">
+                    <i class="icon-human"></i>
+                    <span class="d-none d-lg-inline text-truncate">Humano</span>
+                </label>
+                <input type="checkbox" id="angel" class="btn-check btn-angel" data-type="race">
+                <label class="btn btn-race btn-angel w-100" for="angel">
+                    <i class="icon-angel"></i>
+                    <span class="d-none d-lg-inline text-truncate">Anjo</span>
+                </label>
+                <input type="checkbox" id="dragon" class="btn-check btn-dragon" data-type="race">
+                <label class="btn btn-race btn-dragon w-100" for="dragon">
+                    <i class="icon-dragon"></i>
+                    <span class="d-none d-lg-inline text-truncate">Dragão</span>
+                </label>
+            </div>
+            <div class="btn-group btn-group-sm w-100 mt-3" role="group" aria-label="Propriedades">
+                <input type="checkbox" id="neutral" class="btn-check btn-neutral" data-type="element">
+                <label class="btn btn-element btn-neutral w-100 text-nowrap" for="neutral">
+                    <i class="icon-n-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">eutro</span>
+                </label>
+                <input type="checkbox" id="water" class="btn-check btn-water" data-type="element">
+                <label class="btn btn-element btn-water w-100 text-nowrap" for="water">
+                    <i class="icon-a-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">gua</span>
+                </label>
+                <input type="checkbox" id="earth" class="btn-check btn-earth" data-type="element">
+                <label class="btn btn-element btn-earth w-100 text-nowrap" for="earth">
+                    <i class="icon-t-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">erra</span>
+                </label>
+                <input type="checkbox" id="fire" class="btn-check btn-fire" data-type="element">
+                <label class="btn btn-element btn-fire w-100 text-nowrap" for="fire">
+                    <i class="icon-f-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">ogo</span>
+                </label>
+                <input type="checkbox" id="wind" class="btn-check btn-wind" data-type="element">
+                <label class="btn btn-element btn-wind w-100 text-nowrap" for="wind">
+                    <i class="icon-v-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">ento</span>
+                </label>
+                <input type="checkbox" id="poison" class="btn-check btn-poison" data-type="element">
+                <label class="btn btn-element btn-poison w-100 text-nowrap" for="poison">
+                    <i class="icon-v-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">eneno</span>
+                </label>
+                <input type="checkbox" id="holy" class="btn-check btn-holy" data-type="element">
+                <label class="btn btn-element btn-holy w-100 text-nowrap" for="holy">
+                    <i class="icon-s-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">agrado</span>
+                </label>
+                <input type="checkbox" id="dark" class="btn-check btn-d4rk" data-type="element">
+                <label class="btn btn-element btn-d4rk w-100 text-nowrap" for="dark">
+                    <i class="icon-s-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">ombrio</span>
+                </label>
+                <input type="checkbox" id="ghost" class="btn-check btn-ghost" data-type="element">
+                <label class="btn btn-element btn-ghost w-100 text-nowrap" for="ghost">
+                    <i class="icon-f-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">antasma</span>
+                </label>
+                <input type="checkbox" id="maledict" class="btn-check btn-maledict" data-type="element">
+                <label class="btn btn-element btn-maledict w-100 text-nowrap" for="maledict">
+                    <i class="icon-m-solid"></i>
+                    <span class="d-none d-lg-inline text-truncate">aldito</span>
+                </label>
+            </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 mb-3"></div>
+        <div class="row row-cols-1 row-cols-md-4 mb-3" id="monsterCard">
+            <div class="col mt-3">
+            </div>
+        </div>
         <button id="backToTopButton" onclick="scrollToTop()" style="position: fixed; bottom: 20px; right: 20px; z-index: 99; font-size: 18px; border: none; outline: none; background-color: #555; color: white; cursor: pointer; padding: 15px 25px; border-radius: 4px;">
             ↑
         </button>
